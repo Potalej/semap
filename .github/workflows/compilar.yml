@@ -15,7 +15,8 @@ jobs:
       - uses: actions/checkout@v4
       
       - name: Ajustar config para GitHub Pages
-        run: sed -i 's|baseurl: ""|baseurl: "/previa"|' _config.yml
+        run: |
+          sed -i 's|^baseurl:.*|baseurl: "/previa"|' _config.yml
     
       - name: Instalar Jekyll e dependências
         run: |

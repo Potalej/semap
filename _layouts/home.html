@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main aria-label="Content">
+      <div class="inicio">
+        <div class="inicio-capa">
+          <div class="container">
+            <h1>Semana da<br>Aplicada</h1>
+            <p class="inicio-capa-descricao">
+              {{ site.data.infos.descricao_capa }}
+            </p>
+            <p class="inicio-capa-data">
+              <i class="fa-regular fa-calendar-days"></i> {{ site.data.infos.data }}
+            </p>
+            <p class="inicio-capa-local">
+              <i class="fa-solid fa-location-dot"></i> {{ site.data.infos.local }}
+            </p>
+          </div>
+        </div>
+
+        <div class="inicio-informacoes">
+          <div class="container">
+           
+          </div>
+
+          <div class="container">
+            <div>
+              <h2>Sobre o SEMAP</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ullamcorper ex sed purus bibendum, in imperdiet nunc luctus. Nullam malesuada laoreet ligula, non lacinia est sollicitudin non. Integer quis risus ut sem auctor imperdiet. Donec scelerisque arcu sit amet nulla volutpat iaculis. Etiam eu vestibulum est, at vestibulum eros. Mauris condimentum vitae ligula vel consequat. Nullam posuere eget risus sit amet fermentum  
+              </p>
+            </div>
+
+             <div class="row text-center inicio-informacoes-cartoes">
+              <div class="col-md-4 mb-4">
+                <a href="pagina2.html" class="text-decoration-none text-dark">
+                  <div class="card p-4 d-flex flex-column align-items-center">
+                    <i class="fas fa-solid fa-graduation-cap card-icon mb-3"></i>
+                    <h5>Minicursos oferecidos</h5>
+                  </div>
+                </a>
+              </div>
+  
+              <div class="col-md-4 mb-4">
+                <a href="pagina3.html" class="text-decoration-none text-dark">
+                  <div class="card p-4 d-flex flex-column align-items-center">
+                    <i class="fas fa-solid fa-chalkboard-user card-icon mb-3"></i>
+                    <h5>Palestras<br><br></h5>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-md-4 mb-4">
+                <a href="pagina1.html" class="text-decoration-none text-dark">
+                  <div class="card p-4 d-flex flex-column align-items-center">
+                    <i class="fas fa-regular fa-calendar-days card-icon mb-3"></i>
+                    <h5>Programação completa</h5>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

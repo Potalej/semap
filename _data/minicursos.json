@@ -1,0 +1,26 @@
+[
+    {
+        "titulo": "Métodos numéricos para equações diferenciais ordinárias",
+        "docente": "Profº Dr. Testando da Silva Sauro",
+        "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse commodo pulvinar arcu, eget egestas augue tincidunt quis. Proin tincidunt lobortis fermentum. Curabitur pellentesque molestie volutpat. Suspendisse aliquam pellentesque quam, nec fringilla mi ornare pellentesque. Aliquam erat volutpat. Proin ut rhoncus lacus, quis lacinia lacus. Morbi gravida vehicula eros vel mattis. Maecenas id hendrerit massa. Curabitur lobortis ligula ut elit fringilla tristique. Curabitur luctus eleifend mauris eu mattis.",
+        "id_docente": "teste"
+    },
+    {
+        "titulo": "Introdução a sistemas dinâmicos",
+        "docente": "Profª Dra. Testanda da Silva Sauro",
+        "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse commodo pulvinar arcu, eget egestas augue tincidunt quis. Proin tincidunt lobortis fermentum. Curabitur pellentesque molestie volutpat. Suspendisse aliquam pellentesque quam, nec fringilla mi ornare pellentesque. Aliquam erat volutpat. Proin ut rhoncus lacus, quis lacinia lacus. Morbi gravida vehicula eros vel mattis. Maecenas id hendrerit massa. Curabitur lobortis ligula ut elit fringilla tristique. Curabitur luctus eleifend mauris eu mattis.",
+        "id_docente": "teste"
+    },
+    {
+        "titulo": "Introdução ao aprendizado de máquina / PINNs",
+        "docente": "Profª Dra. Testanda da Silva Sauro",
+        "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse commodo pulvinar arcu, eget egestas augue tincidunt quis. Proin tincidunt lobortis fermentum. Curabitur pellentesque molestie volutpat. Suspendisse aliquam pellentesque quam, nec fringilla mi ornare pellentesque. Aliquam erat volutpat. Proin ut rhoncus lacus, quis lacinia lacus. Morbi gravida vehicula eros vel mattis. Maecenas id hendrerit massa. Curabitur lobortis ligula ut elit fringilla tristique. Curabitur luctus eleifend mauris eu mattis.",
+        "id_docente": "teste"
+    },
+    {
+        "titulo": "Modelagem matemática",
+        "docente": "Profª Dra. Testanda da Silva Sauro",
+        "resumo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse commodo pulvinar arcu, eget egestas augue tincidunt quis. Proin tincidunt lobortis fermentum. Curabitur pellentesque molestie volutpat. Suspendisse aliquam pellentesque quam, nec fringilla mi ornare pellentesque. Aliquam erat volutpat. Proin ut rhoncus lacus, quis lacinia lacus. Morbi gravida vehicula eros vel mattis. Maecenas id hendrerit massa. Curabitur lobortis ligula ut elit fringilla tristique. Curabitur luctus eleifend mauris eu mattis.",
+        "id_docente": "teste"
+    }
+]

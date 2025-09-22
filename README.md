@@ -1,6 +1,8 @@
 # semap
 Site da Semana da Matemática Aplicada (SEMAP) no IME-USP!
 
+
+
 ## Páginas que o site precisa ter
 
 - Início

@@ -1,0 +1,31 @@
+name: Build and Deploy Jekyll
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: ruby:3.1
+
+    steps:
+      - uses: actions/checkout@v4
+    
+      - name: Instalar Jekyll e dependências
+        run: |
+          gem install bundler -v 2.3.25
+          bundle install
+          bundle exec jekyll build
+      - name: Build Jekyll
+        run: jekyll build
+
+      - name: Deploy to build branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.SEMAP }}
+          publish_dir: ./_site
+          publish_branch: build
+          force_orphan: true

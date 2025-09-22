@@ -1,0 +1,51 @@
+[
+    {
+        "id_palestra": "clodoaldo",
+        "titulo": "Em breve",
+        "docente": "Clodoaldo Grotta Ragazzo",
+        "resumo": "Em breve.",
+        "id_docente": "teste"
+    },
+    {
+        "id_palestra": "lucas",
+        "titulo": "Em breve",
+        "docente": "Lucas Franceschini",
+        "resumo": "Em breve.",
+        "id_docente": "teste"
+    },
+    {
+        "id_palestra": "andre",
+        "titulo": "Em breve",
+        "docente": "André Salles de Carvalho",
+        "resumo": "Em breve.",
+        "id_docente": "teste"
+    },
+    {
+        "id_palestra": "eduardo",
+        "titulo": "Em breve",
+        "docente": "Eduardo Colli",
+        "resumo": "Em breve.",
+        "id_docente": "teste"
+    },
+    {
+        "id_palestra": "yulia",
+        "titulo": "Em breve",
+        "docente": "Yulia Petrova",
+        "resumo": "Em breve.",
+        "id_docente": "teste"
+    },
+    {
+        "id_palestra": "cordaro",
+        "titulo": "Em breve",
+        "docente": "Paulo Domingos Cordaro",
+        "resumo": "Em breve.",
+        "id_docente": "teste"
+    },
+    {
+        "id_palestra": "claudia",
+        "titulo": "Em breve",
+        "docente": "Cláudia Peixoto",
+        "resumo": "Em breve.",
+        "id_docente": "teste"
+    }
+]

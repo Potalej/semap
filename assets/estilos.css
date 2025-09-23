@@ -7,6 +7,15 @@ Fontes
 }
 
 /*
+Variaveis globais
+- Cores
+*/
+:root {
+    --cor-principal: #a05dee;
+    --cor-secundaria: #eee;
+}
+
+/*
     CAROUSEL DA PAGINA DE PROGRAMACAO
 */
 .carousel-item h5 {
@@ -27,6 +36,12 @@ Fontes
 /* 
     EVENTOS DA PAGINA DE PROGRAMACAO
 */
+.evento a {
+    all: unset;
+}
+.evento a:hover {
+    cursor: pointer;
+}
 .evento-comer {
     background-color: #515151;
     color: white;
@@ -119,7 +134,8 @@ PAGINA INICIAL
     position: relative;
     background-color: #aaa;
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://pbs.twimg.com/media/FBhWLV-WEAcwXqu?format=jpg&name=4096x4096');
+    /* background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://pbs.twimg.com/media/FBhWLV-WEAcwXqu?format=jpg&name=4096x4096'); */
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/img/teste_newton2_leve.png');
     background-size: cover;
     background-position: center;
     text-align: right;
@@ -139,11 +155,18 @@ PAGINA INICIAL
 }
 .card-icon {
     font-size: 4rem;
-    color: #0d6efd; /* cor azul do Bootstrap, pode trocar */
+    color: var(--cor-principal);
 }
 .card:hover {
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     cursor: pointer;
+    background-color: var(--cor-principal);
+    color: white;
+    transition-duration: .3s;
+}
+.card:hover .card-icon {
+    color: white;
+    transition-duration: .3s;
 }
 .inicio-informacoes-cartoes {
     padding-top: 30px;

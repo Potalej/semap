@@ -40,11 +40,18 @@ permalink: /programacao/
                         {{ inicio_round }}:30
                     {% endif %}
                 </th>
-                <td class="evento-{{ evento.tipo }}">
-                    {% if evento.tipo == "comer" %}
-                        <i class="fa-solid fa-mug-hot"></i>
-                    {% endif %}
-                    {{ evento.nome }}
+                <td class="evento evento-{{ evento.tipo }}">
+                  <a href="#">
+                      {% case evento.tipo %}
+                        {% when "comer" %}
+                          <i class="fa-solid fa-mug-hot"></i>
+                        {% when "credenciamento" %}
+                          <i class="fa-solid fa-id-card"></i>
+                        {% when "minicurso" %}
+                          <i class="fa-solid fa-graduation-cap"></i>
+                      {% endcase %}
+                      {{ evento.nome }}
+                  </a>
                 </td>
             </tr>
             {% endfor %}

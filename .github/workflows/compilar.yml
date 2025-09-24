@@ -8,11 +8,14 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container:
-      image: ruby:3.1
 
     steps:
       - uses: actions/checkout@v4
+
+      - name: Configurando 3.1
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.1
       
       - name: Ajustar config para GitHub Pages
         run: |

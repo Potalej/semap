@@ -12,7 +12,15 @@ Variaveis globais
 */
 :root {
     --cor-principal: #a05dee;
+    --cor-links: #8339d8;
     --cor-secundaria: #eee;
+}
+
+/*
+Configuracoes globais
+*/
+a {
+    color: var(--cor-links) !important;
 }
 
 /*
@@ -37,10 +45,17 @@ Variaveis globais
     EVENTOS DA PAGINA DE PROGRAMACAO
 */
 .evento a {
-    all: unset;
+    all: unset !important;
 }
-.evento a:hover {
-    cursor: pointer;
+.evento-minicurso:hover, 
+.evento-cerimonia:hover,
+.evento-palestra:hover,
+.evento-coloquinho:hover,
+.evento-credenciamento:hover,
+.evento-estudante:hover
+{
+    cursor: pointer !important;
+    color: var(--cor-links) !important;
 }
 .evento-comer {
     background-color: #515151;
@@ -71,6 +86,12 @@ Variaveis globais
     color: black;
 }
 
+.highlight {
+  background-color: var(--cor-principal) !important;
+  transition: background-color 0.5s ease-in-out;
+  color: white;
+}
+
 
 /*
 Cards para atividades
@@ -80,10 +101,11 @@ Cards para atividades
     row-gap: 20px;
 }
 .atividade:nth-of-type(odd) {
-    background-color: rgb(255, 203, 255); 
+    background-color: #ccc;
 }
 .atividade {
     padding: 10px;
+    scroll-margin-top: 90px; /* altura da navbar */
 }
 .atividade-foto {
     display: flex;
@@ -175,6 +197,9 @@ PAGINA INICIAL
 /*
 menu
 */
+.offcanvas-header {
+    background-color: var(--cor-secundaria);
+}
 .offcanvas-title {
     font-size: 5vw;
 }
@@ -196,4 +221,15 @@ menu
 
 .nav-item:hover a {
     text-decoration: none;
+}
+
+
+/* 
+paginas
+*/
+.post-header {
+    margin-top: 64px;
+    text-align: center;
+    padding: 10vh;
+    background-color: #ccc
 }

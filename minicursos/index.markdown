@@ -4,8 +4,6 @@ title: Minicursos
 permalink: /minicursos/
 ---
 
-<h1>Minicursos</h1>
-
 <section class="atividades">
     {% for minicurso in site.data.minicursos %}
     <div class="atividade row">

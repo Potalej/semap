@@ -41,7 +41,9 @@ permalink: /programacao/
                     {% endif %}
                 </th>
                 <td class="evento evento-{{ evento.tipo }}">
-                  <a href="#">
+                  {% if evento.tipo == "minicurso" or evento.tipo == "palestra" %}
+                  <a href="{{ site.baseurl }}/{{ evento.tipo }}s#{{ evento.id }}">
+                  {% endif %}
                       {% case evento.tipo %}
                         {% when "comer" %}
                           <i class="fa-solid fa-mug-hot"></i>
@@ -51,7 +53,9 @@ permalink: /programacao/
                           <i class="fa-solid fa-graduation-cap"></i>
                       {% endcase %}
                       {{ evento.nome }}
+                  {% if evento.tipo == "minicurso" or evento.tipo == "palestra" %}
                   </a>
+                  {% endif %}
                 </td>
             </tr>
             {% endfor %}

@@ -1,0 +1,27 @@
+name: Deploy para a Rede IME
+
+# So roda quando o outro roda
+on:
+  workflow_run:
+    workflows: ["Compilar Jekyll"]
+    types:
+      - completed
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar chave SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H ime.usp.br >> ~/.ssh/known_hosts
+          
+      - name: Rodar git pull na máquina remota
+        run: |
+          ssh {{ secrets.SEMAT_HOST }} 'sh atualizar_site.sh'

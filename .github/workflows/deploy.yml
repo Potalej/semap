@@ -24,4 +24,4 @@ jobs:
           
       - name: Rodar git pull na máquina remota
         run: |
-          ssh {{ secrets.SEMAT_HOST }} 'sh atualizar_site.sh'
+          ssh {{ secrets.SEMAP_HOST }} 'sh atualizar_site.sh'

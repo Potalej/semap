@@ -1,24 +1,22 @@
-# semap
+# semap 📚
 Site da Semana da Matemática Aplicada (SEMAP) no IME-USP!
 
+Visualização temporária enquanto sob desenvolvimento: [https://semap.ime.usp.br/previa](https://semap.ime.usp.br/previa).
 
+lets que lets
 
 ## Páginas que o site precisa ter
 
-- Início
-- Minicursos
-- Palestras
-- Pôsteres (?)
-- Programação.
+- **Início**: Informações principais, identidade visual, datas, contato, links para outras páginas.
+- **Minicursos**: Listar minicursos incluindo título, sobre o professor, resumo, datas/horários, formulário de inscrição se for o caso.
+- **Palestras**: Listar palestras incluindo título, sobre o palestrante, resumo, datas/horários.
+- **Pôsteres (?)**: Página com informações sobre a sessão de pôsteres e um formulário para a inscrição se for o caso.
+- **Programação**: Listagem da programação completa, parecida com a tabela do Google Sheets se pá.
 
-Na página inicial é bom ter as informações principais, a identidade visual, datas, contato e os links para as outras páginas. Tudo bem sintético.
+## Atualizando informações "dinâmicas"
 
-Na página de minicursos é listar os minicursos incluindo título, sobre o professor (com uma fotinha se pá), resumo, datas/horários, e de repente um formulário de inscrição se for o caso.
+Algumas informações como palestras, minicursos, programação, descrições e tal podem ser alteradas em algum dos arquivos do diretório ["_data"](https://github.com/Potalej/semap/tree/main/_data).
 
-Na página de palestras é conter o que vai ter em cada dia, quais serão os temas, talvez divididos por área de concentração para ficar mais fácil. O foco dessa página não é dizer o que vai ter em cada dia, mas quais assuntos serão abordados. De toda forma, a data precisa estar lá.
+Uma vez atualizado e salvo o arquivo aqui no repositório, um GitHub Action será disparado para compilar o site, e em seguida outro será disparado para atualizar o site na Rede IME. Isso deve levar menos de 3 minutos. Passado isso, só conferir no site se as informações foram atualizadas e se deu tudo certo.
 
-Na possível página de pôsteres seria incluir um formulário para participar da sessão de pôsteres da terça-feira e explicar qual a ideia, como será e tal. Bem basicão.
-
-Na página de programação será basicamente uma tabela com as informações do que teremos em cada dia, parecida com a tabela do Google Sheets.
-
-lets que lets
+Para mudar o ano, só atualizar a propriedade "ano" no [config.yml](https://github.com/Potalej/semap/blob/main/_config.yml). É importante que o ano esteja entre aspas, se não não vai funcionar.

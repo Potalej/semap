@@ -233,3 +233,30 @@ paginas
     padding: 10vh;
     background-color: #ccc
 }
+
+/*
+Modais
+*/
+.modal {
+    color: black;    
+}
+.modal .atividade-foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal .atividade-foto img {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+.modal-evento-infos {
+    row-gap: 13px;
+}
+.modal-minicurso {
+    --bs-modal-width: 90% !important;
+}
+.modal-minicurso .modal-body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px !important;
+}

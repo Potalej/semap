@@ -1,0 +1,64 @@
+{% assign palestras = site.data[site.ano].palestras %}
+{% assign minicursos = site.data[site.ano].minicursos %}
+{% assign evento = include.evento %}
+{% if evento.tipo == "palestra" %}
+  {% assign evento_infos = palestras[evento.id] %}
+
+<!-- Modal -->
+<div class="modal fade" id="modal_{{ include.modal_id }}" tabindex="-1" aria-labelledby="modal_{{ include.modal_id }}Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modal_{{ include.modal_id }}Label">
+          {{ evento_infos.titulo }}
+        </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row modal-evento-infos">
+          <div class="atividade-foto col-12">
+            <img src="{{ site.baseurl }}/img/docentes/{{ evento_infos.id_responsavel }}.jpg">
+          </div>
+          <div class="col-12">
+            <b>Responsável: </b> {{ evento_infos.responsavel }} ({{ evento_infos.responsavel_info }})
+          </div>
+          <div class="col-12">
+            <b>Resumo:</b> {{ evento_infos.resumo }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% else if evento.tipo == "minicurso" %}
+<!-- Modal -->
+<div class="modal fade" id="modal_{{ include.modal_id }}" tabindex="-1" aria-labelledby="modal_{{ include.modal_id }}Label" aria-hidden="true">
+  <div class="modal-dialog modal-minicurso">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modal_{{ include.modal_id }}Label">
+          Minicursos
+        </h1>
+      </div>
+      <div class="modal-body">
+{% for id in evento.ids %}
+{% assign evento_infos = minicursos[id] %}
+        <div class="row modal-evento-infos">
+          <div class="atividade-foto col-12 col-md-3 col-lg-5">
+            <img src="{{ site.baseurl }}/img/docentes/{{ evento_infos.id_responsavel }}.jpg">
+          </div>
+          <div class="col-12 col-md-9 col-lg-7">
+            <h3>{{ evento_infos.titulo }}</h3>
+            <b>Responsável: </b> {{ evento_infos.responsavel }} ({{ evento_infos.responsavel_info }})
+            <br>
+            <b>Resumo:</b> {{ evento_infos.resumo }}
+          </div>
+        </div>
+{% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}

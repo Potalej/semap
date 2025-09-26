@@ -5,9 +5,9 @@ permalink: /programacao/
 ---
 
 <section class="wrapper">
-<div id="programacaoCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
+<div id="programacaoCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="60000">
   <div class="carousel-inner">
-    {% for dia in site.data.programacao %}
+    {% for dia in site.data[site.ano].programacao %}
     <div class="carousel-item {% if forloop.first %}active{% endif %}">
       <!-- TOPO COM BOTÕES E TÍTULO -->
       <div class="d-flex justify-content-between align-items-center mb-3 px-3">
@@ -42,17 +42,19 @@ permalink: /programacao/
                 </th>
                 <td class="evento evento-{{ evento.tipo }}">
                   {% if evento.tipo == "minicurso" or evento.tipo == "palestra" %}
-                  <a href="{{ site.baseurl }}/{{ evento.tipo }}s#{{ evento.id }}">
+                    {% assign evento_id = evento.tipo | append: '_' | append: evento.id %}
+                    {% include modal.html modal_id=evento_id evento=evento %}
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_{{ evento.tipo }}_{{ evento.id}}">
                   {% endif %}
-                      {% case evento.tipo %}
-                        {% when "comer" %}
-                          <i class="fa-solid fa-mug-hot"></i>
-                        {% when "credenciamento" %}
-                          <i class="fa-solid fa-id-card"></i>
-                        {% when "minicurso" %}
-                          <i class="fa-solid fa-graduation-cap"></i>
-                      {% endcase %}
-                      {{ evento.nome }}
+                  {% case evento.tipo %}
+                    {% when "comer" %}
+                      <i class="fa-solid fa-mug-hot"></i>
+                    {% when "credenciamento" %}
+                      <i class="fa-solid fa-id-card"></i>
+                    {% when "minicurso" %}
+                      <i class="fa-solid fa-graduation-cap"></i>
+                  {% endcase %}
+                    {{ evento.nome }}
                   {% if evento.tipo == "minicurso" or evento.tipo == "palestra" %}
                   </a>
                   {% endif %}

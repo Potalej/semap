@@ -5,18 +5,18 @@ permalink: /palestras/
 ---
 
 <section class="atividades">
-    {% for palestra in site.data.palestras %}
-    <div class="atividade row" id="{{ palestra.id }}">
+    {% for palestra in site.data[site.ano].palestras %}
+    <div class="atividade row" id="{{ palestra[0] }}">
         <div class="atividade-foto col-md-3 col-12">
-            <img src="{{ site.baseurl }}/img/docentes/{{ palestra.id_docente }}.jpg">
+            <img src="{{ site.baseurl }}/img/docentes/{{ palestra[1].id_responsavel }}.jpg">
         </div>
         <div class="atividade-infos col-md-9 col-12">
             <div class="atividade-titulo">
-                {{ palestra.titulo }} | {{ palestra.docente }}
+                {{ palestra[1].titulo }} | {{ palestra[1].responsavel }}
             </div>
             <div class="atividade-resumo">
                 <span>
-                    {{ palestra.resumo }}
+                    {{ palestra[1].resumo }}
                 </span>
             </div>
         </div>

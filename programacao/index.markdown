@@ -43,6 +43,7 @@ permalink: /programacao/
                 <td class="evento evento-{{ evento.tipo }}">
                   {% if evento.tipo == "minicurso" or evento.tipo == "palestra" %}
                     {% assign evento_id = evento.tipo | append: '_' | append: evento.id %}
+                    <!-- <a href="{{ site.baseurl }}/{{ evento.tipo }}s#{{ evento.id }}"> -->
                     {% include modal.html modal_id=evento_id evento=evento %}
                     <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_{{ evento.tipo }}_{{ evento.id}}">
                   {% endif %}

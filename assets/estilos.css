@@ -260,3 +260,18 @@ Modais
     flex-direction: column;
     row-gap: 30px !important;
 }
+
+/*
+Rodape
+*/
+.footer-ime-2 {
+    display: none;
+}
+@media all and (max-width: 768px) {
+    .footer-ime-2 {
+        display: flex;
+    }
+    .footer-ime-1 {
+        display: none;
+    }
+}

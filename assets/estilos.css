@@ -1,0 +1,277 @@
+/*
+Fontes
+*/
+@font-face {
+  font-family: blackhansans;
+  src: url(./fonts/BlackHanSans-Regular.ttf);
+}
+
+/*
+Variaveis globais
+- Cores
+*/
+:root {
+    --cor-principal: #a05dee;
+    --cor-links: #8339d8;
+    --cor-secundaria: #eee;
+}
+
+/*
+Configuracoes globais
+*/
+a {
+    color: var(--cor-links) !important;
+}
+
+/*
+    CAROUSEL DA PAGINA DE PROGRAMACAO
+*/
+.carousel-item h5 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.carousel-item .btn {
+  min-width: 2.5rem;
+  font-size: 0.9rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.carousel-item .d-flex {
+  gap: 1rem;
+}
+
+/* 
+    EVENTOS DA PAGINA DE PROGRAMACAO
+*/
+.evento a {
+    all: unset !important;
+}
+.evento-minicurso:hover, 
+.evento-cerimonia:hover,
+.evento-palestra:hover,
+.evento-coloquinho:hover,
+.evento-credenciamento:hover,
+.evento-estudante:hover
+{
+    cursor: pointer !important;
+    color: var(--cor-links) !important;
+}
+.evento-comer {
+    background-color: #515151;
+    color: white;
+}
+.evento-minicurso {
+    background-color: white;
+    color: black;
+}
+.evento-cerimonia {
+    background-color: white;
+    color: black;
+}
+.evento-palestra {
+    background-color: white;
+    color: black;
+}
+.evento-coloquinho {
+    background-color: white;
+    color: black;
+}
+.evento-credenciamento {
+    background-color: white;
+    color: black;
+}
+.evento-estudante {
+    background-color: white;
+    color: black;
+}
+
+.highlight {
+  background-color: var(--cor-principal) !important;
+  transition: background-color 0.5s ease-in-out;
+  color: white;
+}
+
+
+/*
+Cards para atividades
+*/
+.atividades {
+    display: grid;
+    row-gap: 20px;
+}
+.atividade:nth-of-type(odd) {
+    background-color: #ccc;
+}
+.atividade {
+    padding: 10px;
+    scroll-margin-top: 90px; /* altura da navbar */
+}
+.atividade-foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.atividade-titulo {
+    padding-bottom: 8px;
+    font-size: larger;
+}
+.atividade-resumo {
+    font-size: small;
+}
+
+/*******************************
+PAGINA INICIAL
+*******************************/
+.inicio {
+}
+.inicio h1 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: white;
+    font-size: 9vh;
+    padding-top: 40%;
+    padding-bottom: 3vh;
+    text-align: right;
+    font-family: blackhansans; 
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.435);
+}
+@media all and (min-width: 968px) {
+    .inicio h1 {
+        padding-top: 30vh;
+    }
+    .inicio-capa-texto {
+        max-width: 40vw;
+    }
+}
+.inicio-capa-texto {
+    float: right;
+}
+.inicio-capa p {
+    color: white;
+    font-weight: bolder;
+    text-align: right;    
+}
+.inicio-capa {
+    position: relative;
+    background-color: #aaa;
+    height: 100vh;
+    /* background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://pbs.twimg.com/media/FBhWLV-WEAcwXqu?format=jpg&name=4096x4096'); */
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/teste_newton2_leve.png');
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+}
+.inicio-capa-descricao {
+    font-size: 2.3vh;
+}
+.inicio-capa-data {
+    padding-top: 5%;
+    font-size: 3.3vh;
+}
+.inicio-capa-local {
+    font-size: 3vh;
+}
+.inicio-informacoes {
+    padding: 30px 0px;
+}
+.card-icon {
+    font-size: 4rem;
+    color: var(--cor-principal);
+}
+.card:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    cursor: pointer;
+    background-color: var(--cor-principal);
+    color: white;
+    transition-duration: .3s;
+}
+.card:hover .card-icon {
+    color: white;
+    transition-duration: .3s;
+}
+.inicio-informacoes-cartoes {
+    padding-top: 30px;
+}
+
+/*
+menu
+*/
+.offcanvas-header {
+    background-color: var(--cor-secundaria);
+}
+.offcanvas-title {
+    font-size: 5vw;
+}
+
+.offcanvas-body .navbar-nav {
+    margin-left: 0px;
+    gap: 10px;
+}
+
+.offcanvas-body .navbar-nav .nav-item {
+    font-size: larger;
+    padding: 5px;
+    margin: 0px;
+}
+
+.offcanvas-body .navbar-nav .nav-item:hover {
+    background-color: rgba(21,21,21,0.5)
+}
+
+.nav-item:hover a {
+    text-decoration: none;
+}
+
+
+/* 
+paginas
+*/
+.post-header {
+    margin-top: 64px;
+    text-align: center;
+    padding: 10vh;
+    background-color: #ccc
+}
+
+/*
+Modais
+*/
+.modal {
+    color: black;    
+}
+.modal .atividade-foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal .atividade-foto img {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+.modal-evento-infos {
+    row-gap: 13px;
+}
+.modal-minicurso {
+    --bs-modal-width: 90% !important;
+}
+.modal-minicurso .modal-body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px !important;
+}
+
+/*
+Rodape
+*/
+.footer-ime-2 {
+    display: none;
+}
+@media all and (max-width: 768px) {
+    .footer-ime-2 {
+        display: flex;
+    }
+    .footer-ime-1 {
+        display: none;
+    }
+}

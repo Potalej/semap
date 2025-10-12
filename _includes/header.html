@@ -1,7 +1,7 @@
 <header>
   {%- assign default_paths = site.pages | map: "path" -%}
   {%- assign page_paths = site.header_pages | default: default_paths -%}
-  <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar fixed-top navbar-expand-lg">
   <div class="container">
     <a class="navbar-brand site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
@@ -13,7 +13,7 @@
         <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
           {{ site.title | escape }}
         </h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <button type="button" data-bs-dismiss="offcanvas" aria-label="Close">X</button>
       </div>
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">

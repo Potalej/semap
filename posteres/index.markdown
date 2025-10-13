@@ -2,14 +2,15 @@
 layout: page
 title: Pôsteres
 permalink: /posteres/
+tem_resumo: true
 ---
 
-<section class="container">
+<div class="post-resumo">
+  <div class="container">
+    {{ site.data[site.ano].infos.posteres_resumo }}
+  </div>
+</div>
 
-A SeMAP contará com uma sessão de pôsteres nos dias ... Podem se inscrever graduandos, pós-graduandos e pós-doutorandos.
-
-<hr>
-
-<iframe src="{{ site.data[site.ano].infos.posteres_formulario }}" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
-
-</section>
+<div class="post-content">
+  <iframe src="{{ site.data[site.ano].infos.posteres_formulario }}" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+</div>

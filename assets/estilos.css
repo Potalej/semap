@@ -65,6 +65,10 @@
     --cor-atividade-alternada-impar:      white;
     --cor-atividade-alternada-impar-fonte:black;
 
+    /* Cores da pagina: POSTERES */
+    --cor-fundo-resumo: #212121;
+    --cor-fonte-resumo: white;
+
     /* Fontes */
     --fonte-capa-titulo: blackhansans;
     --fonte-capa-paginas: anton;
@@ -156,6 +160,14 @@ nav.navbar-cor button.navbar-toggler {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+.post-resumo {
+    padding: 20px 0px;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: var(--cor-fundo-resumo);
+    color: var(--cor-fonte-resumo);
 }
 .post-title {
     margin-top: 30px;

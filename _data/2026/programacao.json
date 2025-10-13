@@ -5,28 +5,32 @@
             "comeca": 14,
             "termina": 14.5,
             "local": "Bloco B",
-            "tipo": "credenciamento"
+            "tipo": "credenciamento",
+            "tem_modal": false
         },
         {
             "nome": "Cerimônia de Abertura",
             "comeca": 14.5,
             "termina": 15,
             "local": "Bloco B",
-            "tipo": "cerimonia"
+            "tipo": "cerimonia",
+            "tem_modal": false
         },
         {
             "nome": "Coffee-Break",
             "comeca": 15,
             "termina": 15.5,
             "local": "Bloco B",
-            "tipo": "comer"
+            "tipo": "comer",
+            "tem_modal": false
         },
         {
             "nome": "Coffee-Break",
             "comeca": 18.5,
             "termina": 19,
             "local": "Bloco B",
-            "tipo": "comer"
+            "tipo": "comer",
+            "tem_modal": false
         },
         {
             "nome": "Lucas (Palestra)",
@@ -34,7 +38,8 @@
             "termina": 20,
             "local": "Bloco B",
             "tipo": "palestra",
-            "id": "lucas"
+            "id": "lucas",
+            "tem_modal": true
         }
     ],
     "Terça-Feira": [
@@ -43,7 +48,9 @@
             "comeca": 14.5,
             "termina": 15.5,
             "local": "Bloco B",
-            "tipo": "coloquinho"
+            "tipo": "coloquinho",
+            "id": "coloquinho",
+            "tem_modal": true
         },
         {
             "nome": "André (Palestra)",
@@ -51,28 +58,32 @@
             "termina": 16.5,
             "local": "Bloco B",
             "tipo": "palestra",
-            "id": "andre"
+            "id": "andre",
+            "tem_modal": true
         },
         {
             "nome": "Coffee-Break",
             "comeca": 16.5,
             "termina": 17,
             "local": "Bloco B",
-            "tipo": "comer"
+            "tipo": "comer",
+            "tem_modal": false
         },
         {
             "nome": "Pôsteres + Coffee-Break",
             "comeca": 17,
             "termina": 18.5,
             "local": "Bloco B",
-            "tipo": "comer"
+            "tipo": "comer",
+            "tem_modal": false
         },
         {
             "nome": "Coffee-Break",
             "comeca": 18.5,
             "termina": 19,
             "local": "Bloco B",
-            "tipo": "comer"
+            "tipo": "comer",
+            "tem_modal": false
         },
         {
             "nome": "Eduardo (Palestra)",
@@ -80,7 +91,8 @@
             "termina": 20,
             "local": "Bloco B",
             "tipo": "palestra",
-            "id": "eduardo"
+            "id": "eduardo",
+            "tem_modal": true
         }
     ],
     "Quarta-Feira": [
@@ -89,14 +101,16 @@
             "comeca": 14.5,
             "termina": 15,
             "local": "Bloco B",
-            "tipo": "estudante"
+            "tipo": "estudante",
+            "tem_modal": false
         },
         {
             "nome": "Estudante",
             "comeca": 15,
             "termina": 15.5,
             "local": "Bloco B",
-            "tipo": "estudante"
+            "tipo": "estudante",
+            "tem_modal": false
         },
         {
             "nome": "Clodoaldo (Palestra)",
@@ -104,14 +118,16 @@
             "termina": 16.5,
             "local": "Bloco B",
             "tipo": "palestra",
-            "id": "clodoaldo"
+            "id": "clodoaldo",
+            "tem_modal": true
         },
         {
             "nome": "Coffee-Break",
             "comeca": 16.5,
             "termina": 17,
             "local": "Bloco B",
-            "tipo": "comer"
+            "tipo": "comer",
+            "tem_modal": false
         },
         {
             "nome": "Minicursos",
@@ -120,14 +136,16 @@
             "local": "Bloco B",
             "tipo": "minicurso",
             "id": "quarta",
-            "ids": ["sauro1", "sauro2"]
+            "ids": ["sauro1", "sauro2"],
+            "tem_modal": true
         },
         {
             "nome": "Coffee-Break",
             "comeca": 18.5,
             "termina": 19,
             "local": "Bloco B",
-            "tipo": "comer"
+            "tipo": "comer",
+            "tem_modal": false
         },
         {
             "nome": "Yulia (Palestra)",
@@ -135,7 +153,8 @@
             "termina": 20,
             "local": "Bloco B",
             "tipo": "palestra",
-            "id": "yulia"
+            "id": "yulia",
+            "tem_modal": true
         }
     ],
     "Quinta-Feira": [
@@ -144,14 +163,16 @@
             "comeca": 14.5,
             "termina": 15,
             "local": "Bloco B",
-            "tipo": "estudante"
+            "tipo": "estudante",
+            "tem_modal": false
         },
         {
             "nome": "Estudante",
             "comeca": 15,
             "termina": 15.5,
             "local": "Bloco B",
-            "tipo": "estudante"
+            "tipo": "estudante",
+            "tem_modal": false
         },
         {
             "nome": "Cordaro (Palestra)",
@@ -159,14 +180,16 @@
             "termina": 16.5,
             "local": "Bloco B",
             "tipo": "palestra",
-            "id": "cordaro"
+            "id": "cordaro",
+            "tem_modal": true
         },
         {
             "nome": "Coffee-Break",
             "comeca": 16.5,
             "termina": 17,
             "local": "Bloco B",
-            "tipo": "comer"
+            "tipo": "comer",
+            "tem_modal": false
         },
         {
             "nome": "Minicursos",
@@ -175,14 +198,16 @@
             "local": "Bloco B",
             "tipo": "minicurso",
             "id": "quinta",
-            "ids": ["sauro3", "sauro4"]
+            "ids": ["sauro3", "sauro4"],
+            "tem_modal": true
         },
         {
             "nome": "Coffee-Break",
             "comeca": 18.5,
             "termina": 19,
             "local": "Bloco B",
-            "tipo": "comer"
+            "tipo": "comer",
+            "tem_modal": false
         }
     ],
     "Sexta-Feira": [
@@ -191,14 +216,16 @@
             "comeca": 14.5,
             "termina": 15,
             "local": "Bloco B",
-            "tipo": "estudante"
+            "tipo": "estudante",
+            "tem_modal": false
         },
         {
             "nome": "Estudante",
             "comeca": 15,
             "termina": 15.5,
             "local": "Bloco B",
-            "tipo": "estudante"
+            "tipo": "estudante",
+            "tem_modal": false
         },
         {
             "nome": "Claudia (Palestra)",
@@ -206,14 +233,16 @@
             "termina": 16.5,
             "local": "Bloco B",
             "tipo": "palestra",
-            "id": "claudia"
+            "id": "claudia",
+            "tem_modal": true
         },
         {
             "nome": "Coffee-Break",
             "comeca": 16.5,
             "termina": 17,
             "local": "Bloco B",
-            "tipo": "comer"
+            "tipo": "comer",
+            "tem_modal": false
         },
         {
             "nome": "Minicursos",
@@ -222,14 +251,16 @@
             "local": "Bloco B",
             "tipo": "minicurso",
             "id": "sexta",
-            "ids": ["sauro5", "sauro6"]
+            "ids": ["sauro5", "sauro6"],
+            "tem_modal": true
         },
         {
             "nome": "Coffee-Break",
             "comeca": 18.5,
             "termina": 19,
             "local": "Bloco B",
-            "tipo": "comer"
+            "tipo": "comer",
+            "tem_modal": false
         }
     ]
 }

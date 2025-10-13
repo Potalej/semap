@@ -49,7 +49,7 @@
     --cor-programacao-fundo-palestra: white;
     --cor-programacao-fonte-palestra: black;
 
-    --cor-programacao-fundo-coloquinho: white;
+    --cor-programacao-fundo-coloquinho: #fdffd0;
     --cor-programacao-fonte-coloquinho: black;
 
     --cor-programacao-fundo-credenciamento: white;
@@ -74,7 +74,11 @@
     --fonte-capa-paginas: anton;
 
     /* Imagens */
-    --capa-principal: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/newton.jpg');
+    --capa-principal: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/2026/newton.jpg');
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Ancoras */
@@ -199,6 +203,10 @@ footer a, footer a:visited {
 /************************************************
 > Pagina: PROGRAMACAO
 ************************************************/
+section.programacaoSecao {
+    margin-top: 30px;
+}
+
 /* Carousel */
 .carousel-item h5 {
     margin: 0 auto;
@@ -211,6 +219,43 @@ footer a, footer a:visited {
 }
 .carousel-item .d-flex {
     gap: 1rem;
+}
+.carousel-cabecalho {
+    background-color: #414141;
+    color: white;
+    padding: 10px;
+}
+.carousel-cabecalho button {
+    color: black;
+    border: none;
+    font-weight: bold;
+    background-color: white;
+}
+.carousel-cabecalho button:hover {
+    background-color: var(--cor-links);
+    color: white;
+}
+
+/*
+    TABELA
+*/
+table.programacao_tabela {
+    /* border: none; */
+    border-radius: 10px;
+    text-align: center;
+    border-collapse: separate; 
+    border-spacing: 0.5em; 
+}
+table.programacao_tabela tr {
+}
+table.programacao_tabela th {
+    /* border: none; */
+    border-radius: 10px;
+    background-color: #414141;
+    color: white;
+}
+table.programacao_tabela td {
+    border-radius: 10px;
 }
 
 /* 
@@ -274,13 +319,34 @@ footer a, footer a:visited {
 .modal-evento-infos {
     row-gap: 13px;
 }
-.modal-minicurso {
+.modal-minicurso, .modal-coloquinho {
     --bs-modal-width: 90% !important;
 }
-.modal-minicurso .modal-body {
+.modal-minicurso .modal-body, .modal-coloquinho .modal-body {
     display: flex;
     flex-direction: column;
     row-gap: 30px !important;
+    padding: 20px !important;
+}
+.modal-coloquinho-conheca {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--cor-programacao-fundo-coloquinho);
+    padding: 10px 30px;
+    font-size: 1.1em;
+    border-radius: 15px;
+    line-height: 1.1em;
+    row-gap: 10px;
+}
+.modal-coloquinho-conheca img {
+    width: 30vw;
+    min-width: 250px;
+}
+.modal-coloquinho-conheca-desc, .modal-coloquinho-conheca-desc a {
+    font-family: monospace
 }
 
 .highlight {

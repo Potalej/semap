@@ -9,7 +9,7 @@ permalink: /minicursos/
     <div class="atividade">
         <div class="row container">
             <div class="atividade-foto col-md-3 col-12">
-                <img src="{{ site.baseurl }}/img/docentes/{{ minicurso[1].id_responsavel }}.jpg">
+                <img src="{{ site.baseurl }}/img/{{ site.ano }}/docentes/{{ minicurso[1].id_responsavel }}.jpg">
             </div>
             <div class="atividade-infos col-md-9 col-12">
                 <div class="atividade-titulo">

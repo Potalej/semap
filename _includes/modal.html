@@ -1,10 +1,11 @@
 {% assign palestras = site.data[site.ano].palestras %}
 {% assign minicursos = site.data[site.ano].minicursos %}
+{% assign coloquinhos = site.data[site.ano].coloquinho %}
 {% assign evento = include.evento %}
-{% if evento.tipo == "palestra" %}
-  {% assign evento_infos = palestras[evento.id] %}
 
-<!-- Modal -->
+<!-- Modal para palqestras -->
+{% if evento.tipo == "palestra" %}
+{% assign evento_infos = palestras[evento.id] %}
 <div class="modal fade" id="modal_{{ include.modal_id }}" tabindex="-1" aria-labelledby="modal_{{ include.modal_id }}Label" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -17,7 +18,7 @@
       <div class="modal-body">
         <div class="row modal-evento-infos">
           <div class="atividade-foto col-12">
-            <img src="{{ site.baseurl }}/img/docentes/{{ evento_infos.id_responsavel }}.jpg">
+            <img src="{{ site.baseurl }}/img/{{ site.ano }}/docentes/{{ evento_infos.id_responsavel }}.jpg">
           </div>
           <div class="col-12">
             <b>Responsável: </b> {{ evento_infos.responsavel }} ({{ evento_infos.responsavel_info }})
@@ -31,9 +32,8 @@
   </div>
 </div>
 
-
-{% else if evento.tipo == "minicurso" %}
-<!-- Modal -->
+<!-- Modal para minicursos -->
+{% elsif evento.tipo == "minicurso" %}
 <div class="modal fade" id="modal_{{ include.modal_id }}" tabindex="-1" aria-labelledby="modal_{{ include.modal_id }}Label" aria-hidden="true">
   <div class="modal-dialog modal-minicurso">
     <div class="modal-content">
@@ -41,19 +41,60 @@
         <h1 class="modal-title fs-5" id="modal_{{ include.modal_id }}Label">
           Minicursos
         </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
       </div>
       <div class="modal-body">
 {% for id in evento.ids %}
 {% assign evento_infos = minicursos[id] %}
         <div class="row modal-evento-infos">
-          <div class="atividade-foto col-12 col-md-3 col-lg-5">
-            <img src="{{ site.baseurl }}/img/docentes/{{ evento_infos.id_responsavel }}.jpg">
+          <div class="atividade-foto col-12 col-md-3">
+            <img src="{{ site.baseurl }}/img/{{ site.ano }}/docentes/{{ evento_infos.id_responsavel }}.jpg">
           </div>
-          <div class="col-12 col-md-9 col-lg-7">
+          <div class="col-12 col-md-9">
             <h3>{{ evento_infos.titulo }}</h3>
             <b>Responsável: </b> {{ evento_infos.responsavel }} ({{ evento_infos.responsavel_info }})
             <br>
             <b>Resumo:</b> {{ evento_infos.resumo }}
+          </div>
+        </div>
+{% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal para Coloquinho -->
+{% elsif evento.tipo == "coloquinho" %}
+<div class="modal fade" id="modal_{{ include.modal_id }}" tabindex="-1" aria-labelledby="modal_{{ include.modal_id }}Label" aria-hidden="true">
+  <div class="modal-dialog modal-coloquinho">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modal_{{ include.modal_id }}Label">
+          Coloquinho
+        </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body container">
+        <div class="container">
+          <div class="modal-coloquinho-conheca row justify-content-md-center">
+            <div class="col-12 col-sm-12 col-md-4">
+              <img src="{{ site.baseurl }}/img/coloquinho_fundo.png">
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 modal-coloquinho-conheca-desc">
+              Ainda não conhece o Coloquinho da Pós? <br> Acesse o nosso <a href="https://sites.google.com/ime.usp.br/coloquinho/">site</a> e nos siga no instagram! <a href="https://instagram.com/coloquinho.ime">@coloquinho.ime</a>
+            </div>
+          </div>
+        </div>
+{% for coloquinho in coloquinhos %}
+        <div class="row modal-evento-infos">
+          <div class="atividade-foto col-12 col-md-3">
+            <img src="{{ site.baseurl }}/img/{{ site.ano }}/docentes/{{ coloquinho.id_responsavel }}.jpg">
+          </div>
+          <div class="col-12 col-md-9">
+            <h3>{{ coloquinho.titulo }}</h3>
+            <b>Responsável: </b> {{ coloquinho.responsavel }} ({{ coloquinho.responsavel_info }})
+            <br>
+            <b>Resumo:</b> {{ coloquinho.resumo }}
           </div>
         </div>
 {% endfor %}

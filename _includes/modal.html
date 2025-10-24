@@ -1,11 +1,19 @@
 {% assign palestras = site.data[site.ano].palestras %}
 {% assign minicursos = site.data[site.ano].minicursos %}
 {% assign coloquinhos = site.data[site.ano].coloquinho %}
+{% assign coloquios = site.data[site.ano].coloquio %}
+{% assign estudantes = site.data[site.ano].estudantes %}
 {% assign evento = include.evento %}
 
 <!-- Modal para palqestras -->
-{% if evento.tipo == "palestra" %}
-{% assign evento_infos = palestras[evento.id] %}
+{% if evento.tipo == "palestra" or evento.tipo == "estudante" %}
+
+{% case evento.tipo %}
+  {% when "palestra" %}
+    {% assign evento_infos = palestras[evento.id] %}
+  {% when "estudante" %}
+    {% assign evento_infos = estudantes[evento.id] %}
+{% endcase %}
 <div class="modal fade" id="modal_{{ include.modal_id }}" tabindex="-1" aria-labelledby="modal_{{ include.modal_id }}Label" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -18,10 +26,13 @@
       <div class="modal-body">
         <div class="row modal-evento-infos">
           <div class="atividade-foto col-12">
-            <img src="{{ site.baseurl }}/img/{{ site.ano }}/docentes/{{ evento_infos.id_responsavel }}.jpg">
+            <img src="{{ site.baseurl }}/img/{{ site.ano }}/pessoas/{{ evento_infos.id_responsavel }}.jpg">
           </div>
           <div class="col-12">
             <b>Responsável: </b> {{ evento_infos.responsavel }} ({{ evento_infos.responsavel_info }})
+          </div>
+          <div class="col-12">
+            <b>Quando: </b> {{ evento_infos.quando }}
           </div>
           <div class="col-12">
             <b>Resumo:</b> {{ evento_infos.resumo }}
@@ -48,7 +59,7 @@
 {% assign evento_infos = minicursos[id] %}
         <div class="row modal-evento-infos">
           <div class="atividade-foto col-12 col-md-3">
-            <img src="{{ site.baseurl }}/img/{{ site.ano }}/docentes/{{ evento_infos.id_responsavel }}.jpg">
+            <img src="{{ site.baseurl }}/img/{{ site.ano }}/pessoas/{{ evento_infos.id_responsavel }}.jpg">
           </div>
           <div class="col-12 col-md-9">
             <h3>{{ evento_infos.titulo }}</h3>
@@ -88,13 +99,55 @@
 {% for coloquinho in coloquinhos %}
         <div class="row modal-evento-infos">
           <div class="atividade-foto col-12 col-md-3">
-            <img src="{{ site.baseurl }}/img/{{ site.ano }}/docentes/{{ coloquinho.id_responsavel }}.jpg">
+            <img src="{{ site.baseurl }}/img/{{ site.ano }}/pessoas/{{ coloquinho.id_responsavel }}.jpg">
           </div>
           <div class="col-12 col-md-9">
             <h3>{{ coloquinho.titulo }}</h3>
             <b>Responsável: </b> {{ coloquinho.responsavel }} ({{ coloquinho.responsavel_info }})
             <br>
             <b>Resumo:</b> {{ coloquinho.resumo }}
+          </div>
+        </div>
+{% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal para Coloquio -->
+{% elsif evento.tipo == "coloquio" %}
+<div class="modal fade" id="modal_{{ include.modal_id }}" tabindex="-1" aria-labelledby="modal_{{ include.modal_id }}Label" aria-hidden="true">
+  <div class="modal-dialog modal-coloquio">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modal_{{ include.modal_id }}Label">
+          Colóquio do IME
+        </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body container">
+        <div class="container">
+          <div class="modal-coloquio-conheca row justify-content-md-center">
+            <div class="col-12 col-sm-12 col-md-3">
+              <img src="{{ site.baseurl }}/img/IME_USP_vertical_branca.png">
+            </div>
+            <div class="col-12 col-md-7 col-lg-5 modal-coloquio-conheca-desc">
+              As palestras no Colóquio abordam assuntos de diversas áreas ligadas à pesquisa feita no IME, visando alcançar o amplo público IMEano.
+              <br><br>
+              Saiba mais em: <br><a style="color: white" href="https://www.ime.usp.br/coloquio/">ime.usp.br/coloquio</a>
+            </div>
+          </div>
+        </div>
+{% for coloquio in coloquios %}
+        <div class="row modal-evento-infos">
+          <div class="atividade-foto col-12 col-md-3">
+            <img src="{{ site.baseurl }}/img/{{ site.ano }}/pessoas/{{ coloquio.id_responsavel }}.jpg">
+          </div>
+          <div class="col-12 col-md-9">
+            <h3>{{ coloquio.titulo }}</h3>
+            <b>Responsável: </b> {{ coloquinho.responsavel }} ({{ coloquio.responsavel_info }})
+            <br>
+            <b>Resumo:</b> {{ coloquio.resumo }}
           </div>
         </div>
 {% endfor %}

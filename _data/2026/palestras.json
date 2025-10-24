@@ -1,51 +1,120 @@
 {
-    "clodoaldo": {
+    "plenaria_seg_15h00": {
         "titulo": "Em breve",
-        "responsavel": "Clodoaldo Grotta Ragazzo",
-        "responsavel_info": "MAP",
+        "responsavel": "A definir",
+        "responsavel_info": "-",
         "resumo": "Em breve.",
-        "id_responsavel": "psyduck"
+        "id_responsavel": "vazio",
+        "quando": "Segunda, às 15h00"
     },
-    "lucas": {
+    "plenaria_seg_16h30": {
         "titulo": "Em breve",
-        "responsavel": "Lucas Franceschini",
-        "responsavel_info": "MAP",
+        "responsavel": "A definir",
+        "responsavel_info": "-",
         "resumo": "Em breve.",
-        "id_responsavel": "psyduck"
+        "id_responsavel": "vazio",
+        "quando": "Segunda, às 16h30"
     },
-    "andre": {
+    "plenaria_seg_17h30": {
         "titulo": "Em breve",
-        "responsavel": "André Salles de Carvalho",
-        "responsavel_info": "MAP",
+        "responsavel": "A definir",
+        "responsavel_info": "-",
         "resumo": "Em breve.",
-        "id_responsavel": "psyduck"
+        "id_responsavel": "vazio",
+        "quando": "Segunda, às 17h30"        
     },
-    "eduardo": {
+    "plenaria_seg_19h00": {
         "titulo": "Em breve",
-        "responsavel": "Eduardo Colli",
-        "responsavel_info": "MAP",
+        "responsavel": "A definir",
+        "responsavel_info": "-",
         "resumo": "Em breve.",
-        "id_responsavel": "psyduck"
+        "id_responsavel": "vazio",
+        "quando": "Segunda, às 19h00"
     },
-    "yulia": {
+    "plenaria_seg_20h00": {
         "titulo": "Em breve",
-        "responsavel": "Yulia Petrova",
-        "responsavel_info": "MAP",
+        "responsavel": "A definir",
+        "responsavel_info": "-",
         "resumo": "Em breve.",
-        "id_responsavel": "psyduck"
+        "id_responsavel": "vazio",
+        "quando": "Segunda, às 20h00"
     },
-    "cordaro": {
+
+
+    "plenaria_ter_15h30": {
         "titulo": "Em breve",
-        "responsavel": "Paulo Domingos Cordaro",
-        "responsavel_info": "MAP",
+        "responsavel": "A definir",
+        "responsavel_info": "-",
         "resumo": "Em breve.",
-        "id_responsavel": "psyduck"
+        "id_responsavel": "vazio",
+        "quando": "Terça, às 15h30"
     },
-    "claudia": {
+    "plenaria_ter_19h00": {
         "titulo": "Em breve",
-        "responsavel": "Cláudia Peixoto",
-        "responsavel_info": "MAP",
+        "responsavel": "A definir",
+        "responsavel_info": "-",
         "resumo": "Em breve.",
-        "id_responsavel": "psyduck"
+        "id_responsavel": "vazio",
+        "quando": "Terça, às 19h00"
+    },
+    "plenaria_ter_20h00": {
+        "titulo": "Em breve",
+        "responsavel": "A definir",
+        "responsavel_info": "-",
+        "resumo": "Em breve.",
+        "id_responsavel": "vazio",
+        "quando": "Terça, às 20h00"
+    },
+
+
+    "plenaria_qua_15h30": {
+        "titulo": "Em breve",
+        "responsavel": "A definir",
+        "responsavel_info": "-",
+        "resumo": "Em breve.",
+        "id_responsavel": "vazio",
+        "quando": "Quarta, às 15h30"
+    },
+    "plenaria_qua_19h00": {
+        "titulo": "Em breve",
+        "responsavel": "A definir",
+        "responsavel_info": "-",
+        "resumo": "Em breve.",
+        "id_responsavel": "vazio",
+        "quando": "Quarta, às 19h00"
+    },
+    "plenaria_qua_20h": {
+        "titulo": "Em breve",
+        "responsavel": "A definir",
+        "responsavel_info": "-",
+        "resumo": "Em breve.",
+        "id_responsavel": "vazio",
+        "quando": "Quarta, às 20h00"
+    },
+
+
+    "plenaria_qui_15h30": {
+        "titulo": "Em breve",
+        "responsavel": "A definir",
+        "responsavel_info": "-",
+        "resumo": "Em breve.",
+        "id_responsavel": "vazio",
+        "quando": "Quinta, às 15h30"
+    },
+    "plenaria_qui_19h00": {
+        "titulo": "Em breve",
+        "responsavel": "A definir",
+        "responsavel_info": "-",
+        "resumo": "Em breve.",
+        "id_responsavel": "vazio",
+        "quando": "Quinta, às 19h00"
+    },
+    "plenaria_qui_20h00": {
+        "titulo": "Em breve",
+        "responsavel": "A definir",
+        "responsavel_info": "-",
+        "resumo": "Em breve.",
+        "id_responsavel": "vazio",
+        "quando": "Quinta, às 20h00"
     }
 }

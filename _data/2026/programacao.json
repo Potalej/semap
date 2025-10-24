@@ -17,12 +17,39 @@
             "tem_modal": false
         },
         {
-            "nome": "Coffee-Break",
+            "nome": "Plenária (A definir)",
             "comeca": 15,
-            "termina": 15.5,
+            "termina": 16,
+            "local": "Bloco B",
+            "tipo": "palestra",
+            "id": "plenaria_seg_15h00",
+            "tem_modal": true
+        },
+        {
+            "nome": "Coffee-Break",
+            "comeca": 16,
+            "termina": 16.5,
             "local": "Bloco B",
             "tipo": "comer",
             "tem_modal": false
+        },
+        {
+            "nome": "Plenária (A definir)",
+            "comeca": 16.5,
+            "termina": 17.5,
+            "local": "Bloco B",
+            "tipo": "palestra",
+            "id": "plenaria_seg_16h30",
+            "tem_modal": true
+        },
+        {
+            "nome": "Plenária (A definir)",
+            "comeca": 17.5,
+            "termina": 18.5,
+            "local": "Bloco B",
+            "tipo": "palestra",
+            "id": "plenaria_seg_17h30",
+            "tem_modal": true
         },
         {
             "nome": "Coffee-Break",
@@ -33,12 +60,21 @@
             "tem_modal": false
         },
         {
-            "nome": "Lucas (Palestra)",
+            "nome": "Plenária (A definir)",
             "comeca": 19,
             "termina": 20,
             "local": "Bloco B",
             "tipo": "palestra",
-            "id": "lucas",
+            "id": "plenaria_seg_19h00",
+            "tem_modal": true
+        },
+        {
+            "nome": "Plenária (A definir)",
+            "comeca": 20,
+            "termina": 21,
+            "local": "Bloco B",
+            "tipo": "palestra",
+            "id": "plenaria_seg_20h00",
             "tem_modal": true
         }
     ],
@@ -53,12 +89,12 @@
             "tem_modal": true
         },
         {
-            "nome": "André (Palestra)",
+            "nome": "Plenária (A definir)",
             "comeca": 15.5,
             "termina": 16.5,
             "local": "Bloco B",
             "tipo": "palestra",
-            "id": "andre",
+            "id": "plenaria_ter_15h30",
             "tem_modal": true
         },
         {
@@ -70,7 +106,7 @@
             "tem_modal": false
         },
         {
-            "nome": "Pôsteres + Coffee-Break",
+            "nome": "Sessão de pôsteres",
             "comeca": 17,
             "termina": 18.5,
             "local": "Bloco B",
@@ -86,39 +122,50 @@
             "tem_modal": false
         },
         {
-            "nome": "Eduardo (Palestra)",
+            "nome": "Plenária (A definir)",
             "comeca": 19,
             "termina": 20,
             "local": "Bloco B",
             "tipo": "palestra",
-            "id": "eduardo",
+            "id": "plenaria_ter_19h00",
+            "tem_modal": true
+        },
+        {
+            "nome": "Plenária (A definir)",
+            "comeca": 20,
+            "termina": 21,
+            "local": "Bloco B",
+            "tipo": "palestra",
+            "id": "plenaria_ter_20h00",
             "tem_modal": true
         }
     ],
     "Quarta-Feira": [
         {
-            "nome": "Estudante",
+            "nome": "Plenária (Estudante)",
             "comeca": 14.5,
             "termina": 15,
             "local": "Bloco B",
             "tipo": "estudante",
-            "tem_modal": false
+            "id": "plenaria_estudante_qua_14h30",
+            "tem_modal": true
         },
         {
-            "nome": "Estudante",
+            "nome": "Plenária (Estudante)",
             "comeca": 15,
             "termina": 15.5,
             "local": "Bloco B",
             "tipo": "estudante",
-            "tem_modal": false
+            "id": "plenaria_estudante_qua_15h00",
+            "tem_modal": true
         },
         {
-            "nome": "Clodoaldo (Palestra)",
+            "nome": "Plenária (A definir)",
             "comeca": 15.5,
             "termina": 16.5,
             "local": "Bloco B",
             "tipo": "palestra",
-            "id": "clodoaldo",
+            "id": "plenaria_qua_15h30",
             "tem_modal": true
         },
         {
@@ -127,7 +174,7 @@
             "termina": 17,
             "local": "Bloco B",
             "tipo": "comer",
-            "tem_modal": false
+            "tem_modal": true
         },
         {
             "nome": "Minicursos",
@@ -136,7 +183,7 @@
             "local": "Bloco B",
             "tipo": "minicurso",
             "id": "quarta",
-            "ids": ["sauro1", "sauro2"],
+            "ids": ["mc1", "mc2", "mc3"],
             "tem_modal": true
         },
         {
@@ -148,39 +195,50 @@
             "tem_modal": false
         },
         {
-            "nome": "Yulia (Palestra)",
+            "nome": "Plenária (A definir)",
             "comeca": 19,
             "termina": 20,
             "local": "Bloco B",
             "tipo": "palestra",
-            "id": "yulia",
+            "id": "plenaria_qua_19h00",
+            "tem_modal": true
+        },
+        {
+            "nome": "Plenária (A definir)",
+            "comeca": 20,
+            "termina": 21,
+            "local": "Bloco B",
+            "tipo": "palestra",
+            "id": "plenaria_qua_20h",
             "tem_modal": true
         }
     ],
     "Quinta-Feira": [
         {
-            "nome": "Estudante",
+            "nome": "Plenária (Estudante)",
             "comeca": 14.5,
             "termina": 15,
             "local": "Bloco B",
             "tipo": "estudante",
-            "tem_modal": false
+            "id": "plenaria_estudante_qui_14h30",
+            "tem_modal": true
         },
         {
-            "nome": "Estudante",
+            "nome": "Plenária (Estudante)",
             "comeca": 15,
             "termina": 15.5,
             "local": "Bloco B",
             "tipo": "estudante",
-            "tem_modal": false
-        },
+            "id": "plenaria_estudante_qui_15h00",
+            "tem_modal": true
+        },        
         {
-            "nome": "Cordaro (Palestra)",
+            "nome": "Plenária (A definir)",
             "comeca": 15.5,
             "termina": 16.5,
             "local": "Bloco B",
             "tipo": "palestra",
-            "id": "cordaro",
+            "id": "plenaria_qui_15h30",
             "tem_modal": true
         },
         {
@@ -198,7 +256,7 @@
             "local": "Bloco B",
             "tipo": "minicurso",
             "id": "quinta",
-            "ids": ["sauro3", "sauro4"],
+            "ids": ["mc1", "mc2", "mc3"],
             "tem_modal": true
         },
         {
@@ -208,41 +266,61 @@
             "local": "Bloco B",
             "tipo": "comer",
             "tem_modal": false
+        },
+        {
+            "nome": "Plenária (A definir)",
+            "comeca": 19,
+            "termina": 20,
+            "local": "Bloco B",
+            "tipo": "palestra",
+            "id": "plenaria_qui_19h00",
+            "tem_modal": true
+        },
+        {
+            "nome": "Plenária (A definir)",
+            "comeca": 20,
+            "termina": 21,
+            "local": "Bloco B",
+            "tipo": "palestra",
+            "id": "plenaria_qui_20h00",
+            "tem_modal": true
         }
     ],
     "Sexta-Feira": [
         {
-            "nome": "Estudante",
-            "comeca": 14.5,
+            "nome": "Colóquio do IME",
+            "comeca": 14,
             "termina": 15,
             "local": "Bloco B",
-            "tipo": "estudante",
-            "tem_modal": false
-        },
-        {
-            "nome": "Estudante",
-            "comeca": 15,
-            "termina": 15.5,
-            "local": "Bloco B",
-            "tipo": "estudante",
-            "tem_modal": false
-        },
-        {
-            "nome": "Claudia (Palestra)",
-            "comeca": 15.5,
-            "termina": 16.5,
-            "local": "Bloco B",
-            "tipo": "palestra",
-            "id": "claudia",
+            "tipo": "coloquio",
+            "id": "coloquio",
             "tem_modal": true
         },
         {
             "nome": "Coffee-Break",
-            "comeca": 16.5,
-            "termina": 17,
+            "comeca": 15,
+            "termina": 16,
             "local": "Bloco B",
             "tipo": "comer",
             "tem_modal": false
+        },
+        {
+            "nome": "Plenária (Estudante)",
+            "comeca": 16,
+            "termina": 16.5,
+            "local": "Bloco B",
+            "tipo": "estudante",
+            "id": "plenaria_estudante_sex_16h00",
+            "tem_modal": true
+        },
+        {
+            "nome": "Plenária (Estudante)",
+            "comeca": 16.5,
+            "termina": 17,
+            "local": "Bloco B",
+            "tipo": "estudante",
+            "id": "plenaria_estudante_sex_16h30",
+            "tem_modal": true
         },
         {
             "nome": "Minicursos",
@@ -251,7 +329,7 @@
             "local": "Bloco B",
             "tipo": "minicurso",
             "id": "sexta",
-            "ids": ["sauro5", "sauro6"],
+            "ids": ["mc1", "mc2", "mc3"],
             "tem_modal": true
         },
         {

@@ -63,6 +63,8 @@ tem_resumo: true
                       <i class="fa-solid fa-id-card"></i>
                     {% when "minicurso" %}
                       <i class="fa-solid fa-graduation-cap"></i>
+                    {% when "palestra" %}
+                      <i class="fa-solid fa-person-chalkboard"></i>
                   {% endcase %}
                     {{ evento.nome }}
                   {% if evento.tem_modal %}

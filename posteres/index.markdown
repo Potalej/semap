@@ -12,5 +12,11 @@ tem_resumo: true
 </div>
 
 <div class="post-content">
-  <iframe src="{{ site.data[site.ano].infos.posteres_formulario }}" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+{% assign forms_link = site.data[site.ano].infos.posteres_formulario %}
+{% if forms_link == "" %}
+  <br>
+  <h3 style="text-align: center">O formulário de inscrição será disponibilizado em breve!</h3>
+{% else %}
+  <iframe src="{{ forms_link }}" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+{% endif %}
 </div>

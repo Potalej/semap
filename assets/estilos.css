@@ -58,6 +58,9 @@
     --cor-programacao-fundo-estudante: white;
     --cor-programacao-fonte-estudante: black;
 
+    --cor-programacao-fundo-coloquio: rgb(20, 45, 105);
+    --cor-programacao-fonte-coloquio: white;
+
     
     /* Cores das paginas: PALESTRAS, MINICURSOS */
     --cor-atividade-alternada-par:        #212121;
@@ -269,7 +272,8 @@ table.programacao_tabela td {
 .evento-palestra:hover,
 .evento-coloquinho:hover,
 .evento-credenciamento:hover,
-.evento-estudante:hover
+.evento-estudante:hover,
+.evento-coloquio:hover
 {
     cursor: pointer !important;
     color: var(--cor-links) !important;
@@ -302,6 +306,10 @@ table.programacao_tabela td {
     background-color: var(--cor-programacao-fundo-estudante);
     color: var(--cor-programacao-fonte-estudante);
 }
+.evento-coloquio {
+    background-color: var(--cor-programacao-fundo-coloquio);
+    color: var(--cor-programacao-fonte-coloquio);
+}
 
 /* Modais*/
 .modal {
@@ -319,33 +327,52 @@ table.programacao_tabela td {
 .modal-evento-infos {
     row-gap: 13px;
 }
-.modal-minicurso, .modal-coloquinho {
+.modal-minicurso, .modal-coloquinho, .modal-coloquio {
     --bs-modal-width: 90% !important;
 }
-.modal-minicurso .modal-body, .modal-coloquinho .modal-body {
+.modal-minicurso .modal-body, 
+.modal-coloquinho .modal-body,
+.modal-coloquio .modal-body {
     display: flex;
     flex-direction: column;
     row-gap: 30px !important;
     padding: 20px !important;
 }
-.modal-coloquinho-conheca {
+.modal-coloquinho-conheca, .modal-coloquio-conheca {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: var(--cor-programacao-fundo-coloquinho);
     padding: 10px 30px;
     font-size: 1.1em;
     border-radius: 15px;
     line-height: 1.1em;
     row-gap: 10px;
 }
+.modal-coloquinho-conheca {
+    background-color: var(--cor-programacao-fundo-coloquinho);
+    color: var(--cor-programacao-fonte-coloquinho);
+}
+.modal-coloquio-conheca {
+    background-color: var(--cor-programacao-fundo-coloquio);
+    color: var(--cor-programacao-fonte-coloquio);
+}
 .modal-coloquinho-conheca img {
     width: 30vw;
     min-width: 250px;
 }
-.modal-coloquinho-conheca-desc, .modal-coloquinho-conheca-desc a {
+.modal-coloquio-conheca img {
+    max-height: 200px;
+}
+@media all and (max-width: 768px) {
+    .modal-coloquio-conheca img {
+        max-height: 140px;
+    }
+}
+.modal-coloquinho-conheca-desc, .modal-coloquinho-conheca-desc a
+.modal-coloquio-conheca-desc, .modal-coloquio-conheca-desc a
+{
     font-family: monospace
 }
 

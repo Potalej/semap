@@ -34,5 +34,5 @@ jobs:
         with:
           github_token: ${{ secrets.SEMAP }}
           publish_dir: ./_site
-          publish_branch: build
+          publish_branch: build_previa
           force_orphan: true

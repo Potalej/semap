@@ -1,4 +1,4 @@
-name: Compilar Jekyll
+name: Compilar Jekyll (Prévia)
 
 on:
   push:

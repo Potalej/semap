@@ -99,13 +99,13 @@
 {% for coloquinho in coloquinhos %}
         <div class="row modal-evento-infos">
           <div class="atividade-foto col-12 col-md-3">
-            <img src="{{ site.baseurl }}/img/{{ site.ano }}/pessoas/{{ coloquinho.id_responsavel }}.jpg">
+            <img src="{{ site.baseurl }}/img/{{ site.ano }}/pessoas/{{ coloquinho[1].id_responsavel }}.jpg">
           </div>
           <div class="col-12 col-md-9">
-            <h3>{{ coloquinho.titulo }}</h3>
-            <b>Responsável: </b> {{ coloquinho.responsavel }} ({{ coloquinho.responsavel_info }})
+            <h3>{{ coloquinho[1].titulo }}</h3>
+            <b>Responsável: </b> {{ coloquinho[1].responsavel }} ({{ coloquinho[1].responsavel_info }})
             <br>
-            <b>Resumo:</b> {{ coloquinho.resumo }}
+            <b>Resumo:</b> {{ coloquinho[1].resumo }}
           </div>
         </div>
 {% endfor %}
@@ -141,13 +141,13 @@
 {% for coloquio in coloquios %}
         <div class="row modal-evento-infos">
           <div class="atividade-foto col-12 col-md-3">
-            <img src="{{ site.baseurl }}/img/{{ site.ano }}/pessoas/{{ coloquio.id_responsavel }}.jpg">
+            <img src="{{ site.baseurl }}/img/{{ site.ano }}/pessoas/{{ coloquio[1].id_responsavel }}.jpg">
           </div>
           <div class="col-12 col-md-9">
-            <h3>{{ coloquio.titulo }}</h3>
-            <b>Responsável: </b> {{ coloquinho.responsavel }} ({{ coloquio.responsavel_info }})
+            <h3>{{ coloquio[1].titulo }}</h3>
+            <b>Responsável: </b> {{ coloquio[1].responsavel }} ({{ coloquio[1].responsavel_info }})
             <br>
-            <b>Resumo:</b> {{ coloquio.resumo }}
+            <b>Resumo:</b> {{ coloquio[1].resumo }}
           </div>
         </div>
 {% endfor %}

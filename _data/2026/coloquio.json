@@ -1,9 +1,10 @@
-[
-  {
-    "titulo": "A definir",
+{
+  "coloquio1": {
+    "titulo": "A definir (Colóquio)",
     "responsavel": "A definir",
     "responsavel_info": "-",
     "resumo": "A definir",
-    "id_responsavel": "vazio"
+    "id_responsavel": "vazio",
+    "quando": "Sexta, às 14h00"
   }
-]
+}

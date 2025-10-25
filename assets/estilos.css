@@ -3,15 +3,21 @@
 ************************************************/
 @font-face {
     font-family: blackhansans; /* Nao tem ç, ã, etc */
-    src: url(./fonts/BlackHanSans-Regular.ttf);
+    src: url(./fonts/BlackHanSans-Regular.woff2) format('woff2'),
+         url(./fonts/BlackHanSans-Regular.woff) format('woff');
+    font-display: swap;
 }
 @font-face {
     font-family: anton;
-    src: url(./fonts/Anton-Regular.ttf);
+    src: url(./fonts/Anton-Regular.woff2) format('woff2'),
+         url(./fonts/Anton-Regular.woff) format('woff');
+    font-display: swap;
 }
 @font-face {
     font-family: archivoblack;
-    src: url(./fonts/ArchivoBlack-Regular.ttf);
+    src: url(./fonts/ArchivoBlack-Regular.woff2) format('woff2'),
+         url(./fonts/ArchivoBlack-Regular.woff) format('woff');
+    font-display: swap;
 }
 /************************************************
 < Fim de Fontes
@@ -28,6 +34,7 @@
     --cor-fundo-geral: white;
     --cor-texto-principal: black;
     --cor-texto-principal-hover: white;
+    --azul-ime: rgb(20, 45, 105);
 
     /* Cores menu */
     --cor-menu-fundo: white;
@@ -58,7 +65,7 @@
     --cor-programacao-fundo-estudante: white;
     --cor-programacao-fonte-estudante: black;
 
-    --cor-programacao-fundo-coloquio: rgb(20, 45, 105);
+    --cor-programacao-fundo-coloquio: var(--azul-ime);
     --cor-programacao-fonte-coloquio: white;
 
     
@@ -171,10 +178,13 @@ nav.navbar-cor button.navbar-toggler {
 }
 .post-resumo {
     padding: 20px 0px;
-    font-size: 1.2em;
-    text-align: center;
-    background-color: var(--cor-fundo-resumo);
-    color: var(--cor-fonte-resumo);
+    font-size: 1.2em !important;
+    text-align: center !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-fundo-resumo) !important;
+    color: var(--cor-fonte-resumo) !important;
 }
 .post-title {
     margin-top: 30px;
@@ -396,13 +406,18 @@ Cards para atividades
     display: grid;
     row-gap: 20px;
 }
-.atividade:nth-of-type(odd) {
-    background-color: var(--cor-atividade-alternada-impar);
-    color: var(--cor-atividade-alternada-impar-fonte);
+.atividades > .row {
+    margin: 0px;
 }
-.atividade:nth-of-type(even) {
-    background-color: var(--cor-atividade-alternada-par);
-    color: var(--cor-atividade-alternada-par-fonte);
+@media all and (max-width: 991px) {
+    .atividade:nth-of-type(odd) {
+        background-color: var(--cor-atividade-alternada-impar);
+        color: var(--cor-atividade-alternada-impar-fonte);
+    }
+    .atividade:nth-of-type(even) {
+        background-color: var(--cor-atividade-alternada-par);
+        color: var(--cor-atividade-alternada-par-fonte);
+    }
 }
 .atividade {
     padding: 15px;
@@ -410,6 +425,9 @@ Cards para atividades
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.atividade > .row {
+    width: 100%;
 }
 .atividade-foto {
     display: flex;
@@ -433,6 +451,15 @@ Cards para atividades
 .atividade-resumo {
     font-size: small;
 }
+
+.palestra-coloquio {
+    background-color: var(--azul-ime) !important;
+    color: var(--cor-programacao-fonte-coloquio) !important;
+}
+.palestra-coloquinho {
+    background-color: var(--cor-programacao-fundo-coloquinho) !important;
+    color: var(--cor-programacao-fonte-coloquinho) !important;
+}
 /************************************************
 < Fim de Paginas: MINICURSOS, PALESTRAS
 ************************************************/
@@ -446,7 +473,7 @@ Cards para atividades
     font-weight: bolder;
     text-transform: uppercase;
     color: white;
-    font-size: 9vh;
+    font-size: 8.5vh;
     padding-top: 40%;
     padding-bottom: 3vh;
     text-align: right;
@@ -467,11 +494,11 @@ Cards para atividades
 .inicio-capa p {
     color: white;
     font-weight: bolder;
-    text-align: right;    
+    text-align: right;
 }
 .inicio-capa {
     position: relative;
-    height: 100vh;
+    height: 100dvh;
     /* background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://pbs.twimg.com/media/FBhWLV-WEAcwXqu?format=jpg&name=4096x4096'); */
     background: var(--capa-principal);
     background-size: cover;
@@ -479,11 +506,11 @@ Cards para atividades
     text-align: right;
 }
 .inicio-capa-descricao {
-    font-size: 2.3vh;
+    font-size: 2.2vh;
 }
 .inicio-capa-data {
     padding-top: 5%;
-    font-size: 3.3vh;
+    font-size: 3vh;
 }
 .inicio-capa-local {
     font-size: 3vh;

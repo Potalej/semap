@@ -4,65 +4,47 @@ title: Palestras
 permalink: /palestras/
 ---
 
-<div class="post-resumo">
-  <div class="container">
-    <h2>Palestras de professores</h2>
-  </div>
-</div>
-
-<section class="atividades">
-    {% for palestra in site.data[site.ano].palestras %}
-    <div class="atividade">
-        <div class="row container" id="{{ palestra[0] }}">
-            <div class="atividade-foto col-md-3 col-12">
-                <img src="{{ site.baseurl }}/img/{{ site.ano }}/pessoas/{{ palestra[1].id_responsavel }}.jpg">
+<div class="accordion" id="accordion">
+    <div class="accordion-item border-0">
+        <div class="accordion-header">
+            <div class="collapsed post-resumo rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProfessores" aria-expanded="false" aria-controls="collapseProfessores">
+                <i class="fa-solid fa-caret-right"></i> Palestras de professores
             </div>
-            <div class="atividade-infos col-md-9 col-12">
-                <div class="atividade-titulo">
-                    {{ palestra[1].titulo }}
-                </div>
-                <div class="atividade-responsavel">
-                    {{ palestra[1].responsavel }}
-                </div>
-                <div class="atividade-resumo">
-                    <span>
-                        {{ palestra[1].resumo }}
-                    </span>
-                </div>
+        </div>
+        <div id="collapseProfessores" class="accordion-collapse collapse" data-bs-parent="#accordion">
+            <div class="accordion-body p-0">
+                <section class="atividades">
+                    <div class="row">
+                        {% for palestra in site.data[site.ano].palestras %}
+                            {% include palestra.html palestra=palestra %}
+                        {% endfor %}
+                        {% for palestra in site.data[site.ano].coloquio %}
+                            {% include palestra.html palestra=palestra classe="palestra-coloquio" %}
+                        {% endfor %}
+                    </div>
+                </section>
             </div>
         </div>
     </div>
-    {% endfor %}
-</section>
-
-<hr>
-<div class="post-resumo">
-  <div class="container">
-    <h2>Palestras de estudantes</h2>
-  </div>
-</div>
-
-<section class="atividades">
-    {% for palestra in site.data[site.ano].estudantes %}
-    <div class="atividade">
-        <div class="row container" id="{{ palestra[0] }}">
-            <div class="atividade-foto col-md-3 col-12">
-                <img src="{{ site.baseurl }}/img/{{ site.ano }}/pessoas/{{ palestra[1].id_responsavel }}.jpg">
+    <div class="accordion-item border-0">
+        <div class="accordion-header">
+            <div class="collapsed post-resumo rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEstudantes" aria-expanded="false" aria-controls="collapseEstudantes">
+                <i class="fa-solid fa-caret-right"></i> Palestras de estudantes
             </div>
-            <div class="atividade-infos col-md-9 col-12">
-                <div class="atividade-titulo">
-                    {{ palestra[1].titulo }}
-                </div>
-                <div class="atividade-responsavel">
-                    {{ palestra[1].responsavel }}
-                </div>
-                <div class="atividade-resumo">
-                    <span>
-                        {{ palestra[1].resumo }}
-                    </span>
-                </div>
+        </div>
+        <div id="collapseEstudantes" class="accordion-collapse collapse" data-bs-parent="#accordion">
+            <div class="accordion-body">
+                <section class="atividades">
+                    <div class="row">
+                        {% for palestra in site.data[site.ano].estudantes %}
+                            {% include palestra.html palestra=palestra %}
+                        {% endfor %}
+                        {% for palestra in site.data[site.ano].coloquinho %}
+                            {% include palestra.html palestra=palestra classe="palestra-coloquinho" %}
+                        {% endfor %}
+                    </div>
+                </section>
             </div>
         </div>
     </div>
-    {% endfor %}
-</section>
+</div>

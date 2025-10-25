@@ -1,16 +1,18 @@
-[
-  {
-    "titulo": "A definir",
+{
+  "coloquinho1": {
+    "titulo": "A definir (Coloquinho)",
     "responsavel": "Estudante",
     "responsavel_info": "-",
     "resumo": "A definir",
-    "id_responsavel": "vazio"
+    "id_responsavel": "vazio",
+    "quando": "Terça, às 14h00"
   },
-  {
-    "titulo": "A definir",
+  "coloquinho2": {
+    "titulo": "A definir (Coloquinho)",
     "responsavel": "Estudante",
     "responsavel_info": "-",
     "resumo": "A definir",
-    "id_responsavel": "vazio"
+    "id_responsavel": "vazio",
+    "quando": "Terça, às 14h30"
   }
-]
+}

@@ -1,5 +1,10 @@
 name: Compilar Jekyll
 
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,6 +16,10 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.1
+      
+      - name: Ajustar config para GitHub Pages
+        run: |
+          sed -i 's|^baseurl:.*|baseurl: "/previa"|' _config.yml
     
       - name: Instalar Jekyll e dependências
         run: |

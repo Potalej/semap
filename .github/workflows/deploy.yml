@@ -1,12 +1,5 @@
 name: Deploy para a Rede IME
 
-# So roda quando o outro roda
-on:
-  workflow_run:
-    workflows: ["Compilar Jekyll"]
-    types:
-      - completed
-
 jobs:
   deploy:
     runs-on: ubuntu-latest

@@ -14,10 +14,6 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.1
-            
-      - name: Ajustar config para o site da SeMAP
-        run: |
-          sed -i 's|^baseurl:.*|baseurl: "https://semap.ime.usp.br"|' _config.yml
     
       - name: Instalar Jekyll e dependências
         run: |

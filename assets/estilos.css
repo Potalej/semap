@@ -109,18 +109,23 @@ body, main.page-content {
 /* Menu */
 nav.navbar {
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    height: 64px;
+    height: 80px;
+}
+a.site-title, a.site-title div {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    color: var(--cor-links);
 }
 a.site-title {
-    display: flex;
-    color: white !important;
+    line-height: 0px;
 }
-div.site-title {
+a.site-title div {
     display: flex;
     align-items: center;
     height: 64px;
 }
-div.site-title img {
+a.site-title img {
     display: block;
     height: 90%;
 }
@@ -143,6 +148,9 @@ nav.navbar-scrolled {
 }
 .offcanvas-title {
     font-size: 5vw;
+}
+.offcanvas-title img {
+    height: 90px;
 }
 .offcanvas-body .navbar-nav {
     margin-left: 0px;

@@ -3,12 +3,12 @@
   {%- assign page_paths = site.header_pages | default: default_paths -%}
   <nav class="navbar fixed-top navbar-expand-lg">
   <div class="container">
-    <div class="navbar-brand site-title">
-      <img src="{{ site.baseurl }}/img/{{ site.ano }}/identidade_visual/logo_sem_bordo_sem_bg.png">
-      <a class="navbar-brand site-title" rel="author" href="{{ "/" | relative_url }}">
+    <a class="navbar-brand site-title" rel="author" href="{{ "/" | relative_url }}">
+      <div class="navbar-brand site-title">
+        <img src="{{ site.baseurl }}/img/{{ site.ano }}/identidade_visual/logo_sem_bordo_sem_bg.png">
         SeMAP
-      </a>
-    </div>
+      </div>
+    </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" id="botao_menu">
       <span class="navbar-toggler-icon"></span>
@@ -16,19 +16,19 @@
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-          {{ site.title | escape }}
+          <img src="{{ site.baseurl }}/img/{{ site.ano }}/identidade_visual/transparente.png">
+          <!-- {{ site.title | escape }} -->
         </h5>
         <button type="button" data-bs-dismiss="offcanvas" aria-label="Close">X</button>
       </div>
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-          {%- for path in page_paths -%}
-            {%- assign my_page = site.pages | where: "path", path | first -%}
-              {%- if my_page.title -%}
-              <li class="nav-item">
-                <a href="{{ my_page.url | relative_url}}" class="nav-link page-link">{{ my_page.title | escape }}</a>
-              </li>
-              {%- endif -%}
+          {%- for item in site.data[site.ano].paginas -%}
+            <li class="nav-item">
+              <a href="{{ item.url | relative_url }}" class="nav-link page-link">
+                {{ item.titulo | escape }}
+              </a>
+            </li>
           {%- endfor -%}
         </ul>
       </div>

@@ -19,6 +19,12 @@
          url(./fonts/ArchivoBlack-Regular.woff) format('woff');
     font-display: swap;
 }
+@font-face {
+    font-family: ComicRelief;
+    src: url(./fonts/ComicRelief-Regular.woff2) format('woff2'),
+         url(./fonts/ComicRelief-Regular.woff) format('woff');
+    font-display: swap;
+}
 /************************************************
 < Fim de Fontes
 ************************************************/
@@ -91,9 +97,7 @@
 }
 
 * {
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
-    font-family: cursive
+    font-family: ComicRelief, Arial, sans-serif;
 }
 
 /* Ancoras */

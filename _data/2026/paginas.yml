@@ -9,3 +9,6 @@
 
 - titulo: Minicursos
   url: "minicursos"
+
+- titulo: Sobre
+  url: "sobre"

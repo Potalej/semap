@@ -91,7 +91,9 @@
 }
 
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: cursive
 }
 
 /* Ancoras */
@@ -179,6 +181,9 @@ nav.navbar-scrolled a, nav.navbar-cor a {
 }
 nav.navbar-cor button.navbar-toggler {
     filter: unset;
+}
+h2 {
+    margin-bottom: 20px !important;
 }
 
 

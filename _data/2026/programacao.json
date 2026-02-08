@@ -81,11 +81,28 @@
     "Terça-Feira": [
         {
             "nome": "Coloquinho (Edição especial)",
-            "comeca": 14.5,
-            "termina": 15.5,
+            "comeca": 13,
+            "termina": 14,
             "local": "Bloco B",
             "tipo": "coloquinho",
             "id": "coloquinho",
+            "tem_modal": true
+        },
+        {
+            "nome": "Coffee-Break (Coloquinho)",
+            "comeca": 14,
+            "termina": 14.5,
+            "local": "Bloco B",
+            "tipo": "comer",
+            "tem_modal": false
+        },
+        {
+            "nome": "Plenária (A definir)",
+            "comeca": 14.5,
+            "termina": 15.5,
+            "local": "Bloco B",
+            "tipo": "palestra",
+            "id": "plenaria_ter_14h30",
             "tem_modal": true
         },
         {
@@ -141,6 +158,15 @@
         }
     ],
     "Quarta-Feira": [
+        {
+            "nome": "Plenária (Estudante)",
+            "comeca": 14,
+            "termina": 14.5,
+            "local": "Bloco B",
+            "tipo": "estudante",
+            "id": "plenaria_estudante_qua_14h00",
+            "tem_modal": true
+        },
         {
             "nome": "Plenária (Estudante)",
             "comeca": 14.5,
@@ -214,6 +240,15 @@
         }
     ],
     "Quinta-Feira": [
+        {
+            "nome": "Plenária (Estudante)",
+            "comeca": 14,
+            "termina": 14.5,
+            "local": "Bloco B",
+            "tipo": "estudante",
+            "id": "plenaria_estudante_qui_14h00",
+            "tem_modal": true
+        },
         {
             "nome": "Plenária (Estudante)",
             "comeca": 14.5,
@@ -305,21 +340,12 @@
             "tem_modal": false
         },
         {
-            "nome": "Plenária (Estudante)",
+            "nome": "Plenária (A definir)",
             "comeca": 16,
-            "termina": 16.5,
-            "local": "Bloco B",
-            "tipo": "estudante",
-            "id": "plenaria_estudante_sex_16h00",
-            "tem_modal": true
-        },
-        {
-            "nome": "Plenária (Estudante)",
-            "comeca": 16.5,
             "termina": 17,
             "local": "Bloco B",
-            "tipo": "estudante",
-            "id": "plenaria_estudante_sex_16h30",
+            "tipo": "palestra",
+            "id": "plenaria_sex_16h00",
             "tem_modal": true
         },
         {

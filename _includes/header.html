@@ -3,7 +3,12 @@
   {%- assign page_paths = site.header_pages | default: default_paths -%}
   <nav class="navbar fixed-top navbar-expand-lg">
   <div class="container">
-    <a class="navbar-brand site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <div class="navbar-brand site-title">
+      <img src="{{ site.baseurl }}/img/{{ site.ano }}/identidade_visual/logo_sem_bordo_sem_bg.png">
+      <a class="navbar-brand site-title" rel="author" href="{{ "/" | relative_url }}">
+        SeMAP
+      </a>
+    </div>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" id="botao_menu">
       <span class="navbar-toggler-icon"></span>

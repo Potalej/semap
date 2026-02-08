@@ -27,9 +27,12 @@
 > Variaveis e configs globais
 ************************************************/
 :root {
+    --azul: #052b71;
+    --verde-medio: #05a672;
+
     /* Cores gerais */
-    --cor-principal: #a05dee;
-    --cor-links: #8339d8;
+    --cor-principal: var(--verde-medio);
+    --cor-links: var(--verde-medio);
     --cor-secundaria: #eee;
     --cor-fundo-geral: white;
     --cor-texto-principal: black;
@@ -84,7 +87,7 @@
     --fonte-capa-paginas: anton;
 
     /* Imagens */
-    --capa-principal: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/2026/newton.jpg');
+    --capa-principal: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/2026/fundo.jpg');
 }
 
 * {
@@ -106,9 +109,20 @@ body, main.page-content {
 /* Menu */
 nav.navbar {
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    height: 64px;
 }
 a.site-title {
+    display: flex;
     color: white !important;
+}
+div.site-title {
+    display: flex;
+    align-items: center;
+    height: 64px;
+}
+div.site-title img {
+    display: block;
+    height: 90%;
 }
 nav.navbar-scrolled {
     background-color: white !important;
@@ -537,6 +551,14 @@ Cards para atividades
 }
 .inicio-informacoes-cartoes {
     padding-top: 30px;
+}
+.inicio-sobre div:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inicio-sobre img {
+    max-height: 200px;
 }
 /************************************************
 < Fim de Pagina: INICIO

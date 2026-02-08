@@ -116,14 +116,12 @@ a.site-title, a.site-title div {
     margin: 0px;
     padding: 0px;
     color: var(--cor-links);
-}
-a.site-title {
-    line-height: 0px;
-}
-a.site-title div {
-    display: flex;
     align-items: center;
     height: 64px;
+}
+.site-title:hover {
+    color: var(--cor-links) !important;
+    text-decoration: underline;
 }
 a.site-title img {
     display: block;

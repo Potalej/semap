@@ -97,7 +97,8 @@
 }
 
 * {
-    font-family: ComicRelief, Arial, sans-serif;
+    /* font-family: ComicRelief, Arial, sans-serif; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Ancoras */

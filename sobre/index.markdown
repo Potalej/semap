@@ -80,7 +80,7 @@ Para mais detalhes, recomendamos o vídeo “Newton’s fractal (which Newton kn
             O Semapinho é o mascote da SeMAP, e não poderia ser outra coisa senão um pato: o que melhor descreve a matemática aplicada do que a versatilidade da ave que anda, nada e voa?
         </p>
         <p>
-            Mas, antes disso, o Semapinho é também uma homenagem. No fim de 2022, estudantes do Bacharelado em Matemática Aplicada e Computacional (BMAC), através do Centro Acadêmico dos estudantes do IME-USP, o CAMat, entrevistaram o professor Manuel Valentim de Pera Garcia, carinhosamente apelidado de Mané, que <a href="https://memorial.ime.usp.br/homenageados/14">infelizmente nos deixou em 2025</a>. Em um dos diversos assuntos da entrevista, Mané fala sobre a criação do BMAC e, a respeito da ideia inicial do curso noturno ter um trabalho de formatura e o diurno (BMA) não, diz:
+            Mas, antes disso, o Semapinho é também uma homenagem. No fim de 2022, estudantes do Bacharelado em Matemática Aplicada e Computacional (BMAC), através do Centro Acadêmico dos estudantes do IME-USP, o CAMat, entrevistaram o professor Manuel Valentim de Pera Garcia, carinhosamente apelidado de Mané, que <a href="https://memorial.ime.usp.br/homenageados/14" target="_blank">infelizmente nos deixou em 2025</a>. Em um dos diversos assuntos da entrevista, Mané fala sobre a criação do BMAC e, a respeito da ideia inicial do curso noturno ter um trabalho de formatura e o diurno (BMA) não, diz:
         </p>
         <blockquote>
             Nós já éramos o patinho feio, o BMA, desse jeito íamos ficar o patinho horroroso.

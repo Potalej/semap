@@ -116,9 +116,8 @@ body, main.page-content {
 /* Menu */
 nav.navbar {
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    height: 80px;
 }
-a.site-title, a.site-title div {
+a.site-title div {
     display: flex;
     margin: 0px;
     padding: 0px;
@@ -126,12 +125,11 @@ a.site-title, a.site-title div {
     align-items: center;
     height: 64px;
 }
-.site-title:hover {
+.site-title:hover span {
     color: var(--cor-links) !important;
     text-decoration: underline;
 }
-a.site-title img {
-    display: block;
+.site-title img {
     height: 90%;
 }
 nav.navbar-scrolled {

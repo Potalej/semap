@@ -11,12 +11,15 @@ tem_resumo: true
   </div>
 </div>
 
-<div class="post-content">
-{% assign forms_link = site.data[site.ano].infos.posteres_formulario %}
-{% if forms_link == "" %}
-  <br>
-  <h3 style="text-align: center">O formulário de inscrição será disponibilizado em breve!</h3>
-{% else %}
-  <iframe src="{{ forms_link }}" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
-{% endif %}
-</div>
+<div class="post-content container d-flex justify-content-center">
+
+<a class="botao-formulario-posteres" href="{{ site.data[site.ano].infos.posteres_formulario }}" target="_blank">
+  <div class="row justify-content-md-center">
+    <div class="col-4">
+      <img src="{{ site.url }}/img/list-check-solid-full.svg">
+    </div>
+    <div class="col-8">
+      Para apresentar uma palestra ou participar da sessão de pôsteres, clique aqui e preencha o formulário!
+    </div>
+  </div>
+</a>

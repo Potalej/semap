@@ -35,6 +35,7 @@
 :root {
     --azul: #052b71;
     --verde-medio: #05a672;
+    --azul-escuro: #011335;
 
     /* Cores gerais */
     --cor-principal: var(--verde-medio);
@@ -576,4 +577,38 @@ Cards para atividades
 }
 /************************************************
 < Fim de Pagina: INICIO
+************************************************/
+
+/************************************************
+> Pagina: POSTERES
+************************************************/
+.botao-formulario-posteres {
+    background-color: var(--verde-medio) !important;
+    color: var(--cor-texto-principal-hover) !important;
+    border-radius: 10px;
+    /* font-size: 1.3rem; */
+    text-align: justify;
+    padding: 10px;
+    margin-top: 15px !important;
+    transition: background-color 0.2s ease-in-out;
+    text-decoration: none;
+}
+.botao-formulario-posteres img {
+    fill: var(--cor-texto-principal-hover);
+    stroke: white;
+    color: white;
+    width: 100px;
+}
+.botao-formulario-posteres div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.botao-formulario-posteres:hover {
+    background-color: var(--azul-escuro) !important;
+}
+
+/************************************************
+< Fim de Pagina: POSTERES
 ************************************************/

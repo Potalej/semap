@@ -1,0 +1,614 @@
+/************************************************
+> Fontes
+************************************************/
+@font-face {
+    font-family: blackhansans; /* Nao tem ç, ã, etc */
+    src: url(./fonts/BlackHanSans-Regular.woff2) format('woff2'),
+         url(./fonts/BlackHanSans-Regular.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: anton;
+    src: url(./fonts/Anton-Regular.woff2) format('woff2'),
+         url(./fonts/Anton-Regular.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: archivoblack;
+    src: url(./fonts/ArchivoBlack-Regular.woff2) format('woff2'),
+         url(./fonts/ArchivoBlack-Regular.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: ComicRelief;
+    src: url(./fonts/ComicRelief-Regular.woff2) format('woff2'),
+         url(./fonts/ComicRelief-Regular.woff) format('woff');
+    font-display: swap;
+}
+/************************************************
+< Fim de Fontes
+************************************************/
+
+/************************************************
+> Variaveis e configs globais
+************************************************/
+:root {
+    --azul: #052b71;
+    --verde-medio: #05a672;
+    --azul-escuro: #011335;
+
+    /* Cores gerais */
+    --cor-principal: var(--verde-medio);
+    --cor-links: var(--verde-medio);
+    --cor-secundaria: #eee;
+    --cor-fundo-geral: white;
+    --cor-texto-principal: black;
+    --cor-texto-principal-hover: white;
+    --azul-ime: rgb(20, 45, 105);
+
+    /* Cores menu */
+    --cor-menu-fundo: white;
+    --cor-menu-hover: transparent;
+    --cor-menu-contraido-corpo: rgba(21,21,21,0.95);
+    --cor-menu-contraido-header: rgba(21,21,21,0.95);
+    --cor-menu-contraido-header-texto: white;
+
+    /* Cores eventos da pagina: PROGRAMACAO */
+    --cor-programacao-fundo-comer: #515151;
+    --cor-programacao-fonte-comer: white;
+
+    --cor-programacao-fundo-minicurso: white;
+    --cor-programacao-fonte-minicurso: black;
+
+    --cor-programacao-fundo-cerimonia: white;
+    --cor-programacao-fonte-cerimonia: black;
+
+    --cor-programacao-fundo-palestra: white;
+    --cor-programacao-fonte-palestra: black;
+
+    --cor-programacao-fundo-coloquinho: #fdffd0;
+    --cor-programacao-fonte-coloquinho: black;
+
+    --cor-programacao-fundo-credenciamento: white;
+    --cor-programacao-fonte-credenciamento: black;
+
+    --cor-programacao-fundo-estudante: white;
+    --cor-programacao-fonte-estudante: black;
+
+    --cor-programacao-fundo-coloquio: var(--azul-ime);
+    --cor-programacao-fonte-coloquio: white;
+
+    
+    /* Cores das paginas: PALESTRAS, MINICURSOS */
+    --cor-atividade-alternada-par:        #212121;
+    --cor-atividade-alternada-par-fonte:  white;
+    --cor-atividade-alternada-impar:      white;
+    --cor-atividade-alternada-impar-fonte:black;
+
+    /* Cores da pagina: POSTERES */
+    --cor-fundo-resumo: #212121;
+    --cor-fonte-resumo: white;
+
+    /* Fontes */
+    --fonte-capa-titulo: blackhansans;
+    --fonte-capa-paginas: anton;
+
+    /* Imagens */
+    --capa-principal: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/2026/fundo.jpg');
+}
+
+* {
+    /* font-family: ComicRelief, Arial, sans-serif; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Ancoras */
+body a {
+    color: var(--cor-links);
+}
+
+/* Fundo geral */
+body, main.page-content {
+    background-color: var(--cor-fundo-geral) !important;
+    color: var(--cor-texto-principal) !important;
+    padding: 0px;
+}
+
+/* Menu */
+nav.navbar {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+a.site-title div {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    color: var(--cor-links);
+    align-items: center;
+    height: 64px;
+}
+.site-title:hover span {
+    color: var(--cor-links) !important;
+    text-decoration: underline;
+}
+.site-title img {
+    height: 90%;
+}
+nav.navbar-scrolled {
+    background-color: white !important;
+}
+.offcanvas {
+    background-color: rgba(21,21,21,0.95) !important;
+}
+.offcanvas-header {
+    background-color: var(--cor-menu-contraido-header);
+    color: var(--cor-menu-contraido-header-texto);
+}
+.offcanvas button {
+    color: var(--cor-menu-contraido-header-texto) !important;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5em;
+    font-family: Verdana;
+}
+.offcanvas-title {
+    font-size: 5vw;
+}
+.offcanvas-title img {
+    height: 90px;
+}
+.offcanvas-body .navbar-nav {
+    margin-left: 0px;
+    gap: 10px;
+}
+.offcanvas-body .navbar-nav .nav-item {
+    font-size: larger;
+    padding: 5px;
+    margin: 0px;
+}
+.offcanvas-body .navbar-nav .nav-item:hover {
+    background-color: var(--cor-menu-hover);
+}
+.nav-item a {
+    color: white !important;
+}
+.nav-item:hover a {
+    text-decoration: none;
+}
+button.navbar-toggler {
+    filter: invert(100%);
+}
+nav.navbar-scrolled, nav.navbar-cor {
+    background-color: var(--cor-menu-fundo) !important;
+}
+nav.navbar-scrolled a, nav.navbar-cor a {
+    color: var(--cor-links) !important;
+}
+nav.navbar-cor button.navbar-toggler {
+    filter: unset;
+}
+h2 {
+    margin-bottom: 20px !important;
+}
+
+
+/* Cabecalho das paginas */
+.post-header {
+    /* margin-top: 50px; */
+    text-align: center;
+    height: 35vh;
+    /* padding: 10vh 0px;; */
+    background: var(--capa-principal);
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.post-resumo {
+    padding: 20px 0px;
+    font-size: 1.2em !important;
+    text-align: center !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-fundo-resumo) !important;
+    color: var(--cor-fonte-resumo) !important;
+}
+.post-title {
+    margin-top: 30px;
+    font-family: var(--fonte-capa-paginas);
+    font-size: 3.2em !important;
+}
+
+/* Rodape */
+footer a, footer a:visited {
+    text-decoration: none;
+    color: var(--cor-links) !important;
+}
+.footer-ime-2 {
+    display: none;
+}
+@media all and (max-width: 768px) {
+    .footer-ime-2 {
+        display: flex;
+    }
+    .footer-ime-1 {
+        display: none;
+    }
+}
+/************************************************
+< Fim de Variaveis e configs globais
+************************************************/
+
+
+/************************************************
+> Pagina: PROGRAMACAO
+************************************************/
+section.programacaoSecao {
+    margin-top: 30px;
+}
+
+/* Carousel */
+.carousel-item h5 {
+    margin: 0 auto;
+    text-align: center;
+}
+.carousel-item .btn {
+    min-width: 2.5rem;
+    font-size: 0.9rem;
+    padding: 0.25rem 0.5rem;
+}
+.carousel-item .d-flex {
+    gap: 1rem;
+}
+.carousel-cabecalho {
+    background-color: #414141;
+    color: white;
+    padding: 10px;
+}
+.carousel-cabecalho button {
+    color: black;
+    border: none;
+    font-weight: bold;
+    background-color: white;
+}
+.carousel-cabecalho button:hover {
+    background-color: var(--cor-links);
+    color: white;
+}
+
+/*
+    TABELA
+*/
+table.programacao_tabela {
+    /* border: none; */
+    border-radius: 10px;
+    text-align: center;
+    border-collapse: separate; 
+    border-spacing: 0.5em; 
+}
+table.programacao_tabela tr {
+}
+table.programacao_tabela th {
+    /* border: none; */
+    border-radius: 10px;
+    background-color: #414141;
+    color: white;
+}
+table.programacao_tabela td {
+    border-radius: 10px;
+}
+
+/* 
+    EVENTOS DA PAGINA DE PROGRAMACAO
+*/
+.evento a {
+    all: unset !important;
+}
+.evento-minicurso:hover, 
+.evento-cerimonia:hover,
+.evento-palestra:hover,
+.evento-coloquinho:hover,
+.evento-credenciamento:hover,
+.evento-estudante:hover,
+.evento-coloquio:hover
+{
+    cursor: pointer !important;
+    color: var(--cor-links) !important;
+}
+.evento-comer {
+    background-color: var(--cor-programacao-fundo-comer);
+    color: var(--cor-programacao-fonte-comer);
+}
+.evento-minicurso {
+    background-color: var(--cor-programacao-fundo-minicurso);
+    color: var(--cor-programacao-fonte-minicurso);
+}
+.evento-cerimonia {
+    background-color: var(--cor-programacao-fundo-cerimonia);
+    color: var(--cor-programacao-fonte-cerimonia);
+}
+.evento-palestra {
+    background-color: var(--cor-programacao-fundo-palestra);
+    color: var(--cor-programacao-fonte-palestra);
+}
+.evento-coloquinho {
+    background-color: var(--cor-programacao-fundo-coloquinho);
+    color: var(--cor-programacao-fonte-coloquinho);
+}
+.evento-credenciamento {
+    background-color: var(--cor-programacao-fundo-credenciamento);
+    color: var(--cor-programacao-fonte-credenciamento);
+}
+.evento-estudante {
+    background-color: var(--cor-programacao-fundo-estudante);
+    color: var(--cor-programacao-fonte-estudante);
+}
+.evento-coloquio {
+    background-color: var(--cor-programacao-fundo-coloquio);
+    color: var(--cor-programacao-fonte-coloquio);
+}
+
+/* Modais*/
+.modal {
+    color: black;    
+}
+.modal .atividade-foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal .atividade-foto img {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+.modal-evento-infos {
+    row-gap: 13px;
+}
+.modal-minicurso, .modal-coloquinho, .modal-coloquio {
+    --bs-modal-width: 90% !important;
+}
+.modal-minicurso .modal-body, 
+.modal-coloquinho .modal-body,
+.modal-coloquio .modal-body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px !important;
+    padding: 20px !important;
+}
+.modal-coloquinho-conheca, .modal-coloquio-conheca {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 1.1em;
+    border-radius: 15px;
+    line-height: 1.1em;
+    row-gap: 10px;
+}
+.modal-coloquinho-conheca {
+    background-color: var(--cor-programacao-fundo-coloquinho);
+    color: var(--cor-programacao-fonte-coloquinho);
+}
+.modal-coloquio-conheca {
+    background-color: var(--cor-programacao-fundo-coloquio);
+    color: var(--cor-programacao-fonte-coloquio);
+}
+.modal-coloquinho-conheca img {
+    width: 30vw;
+    min-width: 250px;
+}
+.modal-coloquio-conheca img {
+    max-height: 200px;
+}
+@media all and (max-width: 768px) {
+    .modal-coloquio-conheca img {
+        max-height: 140px;
+    }
+}
+.modal-coloquinho-conheca-desc, .modal-coloquinho-conheca-desc a
+.modal-coloquio-conheca-desc, .modal-coloquio-conheca-desc a
+{
+    font-family: monospace
+}
+
+.highlight {
+    background-color: var(--cor-principal) !important;
+    transition: background-color 0.5s ease-in-out;
+    color: white;
+}  
+/************************************************
+< Fim de Pagina: PROGRAMACAO
+************************************************/
+
+
+/************************************************
+> Paginas: MINICURSOS, PALESTRAS
+************************************************/
+/*
+Cards para atividades
+*/
+.atividades {
+    display: grid;
+    row-gap: 20px;
+}
+.atividades > .row {
+    margin: 0px;
+}
+@media all and (max-width: 991px) {
+    .atividade:nth-of-type(odd) {
+        background-color: var(--cor-atividade-alternada-impar);
+        color: var(--cor-atividade-alternada-impar-fonte);
+    }
+    .atividade:nth-of-type(even) {
+        background-color: var(--cor-atividade-alternada-par);
+        color: var(--cor-atividade-alternada-par-fonte);
+    }
+}
+.atividade {
+    padding: 15px;
+    scroll-margin-top: 90px; /* altura da navbar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.atividade > .row {
+    width: 100%;
+}
+.atividade-foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.atividade-foto img {
+    width: 170px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.atividade-titulo {
+    padding-bottom: 4px;
+    font-size: x-large;
+}
+.atividade-responsavel {
+    padding-bottom: 8px;
+}
+
+.atividade-resumo {
+    font-size: small;
+}
+
+.palestra-coloquio {
+    background-color: var(--azul-ime) !important;
+    color: var(--cor-programacao-fonte-coloquio) !important;
+}
+.palestra-coloquinho {
+    background-color: var(--cor-programacao-fundo-coloquinho) !important;
+    color: var(--cor-programacao-fonte-coloquinho) !important;
+}
+/************************************************
+< Fim de Paginas: MINICURSOS, PALESTRAS
+************************************************/
+
+/************************************************
+> Pagina: INICIO
+************************************************/
+.inicio {
+}
+.inicio h1 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: white;
+    font-size: 7.5dvh;
+    padding-top: 33dvh;
+    padding-bottom: 3dvh;
+    text-align: right;
+    font-family: var(--fonte-capa-titulo); 
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.435);
+}
+@media all and (min-width: 768px) {
+    .inicio-capa-texto {
+        max-width: 50dvw;
+    }
+}
+@media all and (min-width: 968px) {
+    .inicio-capa-texto {
+        max-width: 40dvw;
+    }
+}
+.inicio-capa-texto {
+    float: right;
+}
+.inicio-capa p {
+    color: white;
+    font-weight: bolder;
+    text-align: right;
+}
+.inicio-capa {
+    position: relative;
+    height: 100dvh;
+    /* background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://pbs.twimg.com/media/FBhWLV-WEAcwXqu?format=jpg&name=4096x4096'); */
+    background: var(--capa-principal);
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+}
+.inicio-capa-descricao {
+    font-size: 2dvh;
+}
+.inicio-capa-data {
+    padding-top: 5%;
+    font-size: 2.5dvh;
+}
+.inicio-capa-local {
+    font-size: 2.5dvh;
+}
+.inicio-informacoes {
+    padding: 30px 0px;
+}
+.card-icon {
+    font-size: 4rem;
+    color: var(--cor-principal);
+}
+.card:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    cursor: pointer;
+    background-color: var(--cor-principal);
+    color: var(--cor-texto-principal-hover);
+    transition-duration: .3s;
+}
+.card:hover .card-icon {
+    color: var(--cor-texto-principal-hover);
+    transition-duration: .3s;
+}
+.inicio-informacoes-cartoes {
+    padding-top: 30px;
+}
+.inicio-sobre div:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inicio-sobre img {
+    max-height: 200px;
+}
+/************************************************
+< Fim de Pagina: INICIO
+************************************************/
+
+/************************************************
+> Pagina: POSTERES
+************************************************/
+.botao-formulario-posteres {
+    background-color: var(--verde-medio) !important;
+    color: var(--cor-texto-principal-hover) !important;
+    border-radius: 10px;
+    /* font-size: 1.3rem; */
+    text-align: justify;
+    padding: 10px;
+    margin-top: 15px !important;
+    transition: background-color 0.2s ease-in-out;
+    text-decoration: none;
+}
+.botao-formulario-posteres img {
+    fill: var(--cor-texto-principal-hover);
+    stroke: white;
+    color: white;
+    width: 100px;
+}
+.botao-formulario-posteres div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.botao-formulario-posteres:hover {
+    background-color: var(--azul-escuro) !important;
+}
+
+/************************************************
+< Fim de Pagina: POSTERES
+************************************************/

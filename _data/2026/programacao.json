@@ -127,7 +127,7 @@
             "comeca": 17,
             "termina": 18.5,
             "local": "Bloco B",
-            "tipo": "comer",
+            "tipo": "posteres",
             "tem_modal": false
         },
         {
@@ -364,6 +364,14 @@
             "termina": 19,
             "local": "Bloco B",
             "tipo": "comer",
+            "tem_modal": false
+        },
+        {
+            "nome": "Confraternização",
+            "comeca": 19,
+            "termina": 20,
+            "local": "Bloco B",
+            "tipo": "bingo",
             "tem_modal": false
         }
     ]

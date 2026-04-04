@@ -1,0 +1,35 @@
+{% assign palestras = site.data[site.ano].palestras %}
+{% assign minicursos = site.data[site.ano].minicursos %}
+{% assign coloquinhos = site.data[site.ano].coloquinho %}
+{% assign coloquios = site.data[site.ano].coloquio %}
+{% assign estudantes = site.data[site.ano].estudantes %}
+{% assign pessoas = site.data[site.ano].pessoas %}
+{% assign evento = include.evento %}
+
+<!-- idr eh parametro -->
+{% assign idr = include.idr %}
+{% assign pessoa = pessoas[idr] %}
+
+<div class="modal modal-lg fade" id="modal_pessoa_{{ idr }}" tabindex="-1" aria-labelledby="modal_pessoa_{{ idr }}Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modal_pessoa_{{ idr }}Label">
+          {{ pessoa.nome }} ({{ pessoa.filiacao }})
+        </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row modal-evento-infos">
+          <div class="atividade-foto col-12">
+            <img src="{{ site.baseurl }}/img/{{ site.ano }}/pessoas/{{ idr }}.jpg">
+          </div>
+          <div class="col-12">
+            <b>Biografia</b><br>
+            {{ pessoa.biografia }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,88 @@
+---
+layout: default
+---
+
+{% assign palestras = site.data[site.ano].palestras %}
+{% assign coloquio = site.data[site.ano].coloquio %}
+{% assign coloquinho = site.data[site.ano].coloquinho %}
+{% assign estudantes = site.data[site.ano].estudantes %}
+{% assign minicursos = site.data[site.ano].minicursos %}
+
+{% assign pessoas = site.data[site.ano].pessoas %}
+
+{% if palestras contains page.ind_palestra %}
+  {% assign palestra = palestras[page.ind_palestra] %}
+{% elsif coloquio contains page.ind_palestra %}
+  {% assign palestra = coloquio[page.ind_palestra] %}
+{% elsif coloquinho contains page.ind_palestra %}
+  {% assign palestra = coloquinho[page.ind_palestra] %}
+{% elsif estudantes contains page.ind_palestra %}
+  {% assign palestra = estudantes[page.ind_palestra] %}
+{% elsif minicursos contains page.ind_palestra %}
+  {% assign palestra = minicursos[page.ind_palestra] %}
+{% endif %}
+{% assign pessoa = pessoas[page.id_responsavel] %}
+
+
+<article class="post palestra">
+  <header class="post-header">
+    <h1 class="post-title">Palestra</h1>
+  </header>
+  <div class="post-content container">
+    <div class="atividade">
+      <button class="btn btn-sm btn-outline-primary" onclick="voltar()">Voltar</button>
+      <div class="row" id="{{ palestra[0] }}">
+        <div class="atividade-foto col-sm-4 col-12">
+          <div class="card border-0">
+            <img src="{{ site.baseurl }}/img/{{ site.ano }}/pessoas/{{ palestra.id_responsavel }}.jpg" 
+              class="card-img-top" 
+              alt="Fotografia da pessoa apresentadora da palestra." 
+              onerror="this.src='{{ site.baseurl }}/img/{{ site.ano }}/pessoas/vazio.jpg'"
+              >
+            <div class="card-body">
+              <h5 class="card-title">
+                {{ pessoa.nome }}
+                <a href="{{ pessoa.lattes }}" target="_blank"><i class="ai ai-lattes"></i></a>
+                {% if pessoa.linkedin %}
+                  <a href="{{ pessoa.linkedin }}" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                {% endif %}
+              </h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">{{ pessoa.filiacao }}</h6>
+              <p class="card-text"><i class="fa-regular fa-envelope"></i> {{ pessoa.email }}</p>
+            </div>
+          </div>
+        </div>
+        <div class="atividade-infos col-sm-8 col-12">
+          <div class="atividade-titulo">
+            {{ palestra.titulo }}
+          </div>
+          <div class="atividade-responsavel">
+            {{ palestra.responsavel }}
+          </div>
+          <div class="atividade-resumo">
+            <span>
+              {{ palestra.resumo }}
+            </span>
+          </div>
+          <br>
+          <div class="atividade-resumo">
+            <h4>Minibiografia:</h4>
+              {{ pessoa.biografia }}
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</article>
+
+<script>
+  function voltar() {
+    if (document.referrer) {
+      history.back();
+    } else {
+      window.location.href = "/";
+    }
+  }
+</script>

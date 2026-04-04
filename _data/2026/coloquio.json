@@ -1,10 +1,10 @@
 {
-  "coloquio1": {
-    "titulo": "A definir (Colóquio)",
-    "responsavel": "A definir",
-    "responsavel_info": "-",
-    "resumo": "A definir",
-    "id_responsavel": "vazio",
-    "quando": "Sexta, às 14h00"
+  "coloquio": {
+    "titulo": "Quando algoritmos aprendem desigualdades: lidando com os vieses sociais na Inteligência Artificial",
+    "resumo": "O avanço recente da Inteligência Artificial tem ampliado o uso de algoritmos em processos de tomada de decisão em diversos setores. Entretanto, modelos de aprendizado de máquina podem reproduzir e amplificar desigualdades sociais presentes nos dados de treinamento. Esta palestra aborda os vieses sociais em sistemas de Inteligência Artificial, apresentando exemplos de como padrões discriminatórios podem emergir em tarefas como classificação de imagens, reconhecimento facial e sistemas de recomendação. Serão discutidas estratégias para detecção, interpretação e mitigação de vieses algorítmicos, destacando o papel da modelagem matemática no desenvolvimento de sistemas de IA mais robustos, transparentes e socialmente responsáveis.",
+    "id_responsavel": "marilaine",
+    "quando": "Sexta, às 14h00",
+    "onde": "Auditório Jacy Monteiro",
+    "dia": 5
   }
 }

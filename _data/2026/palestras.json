@@ -1,120 +1,135 @@
 {
     "plenaria_seg_15h00": {
         "titulo": "Em breve",
-        "responsavel": "A definir",
-        "responsavel_info": "-",
-        "resumo": "Em breve.",
+        "resumo": "Em breve",
         "id_responsavel": "vazio",
-        "quando": "Segunda, às 15h00"
+        "quando": "Segunda, às 15h00",
+        "onde": "IME-USP",
+        "dia": 1
     },
     "plenaria_seg_16h30": {
-        "titulo": "Em breve",
-        "responsavel": "A definir",
-        "responsavel_info": "-",
-        "resumo": "Em breve.",
-        "id_responsavel": "vazio",
-        "quando": "Segunda, às 16h30"
+        "titulo": "Inversão geoacústica baseada em transformada de deformação (warping) e teoria da dispersão para um mar raso com fundo de duas camadas de sedimentos",
+        "resumo": "<p>Discutem-se técnicas de inversão geoacústica baseadas em warping (transformada de deformação), fundamentadas na análise de dispersão tempo-frequência. Investiga-se a dispersão de ondas acústicas em ambientes de águas rasas com fundo de duas camadas (uma camada de gradiente sobre um embasamento uniforme). Este modelo permite uma solução analítica para as autofunções, e sua versatilidade permite a consideração de diversos perfis verticais de velocidade do som.</p><p>Derivam-se equações diferenciais ordinárias que descrevem a dependência dos números de onda horizontais dos modos normais em relação aos parâmetros geoacústicos das camadas do fundo do mar. Demonstra-se que a integração dessas equações permite a modelagem de curvas de dispersão para cada ponto de um espaço de parâmetros multidimensional em grade, aplicado a um modelo de guia de onda de águas rasas, com custo computacional extremamente reduzido.</p><p>Este avanço pode ter diversas aplicações potenciais, incluindo novos métodos para realizar a inversão geoacústica Bayesiana com hidrofone único, por meio da maximização altamente eficiente da densidade de probabilidade a posteriori sobre o correspondente espaço de parâmetros geoacústicos. A abordagem é demonstrada por meio da inversão geoacústica usando os dados de medida na área de New England Mud Patch.</p>",
+        "id_responsavel": "pavel_petrov",
+        "quando": "Segunda, às 16h30",
+        "onde": "IME-USP",
+        "dia": 1
     },
     "plenaria_seg_17h30": {
         "titulo": "Em breve",
-        "responsavel": "A definir",
-        "responsavel_info": "-",
-        "resumo": "Em breve.",
+        "resumo": "Em breve",
         "id_responsavel": "vazio",
-        "quando": "Segunda, às 17h30"        
+        "quando": "Segunda, às 17h30",
+        "onde": "IME-USP",
+        "dia": 1
     },
     "plenaria_seg_19h00": {
         "titulo": "Em breve",
-        "responsavel": "A definir",
-        "responsavel_info": "-",
-        "resumo": "Em breve.",
+        "resumo": "Em breve",
         "id_responsavel": "vazio",
-        "quando": "Segunda, às 19h00"
+        "quando": "Segunda, às 19h00",
+        "onde": "IME-USP",
+        "dia": 1
     },
     "plenaria_seg_20h00": {
         "titulo": "Em breve",
-        "responsavel": "A definir",
-        "responsavel_info": "-",
-        "resumo": "Em breve.",
+        "resumo": "Em breve",
         "id_responsavel": "vazio",
-        "quando": "Segunda, às 20h00"
+        "quando": "Segunda, às 20h00",
+        "onde": "IME-USP",
+        "dia": 1
     },
 
-
+    "plenaria_ter_14h30": {
+        "titulo": "Detecção de presas em teias de aranha",
+        "resumo": "Teias de aranha fazem parte do aparelho cognitivo de uma aranha. Através delas, uma aranha consegue rapidamente ir em direção à presa que é capturada. Uma dúvida natural é saber se as vibrações que uma aranha sente por meio de suas oito patas contém informação suficiente para apontar a localização da presa e seu tamanho. Nesta apresentação veremos que a resposta é afirmativa e a análise é puramente matemática.",
+        "id_responsavel": "alexandre_kawano",
+        "quando": "Terça, às 14h30",
+        "onde": "IME-USP",
+        "dia": 2
+    },
     "plenaria_ter_15h30": {
-        "titulo": "Em breve",
-        "responsavel": "A definir",
-        "responsavel_info": "-",
-        "resumo": "Em breve.",
-        "id_responsavel": "vazio",
-        "quando": "Terça, às 15h30"
+        "titulo": "A Matemateca do IMEUSP e suas oportunidades acadêmicas",
+        "resumo": "A Matemateca do IMEUSP tem um acervo de objetos interativos sobre matemática para exposições ao público geral, que também tem servido ao propósito educativo, quando recebe visitas escolares agendadas por contatos espontâneos. No entanto, além de receber essas visitas, a Matemateca é um projeto vivo: novas peças/atrações são pensadas todo o tempo; objetos existentes ou planejados geram trabalhos de formatura, de iniciação científica ou mesmo de mestrado; problemas abertos são cultivados; e investigações sobre como o público interage com o material estão sendo concebidas.",
+        "id_responsavel": "colli",
+        "quando": "Terça, às 15h30",
+        "onde": "IME-USP",
+        "dia": 2
     },
     "plenaria_ter_19h00": {
         "titulo": "Em breve",
-        "responsavel": "A definir",
-        "responsavel_info": "-",
-        "resumo": "Em breve.",
+        "resumo": "Em breve",
         "id_responsavel": "vazio",
-        "quando": "Terça, às 19h00"
+        "quando": "Terça, às 19h00",
+        "onde": "IME-USP",
+        "dia": 2
     },
     "plenaria_ter_20h00": {
         "titulo": "Em breve",
-        "responsavel": "A definir",
-        "responsavel_info": "-",
         "resumo": "Em breve.",
         "id_responsavel": "vazio",
-        "quando": "Terça, às 20h00"
+        "quando": "Terça, às 20h00",
+        "onde": "IME-USP",
+        "dia": 2
     },
 
 
     "plenaria_qua_15h30": {
         "titulo": "Em breve",
-        "responsavel": "A definir",
-        "responsavel_info": "-",
         "resumo": "Em breve.",
         "id_responsavel": "vazio",
-        "quando": "Quarta, às 15h30"
+        "quando": "Quarta, às 15h30",
+        "onde": "IME-USP",
+        "dia": 3
     },
     "plenaria_qua_19h00": {
         "titulo": "Em breve",
-        "responsavel": "A definir",
-        "responsavel_info": "-",
-        "resumo": "Em breve.",
+        "resumo": "Em breve",
         "id_responsavel": "vazio",
-        "quando": "Quarta, às 19h00"
+        "quando": "Quarta, às 19h00",
+        "onde": "IME-USP",
+        "dia": 3
     },
     "plenaria_qua_20h": {
-        "titulo": "Em breve",
-        "responsavel": "A definir",
-        "responsavel_info": "-",
-        "resumo": "Em breve.",
-        "id_responsavel": "vazio",
-        "quando": "Quarta, às 20h00"
+        "titulo": "Estruturas coerentes em mecânica dos fluidos",
+        "resumo": "<p>Escoamentos fluidos turbulentos são caracterizados por possuírem uma alta complexidade, apresentando estruturas de vários tamanhos, cada uma delas possuindo um nível de energia. Uma das primeiras observações deste fenômeno foi feita por Leonardo da Vinci em seus desenhos. Neles, estão representados o escoamento das águas de um riacho, obstruído, ou não, por um objeto que ele mesmo introduziu, perturbando-o. De maneira bastante artística e precisa, ele reproduziu os vórtices de maior tamanho, causados pela obstrução, bem como vórtices menores, que surgem em decorrência dos maiores, e assim por diante. O que ele observou, na realidade, foi a cascata de turbulência teorizada posteriormente por Andrei Kolmogorov, em 1941, em que vórtices maiores dão origem a menores, e assim sucessivamente até que a energia do sistema seja dissipada na forma de calor. Apesar desta complexidade, escoamento turbulentos frequentemente apresentam escalas de movimento predominantes, chamadas de “estruturas coerentes”, que desempenham um papel importante, dado que elas carregam a maior parte da energia destes escoamentos. Um exemplo destas estruturas é a emissão periódica de vórtices pelo escoamento em torno de obstruções, que podem ser observados em esteiras de automóveis, embarcações ou até mesmo pelo escoamento atmosférico ao redor de ilhas.</p><p>Do ponto de vista de aplicações, por exemplo na engenharia, ter uma modelagem matemática destas estruturas se faz necessária para, por exemplo, (a) aprimorar o entendimento físico destas estruturas, (b) prever quando/como eles vão acontecer e (c) agir sobre o sistema de forma a controlar estes fenômenos. Nesta apresentação, vamos apresentar um panorama de como a modelagem matemática e numérica pode nos fornecer ferramentas para responder a estas questões, abordando tanto uma modelagem baseada nas equações fundamentais da mecânica dos fluidos (Navier-Stokes), como abordagens baseadas em dados.</p>",
+        "id_responsavel": "lucas_franceschini",
+        "quando": "Quarta, às 20h00",
+        "onde": "IME-USP",
+        "dia": 3
     },
 
 
     "plenaria_qui_15h30": {
         "titulo": "Em breve",
-        "responsavel": "A definir",
-        "responsavel_info": "-",
-        "resumo": "Em breve.",
+        "resumo": "Em breve",
         "id_responsavel": "vazio",
-        "quando": "Quinta, às 15h30"
+        "quando": "Quinta, às 15h30",
+        "onde": "IME-USP",
+        "dia": 4
     },
     "plenaria_qui_19h00": {
         "titulo": "Em breve",
-        "responsavel": "A definir",
-        "responsavel_info": "-",
-        "resumo": "Em breve.",
+        "resumo": "Em breve",
         "id_responsavel": "vazio",
-        "quando": "Quinta, às 19h00"
+        "quando": "Quinta, às 19h00",
+        "onde": "IME-USP",
+        "dia": 4
     },
     "plenaria_qui_20h00": {
-        "titulo": "Em breve",
-        "responsavel": "A definir",
-        "responsavel_info": "-",
-        "resumo": "Em breve.",
-        "id_responsavel": "vazio",
-        "quando": "Quinta, às 20h00"
+        "titulo": "Aplicações de Cadeias de Markov de Alcance Variável",
+        "resumo": "As Cadeias de Markov de Alcance Variável (VLMC) são extensões das cadeias de Markov tradicionais que ao invés de usar um passado de tamanho fixo, ajustam o comprimento do passado conforme sua \"importância\" para prever o próximo estado. Esse modelo economiza em termos do número de parâmetros a serem estimados, além de proporcionar nterpretabilidade para os passados relevantes. Algumas aplicações serão apresentadas.",
+        "id_responsavel": "claudia_peixoto",
+        "quando": "Quinta, às 20h00",
+        "onde": "IME-USP",
+        "dia": 4
+    },
+    "plenaria_sex_16h00": {
+        "titulo": "Em breve.",
+        "resumo": "Em breve",
+        "id_responsavel": "andre_salles",
+        "quando": "Sexta, às 16h00",
+        "onde": "IME-USP",
+        "dia": 5
     }
 }

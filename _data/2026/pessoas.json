@@ -1,0 +1,191 @@
+{
+  "vazio": {
+    "nome": "Em breve",
+    "filiacao": "",
+    "biografia": "",
+    "semapinho": ""
+  },
+
+  "alexandre_kawano": {
+    "nome": "Alexandre Kawano",
+    "filiacao": "Poli-USP",
+    "biografia": "Alexandre Kawano é Professor Associado da Escola Politécnica da Universidade de São Paulo, no Departamento de Engenharia Mecatrônica. Formado em Engenharia Naval pela USP, obteve o título de Dr. Eng. pela Yokohama National University, no Japão, em 1995, o doutorado em Matemática Aplicada pelo IME-USP, em 2007, e a Livre-Docência pela USP, em 2012. Sua atuação acadêmica combina ensino, pesquisa e gestão universitária, com ampla experiência em disciplinas de base e de engenharia, participação em diversas comissões institucionais e coordenação de acordos internacionais de cooperação com universidades do Japão, França e da Itália. Sua pesquisa concentra-se em problemas inversos matemáticos aplicados à Engenharia, em diálogo com colaborações internacionais e com interesse também na interface entre Matemática, Engenharia e inovação curricular.",
+    "semapinho": "semapinho_aranha",
+    "email": "akawano@usp.br",
+    "lattes": "http://lattes.cnpq.br/5303042142068424",
+    "confirmou": true
+  },
+  "andre_salles": {
+    "nome": "André Salles de Carvalho",
+    "filiacao": "IME-USP",
+    "biografia": "",
+    "semapinho": "",
+    "email": "andre@ime.usp.br",
+    "lattes": "http://lattes.cnpq.br/8644214878865621",
+    "confirmou": false
+  },
+  "claudia_peixoto": {
+    "nome": "Claudia Monteiro Peixoto",
+    "filiacao": "IME-USP",
+    "biografia": "Claudia Peixoto teve a oportunidade de trabalhar com o Prof. Antonio Galves em seu mestrado e com a Prof. Maria Eulália Vares no doutorado, com processos estocásticos e, mais precisamente, com Sistemas de Partículas no doutorado.",
+    "semapinho": "estocastico",
+    "email": "claudiap@ime.usp.br",
+    "lattes": "http://lattes.cnpq.br/0647513129067496",
+    "confirmou": true
+  },
+  "claudia_sagastizabal": {
+    "nome": "Claudia Sagastizábal",
+    "filiacao": "Unicamp",
+    "biografia": "Claudia Sagastizábal é uma matemática argentina radicada no Brasil. Ela é reconhecida por seu trabalho em otimização não diferenciável e convexa, particularmente na área de gestão de energia. Possui doutorado e Habilitação para Dirigir Pesquisas pela Universidade Panthéon-Sorbonne, foi pesquisadora permanente no INRIA (França) e posteriormente no Cepel-Eletrobras (Brasil). Atualmente, colabora com a UNICAMP, Universidade Estadual de Campinas, no Brasil. É coautora do livro \"Otimização Numérica: Aspectos Teóricos e Práticos\" e integra ou integrou o conselho editorial de importantes periódicos científicos. Foi palestrante convidada em conferências da ICIAM, IMU, ISMP, ICCOPT e SIAM (Optimization, Scientific Computing,  Mathematics for Planet Earth). Em 2024, foi eleita Fellow da SIAM por suas contribuições à otimização e suas aplicações em engenharia.",
+    "semapinho": "secarro",
+    "email": "sagastiz@unicamp.br",
+    "lattes": "http://lattes.cnpq.br/3422781154556948",
+    "confirmou": false
+  },
+  "clodoaldo": {
+    "nome": "Clodoaldo Grotta Ragazzo",
+    "filiacao": "IME-USP",
+    "biografia": "",
+    "semapinho": "semapinho_petrobras",
+    "email": "ragazzo@ime.usp.br",
+    "lattes": "http://lattes.cnpq.br/4804300167674691",
+    "confirmou": false
+  },
+  "colli": {
+    "nome": "Eduardo Colli",
+    "filiacao": "IME-USP",
+    "biografia": "Bacharel em Física (1991), Mestre (1993) e Doutor (1996) em Matemática, no IMPA, com pós-doutorado em Paris XI - Orsay e no IMEUSP, foi contratado no Departamento de Matemática Aplicada no ano 2000 e é livre-docente desde 2016. Sua área de pesquisa original é sistemas dinâmicos, com enfoque teórico, mas também colaborou em trabalhos experimentais nessa área. Foi um dos fundadores da Matemateca do IMEUSP no início dos anos 2000 e, desde então, tem atuado em divulgação matemática e extensão universitária.",
+    "semapinho": "semapinho_e_chladni",
+    "email": "colli@ime.usp.br",
+    "lattes": "http://lattes.cnpq.br/0694302682822936",
+    "confirmou": true
+  },
+  "emanuelle_arantes": {
+    "nome": "Emanuelle Arantes",
+    "filiacao": "LNCC",
+    "biografia": "Pesquisadora do Laboratório Nacional de Computação Científica (LNCC). Possui graduação em Ciências Biológicas - Bacharelado e Matemática - Licenciatura pela Universidade Federal de Lavras (UFLA). Mestrado em Ecologia Aplicada pela UFLA e doutorado em Modelagem Computacional pelo LNCC. Atualmente, sua área de pesquisa está focada na modelagem matemática e computacional de sistemas biológicos.",
+    "semapinho": "semapinho_medico",
+    "email": "earantes@posgrad.lncc.br",
+    "lattes": "http://lattes.cnpq.br/7127543079591956",
+    "confirmou": false
+  },
+  "lucas_franceschini": {
+    "nome": "Lucas Franceschini",
+    "filiacao": "IME-USP",
+    "biografia": "<p>Possui dupla graduação em engenharia mecânica pela Escola Politécnica da USP e em engenharia matemática pela ENSTA Paris (2015).</p><p>Desde seu doutorado, realizado no ONERA (Office National d'Etudes et de Recherches Aérospatiales, 2019), se interessa pela aplicação de métodos numéricos em mecânica dos fluidos, em particular em como incorporar dados de alta fidelidade (obtidos, por exemplo, experimentalmente) para refinar/corrigir soluções numéricas, muitas vezes imprecisas por conta da dificuldade inerente à modelagem da turbulência.</p><p>Mais recentemente, tem se interessado por análise de escoamentos turbulentos puramente através de dados, permitindo a identificação das estruturas coerentes mais relevantes num dado escoamento, viabilizando seu entendimento físico e sua modelagem matemática.</p>",
+    "semapinho": "semapinho_surfista",
+    "email": "franceschinilc@gmail.com",
+    "lattes": "http://lattes.cnpq.br/4921110587510112",
+    "confirmou": true
+  },
+  "luis_carlos": {
+    "nome": "Luis Carlos de Castro Santos",
+    "filiacao": "IME-USP",
+    "biografia": "",
+    "semapinho": "semantos_dumont",
+    "email": "lsantos@ime.usp.br",
+    "lattes": "http://lattes.cnpq.br/5181059029789860",
+    "confirmou": false
+  },
+  "maicon": {
+    "nome": "Maicon Ribeiro Correa",
+    "filiacao": "IME-USP",
+    "biografia": "Professor do Departamento de Matemática Aplicada do IME-USP, possui Gradução em Engenharia Civil pela Universidade Federal de Juiz de Fora (2001), Doutorado em Ciências em Modelagem Computacional pelo Laboratório Nacional de Computação Científica (2006), Pós Doutorados no Laboratório Nacional de Computação Científica (2007-2009) e na University of Texas at Austin (2015) e Título de Livre-Docência em Análise Numérica pela Unicamp (2019). Foi Professor da Unicamp de 2012 a 2026. Tem experiência em Modelagem Computacional e Análise Numérica, atuando principalmente nos seguintes temas: Métodos de Elementos Finitos Mistos/Híbridos Estabilizados, Esquemas Centrais para Leis de Conservação Hiperbólicas e Modelagem Numérica de Escoamentos em Meios Porosos. Foi membro titular (2020-2023) e Coordenador (2022-2023) do Comitê de Assessoramento de Matemática e Estatística do CNPq, CA-MA. Atualmente é Membro do Comitê de Avaliação da CAPES da área MAPE para o quadriênio 2021-2024 e Membro da Coordenação de Área de Matemática e Estatística da FAPESP.",
+    "semapinho": "semapinho_programador",
+    "email": "maicon@ime.usp.br",
+    "lattes": "http://lattes.cnpq.br/6685666727183074",
+    "confirmou": false
+  },
+  "marilaine": {
+    "nome": "Marilaine Colnago",
+    "filiacao": "UNESP",
+    "biografia": "Possui Doutorado pelo Programa de Pós-Graduação em Ciências da Computação e Matemática Computacional (ICMC/USP), Mestrado em Matemática Aplicada e Computacional e Graduação em Matemática pela UNESP (FCT/Presidente Prudente), além de Graduação em Pedagogia pelo Centro Universitário Internacional UNINTER. Atualmente é docente da Universidade Estadual Paulista (UNESP). É fundadora do Projeto de Extensão GECET – Garotas nas Engenharias, Ciências Exatas e Tecnologias (PROEC-UNESP), do qual foi coordenadora no período de 2020 a 2024, atuando na promoção da participação feminina nas áreas STEM. É representante suplente do segmento “Universidades” no Conselho Municipal dos Direitos da Mulher (CMDM) de São José do Rio Preto (biênio 2025–2027). De 2021 a 2023, foi Coordenadora Geral do Comitê Temático “Mulheres na Matemática Aplicada e Computacional” da Sociedade Brasileira de Matemática Aplicada e Computacional (SBMAC). Entre 2021 e 2022, realizou estágio de pós-doutorado com bolsa CNPq no Instituto de Ciências Matemáticas e de Computação (ICMC/USP), desenvolvendo pesquisas em Ciência de Dados e Modelagem Epidemiológica aplicadas ao enfrentamento da COVID-19 no Estado de São Paulo. Atua nas áreas de Ciência de Dados e Matemática Computacional, com experiência em Análise Numérica, Mecânica Computacional, Aprendizado de Máquina, Processamento Digital de Imagens e Modelagem Aplicada.",
+    "semapinho": "semabo",
+    "email": "marilaine.colnago@unesp.br",
+    "lattes": "http://lattes.cnpq.br/8764225815253091",
+    "confirmou": true
+  },
+  "paulo_cordaro": {
+    "nome": "Paulo Cordaro",
+    "filiacao": "IME-USP",
+    "biografia": "",
+    "semapinho": "semapinho_derivada_fraca",
+    "email": "cordaro@ime.usp.br",
+    "lattes": "http://lattes.cnpq.br/7457186791833218",
+    "confirmou": false
+  },
+  "pavel_petrov": {
+    "nome": "Pavel Petrov",
+    "filiacao": "IMPA",
+    "biografia": "Pavel Petrov obteve seu título de especialista em matemática pura pela Universidade Estadual de Irkutsk (Irkutsk, Rússia), em 2006, e o título de doutor em física teórica em 2010 pelo Instituto Oceanológico do Pacífico Il'ichev (POI), em Vladivostok, Rússia, onde também obteve a livre docência em acústica. Trabalhou no POI de 2010 a 2024, atuando como pesquisador júnior (2010), pesquisador sênior (2012) e chefe do Laboratório de Dinâmica de Fluidos Geofísicos (2019). Ele também foi professor convidado da Universidade de Wuppertal (Wuppertal, Alemanha) em 2022-2023 e em 2025. Em 2024, o Dr. Petrov ingressou no Instituto Nacional de Matemática Pura e Aplicada (Rio de Janeiro, Brasil) como pesquisador adjunto e foi promovido a professor associado em 2025. Seus interesses de pesquisa abrangem desde matemática aplicada até oceanografia acústica, e ele é fascinado pela aplicação de métodos matemáticos avançados a problemas do mundo real.",
+    "semapinho": "semapinho_scuba_recortado",
+    "email": "pavel.petrov@impa.br",
+    "lattes": "http://lattes.cnpq.br/6014354525193736",
+    "confirmou": true
+  },
+  "pedro_dias_leite": {
+    "nome": "Pedro Dias Leite",
+    "filiacao": "IAG-USP",
+    "biografia": "Bacharel em Matemática Aplicada-IME-USP/1974, PhD em Ciências  Atmosféricas na Colorado State University-1979. Atualmente Professor Titular e no IAG/USP desde 1975. Diretor do IAG/USP (2017-2021), Diretor do LNCC/MCTI (2007-2015) e Chefe do CPTEC/INPE (1988-1990).  Membro titular da Academia Brasileira de Ciências e recebeu a Ordem do Mérito Científico do MCTI. Orientou cerca de 70 alunos de pós-graduação. Linha de pesquisa principal em dinâmica de fluidos geofísicos linear e não linear, aplicado a problemas tropicais e subtropicais. Experiência em Climatologia Dinâmica, Mudanças Climáticas, Previsão de Tempo e Clima, Computação de Alto Desempenho, Aplicações de Inteligência Artificial na Meteorologia e Gestão Científica.",
+    "semapinho": "semapinho_guarda_chuva",
+    "email": "pedro.dias@iag.usp.br",
+    "lattes": "http://lattes.cnpq.br/9273702863744424",
+    "confirmou": false
+  },
+  "yulia": {
+    "nome": "Yulia Petrova",
+    "filiacao": "IME-USP",
+    "biografia": "Iuliia Petrova é professora do Instituto de Matemática e Estatística da Universidade de São Paulo (IME-USP). Sua pesquisa se concentra em equações diferenciais parciais, leis de conservação, sistemas de reação-difusão e dinâmica de fluidos em meios porosos. Em particular, ela trabalha com problemas relacionados a viscous fingering, gravitational fingering, ondas viajantes e limites singulares, combinando métodos analíticos, de sistemas dinâmicos e numéricos. Seus trabalhos são motivados tanto por questões teóricas quanto por aplicações em recuperação avançada de petróleo e escoamentos multifásicos em meios porosos.",
+    "semapinho": "semapinho_esponja",
+    "email": "yulia.petrova@ime.usp.br",
+    "lattes": "http://lattes.cnpq.br/1307618187534439",
+    "confirmou": false
+  },
+
+  "marco_claudino": {
+    "nome": "Marco Claudino",
+    "filiacao": "B3/BNY",
+    "biografia": "Marco Claudino é ex-aluno do IME/USP, formado no Bacharelado em Matemática Aplicada e Computacional (BMAC) e Mestre em Matemática Aplicada, com ênfase na área de Análise Numérica. Atuou durante 10 anos na B3, desenvolvendo atividades associadas à gestão de riscos, em particular, o risco envolvido na utilização de modelos econômicos, matemáticos e estatísticos para a tomada de decisões. Atualmente é Especialista em Precificação de derivativos complexos no BNY.",
+    "semapinho": "xpato_investimentos",
+    "email": "marco.claudino09bmac@gmail.com",
+    "lattes": "http://lattes.cnpq.br/8233201249144957",
+    "linkedin": "https://br.linkedin.com/in/mclaudino",
+    "confirmou": false
+  },
+  
+  "ulisses_lakatos": {
+    "nome": "Ulisses Lakatos",
+    "filiacao": "UFABC",
+    "biografia": "Cientista molecular de formação, fiz meu doutorado em matemática aplicada e hoje trabalho em sistemas dinâmicos, com ênfase em superfícies. Apaixonado pela sala de aula, atualmente sou professor assistente no Centro de Matemática, Computação e Cognição da UFABC, além de dançarino e baterista amador.",
+    "semapinho": "semapinho_dinamico",
+    "email": "u.lakatos@ufabc.edu.br",
+    "lattes": "http://lattes.cnpq.br/3983863662003124",
+    "confirmou": false
+  },
+  "nina_hirata": {
+    "nome": "Nina Hirata",
+    "filiacao": "IME-USP",
+    "biografia": " Nina S. T. Hirata é formada no curso de Bacharelado em Ciência da Computação no IME/USP, onde também realizou o seu doutorado. Atualmente é professora do Departamento de Ciência da Computação, atuando em ensino, pesquisa e extensão. Sua pesquisas estão na intersecção entre as áreas de aprendizado de máquina e visão computacional, abordando fundamentos e aplicações diversas, com as aplicações mais recentes envolvendo imagens astronômicas, imagens de retina, imagens citológicas de lâmina inteira, imagens de obras do patrimônio cultural e vídeos de comportamento animal. Atualmente coordena um projeto temático FAPESP e também coordena o grupo de extensão LEARN.",
+    "semapinho": "semabo",
+    "email": "nina@ime.usp.br",
+    "lattes": "http://lattes.cnpq.br/0644408634493034"
+  },
+  "joao": {
+    "nome": "João Guilherme Caldas Steinstraesser",
+    "filiacao": "IME-USP",
+    "biografia": "Professor Doutor do Departamento de Matemática Aplicada do Instituto de Matemática e Estatística da Universidade de São Paulo desde 2024. Realizou Pós-Doutorado em Matemática Aplicada na mesma instituição (2021-2024). Possui Doutorado em Matemática Aplicada pela Université de Montpellier - INRIA (2021), mestrado (master M2) em Matemática Aplicada pela École des Ponts Paristech (2017) e dupla graduação em Engenharia Matemática e Informática pela École des Ponts Paristech (2017) e Engenharia Civil pela Escola Politécnica da Universidade de São Paulo (2018). Tem interesse em análise numérica, métodos paralelos no tempo, métodos de decomposição de domínio e modelos de ordem reduzida, com aplicação principalmente em problemas de dinâmica dos fluidos.",
+    "semapinho": "semapinhos_finitos",
+    "email": "joao.steinstraesser@ime.usp.br",
+    "lattes": "http://lattes.cnpq.br/0430796327756801"
+  },
+
+  "matheus_lazarotto": {
+    "nome": "Matheus Jean Lazarotto",
+    "filiacao": "Pós-Doc no MAP-IME-USP",
+    "biografia": "Em breve",
+    "semapinho": "",
+    "confirmou": true,
+    "email": "matheus_jean_l@hotmail.com",
+    "lattes": "http://lattes.cnpq.br/3045254163588644"
+  }
+}

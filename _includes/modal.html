@@ -3,6 +3,7 @@
 {% assign coloquinhos = site.data[site.ano].coloquinho %}
 {% assign coloquios = site.data[site.ano].coloquio %}
 {% assign estudantes = site.data[site.ano].estudantes %}
+{% assign pessoas = site.data[site.ano].pessoas %}
 {% assign evento = include.evento %}
 
 <!-- Modal para palqestras -->
@@ -14,6 +15,10 @@
   {% when "estudante" %}
     {% assign evento_infos = estudantes[evento.id] %}
 {% endcase %}
+
+{% assign idr = evento_infos.id_responsavel %}
+{% assign resp = pessoas[idr] %}
+
 <div class="modal fade" id="modal_{{ include.modal_id }}" tabindex="-1" aria-labelledby="modal_{{ include.modal_id }}Label" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -26,10 +31,10 @@
       <div class="modal-body">
         <div class="row modal-evento-infos">
           <div class="atividade-foto col-12">
-            <img src="{{ site.baseurl }}/img/{{ site.ano }}/pessoas/{{ evento_infos.id_responsavel }}.jpg">
+            <img src="{{ site.baseurl }}/img/{{ site.ano }}/pessoas/{{ idr }}.jpg">
           </div>
           <div class="col-12">
-            <b>Responsável: </b> {{ evento_infos.responsavel }} ({{ evento_infos.responsavel_info }})
+            <b>Responsável: </b> {{ resp.nome }} ({{ resp.filiacao }})
           </div>
           <div class="col-12">
             <b>Quando: </b> {{ evento_infos.quando }}
@@ -129,7 +134,7 @@
         <div class="container">
           <div class="modal-coloquio-conheca row justify-content-md-center">
             <div class="col-12 col-sm-12 col-md-3">
-              <img src="{{ site.baseurl }}/img/IME_USP_vertical_branca.png">
+              <img src="{{ site.baseurl }}/img/logos/IME_USP_vertical_branca.png">
             </div>
             <div class="col-12 col-md-7 col-lg-5 modal-coloquio-conheca-desc">
               As palestras no Colóquio abordam assuntos de diversas áreas ligadas à pesquisa feita no IME, visando alcançar o amplo público IMEano.

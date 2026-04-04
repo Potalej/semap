@@ -45,6 +45,7 @@
     --cor-texto-principal: black;
     --cor-texto-principal-hover: white;
     --azul-ime: rgb(20, 45, 105);
+    --rosa-coloquinho: #ef8b97;
 
     /* Cores menu */
     --cor-menu-fundo: white;
@@ -222,9 +223,23 @@ h2 {
 }
 
 /* Rodape */
+footer div {
+    align-items: center;
+}
 footer a, footer a:visited {
     text-decoration: none;
     color: var(--cor-links) !important;
+}
+.footer-ime {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+.footer-ime img {
+    max-height: 7rem;
+}
+/* .footer-ime img {
+    height: 100px;
 }
 .footer-ime-2 {
     display: none;
@@ -236,7 +251,7 @@ footer a, footer a:visited {
     .footer-ime-1 {
         display: none;
     }
-}
+} */
 /************************************************
 < Fim de Variaveis e configs globais
 ************************************************/
@@ -252,7 +267,7 @@ section.programacaoSecao {
 /* Carousel */
 .carousel-item h5 {
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
 }
 .carousel-item .btn {
     min-width: 2.5rem;
@@ -365,6 +380,7 @@ table.programacao_tabela td {
 }
 .modal-evento-infos {
     row-gap: 13px;
+    text-align: justify;
 }
 .modal-minicurso, .modal-coloquinho, .modal-coloquio {
     --bs-modal-width: 90% !important;
@@ -434,6 +450,12 @@ Cards para atividades
 .atividades {
     display: grid;
     row-gap: 20px;
+    
+    background: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url('../img/2026/identidade_visual/fractais_5grau.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
 }
 .atividades > .row {
     margin: 0px;
@@ -452,8 +474,10 @@ Cards para atividades
     padding: 15px;
     scroll-margin-top: 90px; /* altura da navbar */
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    row-gap: 30px;
 }
 .atividade > .row {
     width: 100%;
@@ -461,12 +485,13 @@ Cards para atividades
 .atividade-foto {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
+    flex-direction: column;
 }
 .atividade-foto img {
-    width: 170px;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
+    width: 240px;
+    /* aspect-ratio: 1 / 1; */
+    /* object-fit: cover; */
     border-radius: 5px;
 }
 .atividade-titulo {
@@ -476,7 +501,10 @@ Cards para atividades
 .atividade-responsavel {
     padding-bottom: 8px;
 }
-
+.atividade-responsavel a {
+    cursor: pointer;
+    color: var(--cor-links) !important;
+}
 .atividade-resumo {
     font-size: small;
 }
@@ -489,6 +517,268 @@ Cards para atividades
     background-color: var(--cor-programacao-fundo-coloquinho) !important;
     color: var(--cor-programacao-fonte-coloquinho) !important;
 }
+
+.card .row {
+    padding: 0px !important;
+    align-items: center;
+}
+.card-atividade {
+    /* height: 200px; */
+    height: 100%;
+    display: flex;
+    border-radius: 0px 10px 10px 0px !important;
+    border-color: rgba(200,200,200) !important;
+}
+.card-atividade .btn:hover {
+    color: var(--cor-links);
+    background: white;
+    border: 1px solid var(--cor-links);
+}
+.card-atividade .btn {
+    background: var(--cor-links);
+    color: white;
+    border: 1px solid var(--cor-links);
+}
+.card-atividade-img {
+    max-height: 200px;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+.card-atividade-img img {
+    object-fit: cover;
+    object-position: top;
+    height: 100%;
+    border-radius: 10px;
+}
+.atividade-dia-linha {
+    /* background: var(--capa-principal); */
+    /* background-position: center; */
+    /* color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonte-capa-paginas);
+    font-size: 35px;
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+.card-atividade-lateral {
+    position: relative;
+    height: 100% !important;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 0px 0px 10px !important;
+}
+.card-atividade-lateral div {
+    font-size: 1.4rem;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-family: var(--fonte-capa-paginas);
+}
+.card-atividade-lateral-palestra-coloquio {
+    background-color: var(--azul-ime) !important;
+    color: white;
+
+    /* background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/logos/arquimedes.png') !important;
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat; */
+}
+.card-atividade-lateral-palestra-palestra {
+    background: var(--verde-medio) !important;
+    color: white;
+
+    /* background: url('../img/2026/fundo.jpg') !important;
+    background-position: center !important;
+    background-size: cover !important; */
+}
+.card-atividade-lateral-palestra-estudante {
+    background: var(--azul-escuro) !important;
+    color: white;
+    
+    /* background: url('../img/2026/newton.jpg') !important;
+    background-position: center !important;
+    background-size: cover !important; */
+}
+.card-atividade-lateral-palestra-coloquinho {
+    background-color: var(--rosa-coloquinho) !important;
+    color: var(--cor-programacao-fundo-coloquinho);
+
+    /* background-image: url('../img/coloquinho.png') !important;
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat; */
+}
+.card-atividade-lateral-minicurso { 
+    background-color: rgb(148, 30, 148);
+    color: white;
+}
+
+.card-atividade-palestra-coloquinho-icone {
+    position: absolute;
+    max-width: 200px;
+    width: 100%;
+    left: 48%;
+    bottom: 0px;
+}
+.card-atividade-palestra-coloquinho-icone img {
+    width: 90px;
+    height: 90px;
+    content: url('../img/coloquinho.png');
+}
+.card-atividade-palestra-coloquio-icone {
+    position: absolute;
+    max-width: 200px;
+    width: 100%;
+    left: 48%;
+    bottom: -5px;
+}
+.card-atividade-palestra-coloquio-icone img {
+    width: 60px;
+    height: 60px;
+    content: url('../img/logos/arquimedes.png');
+}
+
+/* Programacao */
+.card-atividade-lanchinho,
+.card-atividade-posteres
+{
+    padding: 15px;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.card-atividade-lanchinho span, 
+.card-atividade-posteres span,
+.card-atividade-minicurso span,
+.card-atividade-credenciamento span,
+.card-atividade-cerimonia span
+{
+    font-family: var(--fonte-capa-paginas) !important;
+    font-size: 1.4rem;
+}
+
+.card-atividade-lanchinho {
+    background-color:rgb(255, 204, 94) !important;
+}
+.card-atividade-lanchinho img, 
+.card-atividade-posteres img,
+.card-atividade-credenciamento img,
+.card-atividade-cerimonia img
+{
+    height: 80px;
+    object-fit: contain;
+}
+.card-atividade-lateral-lanchinho {
+    background-color:rgb(255, 186, 38) !important;
+    color: white;
+}
+
+.card-atividade-posteres {
+    background-color: #79a8ff !important;
+}
+.card-atividade-lateral-posteres {
+    background-color: var(--azul) !important;
+    color: white;
+}
+
+.card-atividade-minicurso
+{
+    padding: 10px;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    background-color: #79a8ff !important;
+    color: white !important;
+    row-gap: 20px;
+}
+.card-atividade-minicurso div img {
+    height: 100px;
+    object-fit: contain;
+}
+.card-atividade-minicurso > div {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.card-atividade-lateral-minicurso {
+    background-color: var(--azul) !important;
+    color: white;
+}
+
+.card-atividade-credenciamento, .card-atividade-credenciamento div,
+.card-atividade-cerimonia, .card-atividade-cerimonia div
+{
+    padding: 15px;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.card-atividade-credenciamento div,
+.card-atividade-cerimonia div
+{
+    padding: 15px;
+    display: flex;
+    flex-direction: column !important;
+    align-items: start;
+    column-gap: 10px;
+}
+.card-atividade-credenciamento {
+    background-color: #b6ffe8 !important;
+}
+.card-atividade-cerimonia {
+    background-color: #cddeff !important;
+}
+.card-atividade-lateral-credenciamento, .card-atividade-lateral-cerimonia  {
+    padding: 10px;
+    background-color: var(--verde-medio);
+}
+.card-atividade-lateral-credenciamento div, .card-atividade-lateral-cerimonia div {
+    color: white;
+}
+
+/* Paginas de palestras */
+.palestra {
+}
+.palestra .btn {
+    border: 1px solid var(--cor-links) !important;
+    background-color: var(--cor-links);
+    color: white;
+    border: none;
+}
+.palestra .btn:hover {
+    background-color: white;
+    color: var(--cor-links);
+}
+
+/* Semapinho personalizado */
+.atividade-col-semapinho {
+    max-height: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.atividade-col-semapinho img {
+    max-height: 8rem;
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
 /************************************************
 < Fim de Paginas: MINICURSOS, PALESTRAS
 ************************************************/
@@ -553,19 +843,22 @@ Cards para atividades
     font-size: 4rem;
     color: var(--cor-principal);
 }
-.card:hover {
+.card-home:hover {
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     cursor: pointer;
     background-color: var(--cor-principal);
     color: var(--cor-texto-principal-hover);
     transition-duration: .3s;
 }
-.card:hover .card-icon {
+.card-home:hover a {
+    color: var(--azul-escuro);
+}
+.card-home:hover .card-icon {
     color: var(--cor-texto-principal-hover);
     transition-duration: .3s;
 }
-.inicio-informacoes-cartoes {
-    padding-top: 30px;
+.inicio-informacoes-cartoes, .inicio-apoio {
+    padding-top: 20px;
 }
 .inicio-sobre div:nth-of-type(2) {
     display: flex;
@@ -574,6 +867,14 @@ Cards para atividades
 }
 .inicio-sobre img {
     max-height: 200px;
+}
+.inicio-apoio .parceria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inicio-apoio .parceria img {
+    max-height: 50px;
 }
 /************************************************
 < Fim de Pagina: INICIO
@@ -608,7 +909,52 @@ Cards para atividades
 .botao-formulario-posteres:hover {
     background-color: var(--azul-escuro) !important;
 }
+/* formulario fechado */
+.sessao-posteres {
+    padding: 10px;
+}
+.sessao-posteres div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.sessao-posteres p {
+    text-align: center;
+}
+.sessao-posteres img {
+    max-width: 200px;
+    width: 100%;
+}
 
 /************************************************
 < Fim de Pagina: POSTERES
 ************************************************/
+
+.botao-formulario-inscricoes {
+    background-color: var(--verde-medio) !important;
+    color: var(--cor-texto-principal-hover) !important;
+    border-radius: 10px;
+    /* font-size: 1.3rem; */
+    text-align: justify;
+    padding: 10px;
+    margin-top: 15px !important;
+    transition: background-color 0.2s ease-in-out;
+    text-decoration: none;
+}
+.botao-formulario-inscricoes img {
+    fill: var(--cor-texto-principal-hover);
+    stroke: white;
+    color: white;
+    max-width: 80px;
+}
+.botao-formulario-inscricoes div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.botao-formulario-inscricoes:hover {
+    background-color: var(--azul-escuro) !important;
+}

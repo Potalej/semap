@@ -1,23 +1,23 @@
 {
     "mc1": {
-        "titulo": "Introdução a sistemas dinâmicos",
-        "responsavel": "A definir",
-        "responsavel_info": "-",
-        "resumo": "Em breve",
-        "id_responsavel": "vazio"
+        "titulo": "Introdução ao método dos elementos finitos",
+        "resumo": "Neste minicurso, serão abordados os princípios matemáticos que fundamentam o Método dos Elementos Finitos para aproximação numérica de equações diferenciais parciais a valores de contorno, bem como sua implementação computacional em uma e duas dimensões espaciais.<br><br><b>Ementa:</b><br><ul><li>Formulação variacional de EDPs elípticas de segunda ordem</li><li>Princípios de Galerkin e de Ritz</li><li>Formulação do método dos elementos finitos</li><li>Exemplos de espaços de elementos finitos</li><li>Implementação computacional em Python usando a biblioteca FEniCS</li><li>Estimativas de erro</li></ul><b>Bibliografia:</b><br><ul><li>Dietrich Braess, Finite elements, 3ª edição, capítulo II</li><li>Endre Süli e David Mayers, An Introduction to Numerical Analysis, capítulo 14</li><li>Arieh Iserles, A First Course on the Numerical Analysis of Differential Equations, capítulo 9</li><li>FEniCS project, https://fenicsproject.org/</li></ul>",
+        "id_responsavel": "joao",
+        "quando": "Quarta à sexta, às 17h00",
+        "onde": "A definir"
     },
     "mc2": {
         "titulo": "Introdução ao aprendizado de máquina",
-        "responsavel": "A definir",
-        "responsavel_info": "-",
-        "resumo": "Em breve",
-        "id_responsavel": "vazio"
+        "resumo": "O minicurso visa introduzir os conceitos básicos de aprendizado supervisionado, explorando os algoritmos de regressão linear, regressão logística (classificação binária), e redes neurais, e como eles são treinados e avaliados. Também visa fornecer um panorama geral sobre aprendizado de máquina como um todo, de forma que os algoritmos cobertos possam ser contrastados com o aprendizado profundo (deep learning) e outros tipos de aprendizado.<br><br><b>Bibliografia:</b><ul><li>Notas de aula</li><li>Abu-Mostafa et al. Learning from Data, AMLBook.com (<a href=\"https://work.caltech.edu/lectures.html\" target=\"_blank\">https://work.caltech.edu/lectures.html</a>)</li><li>Simon J.D. Prince. Understanding Deep Learning. The MIT Press, 2023. (<a href=\"https://udlbook.github.io/udlbook\" target=\"_blank\">https://udlbook.github.io/udlbook</a>)</li></ul>",
+        "id_responsavel": "nina_hirata",
+        "quando": "Quarta à sexta, às 17h00",
+        "onde": "A definir"
     },
     "mc3": {
-        "titulo": "Introdução ao método dos elementos finitos",
-        "responsavel": "A definir",
-        "responsavel_info": "-",
-        "resumo": "Em breve",
-        "id_responsavel": "vazio"
+        "titulo": "Introdução panorâmica aos sistemas dinâmicos",
+        "resumo": "<b>Ementa:</b><br>Começaremos pela linguagem dos sistemas dinâmicos, conceituando pontos fixos e periódicos, conjuntos limite, recorrência e afins. Em seguida, veremos como a entropia topológica torna matematicamente precisa a ideia de caos. Por fim, apresentaremos a importante classe dos sistemas hiperbólicos. Ao ilustrar esses conceitos com exemplos no círculo e no toro, chegaremos também às ferramentas centrais de codificação e dinâmica simbólica.<br><br><b>Bibliografia:</b><ul><li>Lucas Backes, Alexandre Baraviera, Flávia Branco; <b>Uma introdução aos sistemas dinâmicos via exemplos</b>, 34º CBM, IMPA</li><li>Luis Barreira, Claudia Valls; <b>Dynamical Systems: an Introduction</b>, Universitext, Springer</li><li>Yuri Lima, <b>Introdução aos Sistemas Dinâmicos</b>, Coleção IC, SBM</li></ul>",
+        "id_responsavel": "ulisses_lakatos",
+        "quando": "Quarta à sexta, às 17h00",
+        "onde": "A definir"
     }
 }

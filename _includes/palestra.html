@@ -1,6 +1,6 @@
 {% assign palestra = include.palestra %}
 
-<div class="atividade col-12 col-lg-6 {% if include.classe %} {{ include.classe }} {% endif %}">
+<div class="atividade {% if include.classe %} {{ include.classe }} {% endif %}">
   <div class="row" id="{{ palestra[0] }}">
     <div class="atividade-foto col-sm-3 col-12">
       <img src="{{ site.baseurl }}/img/{{ site.ano }}/pessoas/{{ palestra[1].id_responsavel }}.jpg">

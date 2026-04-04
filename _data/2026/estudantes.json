@@ -1,11 +1,21 @@
 {
+    "plenaria_estudante_qua_14h00": {
+        "titulo": "Em breve",
+        "responsavel": "A definir",
+        "responsavel_info": "-",
+        "resumo": "Em breve.",
+        "id_responsavel": "vazio",
+        "quando": "Quarta, às 14h30",
+        "onde": "IME-USP"
+    },
     "plenaria_estudante_qua_14h30": {
         "titulo": "Em breve",
         "responsavel": "A definir",
         "responsavel_info": "-",
         "resumo": "Em breve.",
         "id_responsavel": "vazio",
-        "quando": "Quarta, às 14h30"
+        "quando": "Quarta, às 14h30",
+        "onde": "IME-USP"
     },
     "plenaria_estudante_qua_15h00": {
         "titulo": "Em breve",
@@ -13,17 +23,27 @@
         "responsavel_info": "-",
         "resumo": "Em breve.",
         "id_responsavel": "vazio",
-        "quando": "Quarta, às 15h00"
+        "quando": "Quarta, às 15h00",
+        "onde": "IME-USP"
     },
     
-
+    "plenaria_estudante_qui_14h00": {
+        "titulo": "Em breve",
+        "responsavel": "A definir",
+        "responsavel_info": "-",
+        "resumo": "Em breve.",
+        "id_responsavel": "vazio",
+        "quando": "Quinta, às 14h30",
+        "onde": "IME-USP"
+    },
     "plenaria_estudante_qui_14h30": {
         "titulo": "Em breve",
         "responsavel": "A definir",
         "responsavel_info": "-",
         "resumo": "Em breve.",
         "id_responsavel": "vazio",
-        "quando": "Quinta, às 14h30"
+        "quando": "Quinta, às 14h30",
+        "onde": "IME-USP"
     },
     "plenaria_estudante_qui_15h00": {
         "titulo": "Em breve",
@@ -31,24 +51,7 @@
         "responsavel_info": "-",
         "resumo": "Em breve.",
         "id_responsavel": "vazio",
-        "quando": "Quinta, às 15h00"
-    },
-
-
-    "plenaria_estudante_sex_16h00": {
-        "titulo": "Em breve",
-        "responsavel": "A definir",
-        "responsavel_info": "-",
-        "resumo": "Em breve.",
-        "id_responsavel": "vazio",
-        "quando": "Sexta, às 16h00"
-    },
-    "plenaria_estudante_sex_16h30": {
-        "titulo": "Em breve",
-        "responsavel": "A definir",
-        "responsavel_info": "-",
-        "resumo": "Em breve.",
-        "id_responsavel": "vazio",
-        "quando": "Sexta, às 16h30"
+        "quando": "Quinta, às 15h00",
+        "onde": "IME-USP"
     }
 }

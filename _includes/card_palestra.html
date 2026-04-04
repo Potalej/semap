@@ -1,0 +1,54 @@
+{% assign palestra = include.palestra %}
+{% assign classe = include.classe %}
+{% assign texto = include.texto %}
+
+{% assign pessoas = site.data[site.ano].pessoas %}
+{% assign id = palestra[1].id_responsavel %}
+
+{% assign dias = "_,Segunda-feira,Terça-feira,Quarta-feira,Quinta-feira,Sexta-feira" | split: "," %}
+{% assign datas = "_,4,5,6,7,8" | split: "," %}
+
+{% assign dia = palestra[1].dia %}
+{% assign dia_semana = dias[dia] %}
+
+<div class="row gy-3 justify-content-center">
+    {% assign partes = palestra[1].quando | split: 'às ' %}
+    <div class="col-1 card-atividade-lateral card-atividade-lateral-{{ classe }}">
+        <div>{{ texto }}</div>
+    </div>
+    <div class="card card-atividade col-11 col-lg-9 card-atividade-{{ classe }}">
+        <div class="row justify-content-center">
+            <div class="card-atividade-img col-xl-3">
+                <img src="{{ site.baseurl }}/img/{{ site.ano }}/pessoas/{{ id }}.jpg" 
+                    class="img-fluid rounded-start" 
+                    alt="Fotografia da pessoa apresentadora da palestra." 
+                    onerror="this.src='{{ site.baseurl }}/img/{{ site.ano }}/pessoas/vazio.jpg'"
+                />
+                <div class="card-atividade-{{ classe }}-icone">
+                <img/>
+                </div>
+            </div>
+            <div class="col-xl-8">
+                <div class="card-body">
+                    <h5 class="card-title">{{ palestra[1].titulo }}</h5>
+                    <p class="card-text">{{ pessoas[id].nome }} ({{ pessoas[id].filiacao }})</p>
+                    <div class="row">
+                        <div class="col-8 col-sm-7">
+                            <p class="card-text">
+                                <i class="fa-regular fa-clock"></i> {{ dia_semana }}, às {{ partes[1] }}
+                                <br>
+                                <i class="fa-solid fa-location-dot"></i> {{ palestra[1].onde }}
+                            </p>
+                            <a href="{{ site.baseurl }}/palestras/{{ site.ano }}/{{ id }}" class="btn btn-primary">Mais informações</a>
+                        </div>
+                        <div class="col-4 col-sm-5 atividade-col-semapinho">
+                            {% if pessoas[id].semapinho != "" %}
+                                <img src="{{ site.baseurl }}/img/{{ site.ano }}/semapinhos/{{ pessoas[id].semapinho }}.png">
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

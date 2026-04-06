@@ -14,6 +14,7 @@ tem_resumo: true
 {% include botao_inscricao.html texto="Para participar das palestras, inscreva-se através deste formulário!" %}
 
 {% assign palestras = site.data[site.ano].palestras %}
+{% assign palestras_definir = site.data[site.ano].palestrasdefinir %}
 {% assign coloquio = site.data[site.ano].coloquio %}
 {% assign estudantes = site.data[site.ano].estudantes %}
 {% assign coloquinho = site.data[site.ano].coloquinho %}
@@ -23,8 +24,7 @@ tem_resumo: true
 
 <section class="atividades container">
     {% for palestra in palestras %}
-        {% assign id = palestra[1].id_responsavel %}
-        {% if pessoas[id].confirmou %}
+        {% if palestra[1].confirmou %}
             {% 
                 include card_palestra.html 
                 palestra=palestra 
@@ -34,8 +34,7 @@ tem_resumo: true
         {% endif %}
     {% endfor %}
     {% for palestra in coloquio %}
-        {% assign id = palestra[1].id_responsavel %}
-        {% if pessoas[id].confirmou %}
+        {% if palestra[1].confirmou %}
             {% 
                 include card_palestra.html 
                 palestra=palestra 
@@ -45,8 +44,7 @@ tem_resumo: true
         {% endif %}
     {% endfor %}
     {% for palestra in coloquinho %}
-        {% assign id = palestra[1].id_responsavel %}
-        {% if pessoas[id].confirmou %}
+        {% if palestra[1].confirmou %}
             {% 
                 include card_palestra.html 
                 palestra=palestra 
@@ -56,13 +54,23 @@ tem_resumo: true
         {% endif %}
     {% endfor %}
     {% for palestra in estudantes %}
-        {% assign id = palestra[1].id_responsavel %}
-        {% if pessoas[id].confirmou %}
+        {% if palestra[1].confirmou %}
             {% 
                 include card_palestra.html 
                 palestra=palestra 
                 classe="palestra-estudante" 
                 texto="Estudante" 
+            %}
+        {% endif %}
+    {% endfor %}
+
+    {% for palestra in palestras_definir %}
+        {% if palestra[1].confirmou %}
+            {% 
+                include card_palestra.html 
+                palestra=palestra 
+                classe="palestra-palestra" 
+                texto="Palestra" 
             %}
         {% endif %}
     {% endfor %}

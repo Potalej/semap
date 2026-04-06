@@ -7,6 +7,7 @@
     "id_responsavel": "vazio",
     "quando": "Terça, às 14h00",
     "onde": "Auditório Jacy Monteiro",
-    "dia": 2
+    "dia": 2,
+    "confirmou": false
   }
 }

@@ -34,11 +34,19 @@
                     <p class="card-text">{{ pessoas[id].nome }} ({{ pessoas[id].filiacao }})</p>
                     <div class="row">
                         <div class="col-8 col-sm-7">
+                            {% if palestra[1].quando == "" %}
+                            <p class="card-text">
+                                <i class="fa-regular fa-clock"></i> A definir
+                                <br>
+                                <i class="fa-solid fa-location-dot"></i> A definir
+                            </p>
+                            {% else %}
                             <p class="card-text">
                                 <i class="fa-regular fa-clock"></i> {{ dia_semana }}, às {{ partes[1] }}
                                 <br>
                                 <i class="fa-solid fa-location-dot"></i> {{ palestra[1].onde }}
                             </p>
+                            {% endif %}
                             <a href="{{ site.baseurl }}/palestras/{{ site.ano }}/{{ id }}" class="btn btn-primary">Mais informações</a>
                         </div>
                         <div class="col-4 col-sm-5 atividade-col-semapinho">

@@ -3,6 +3,7 @@ layout: default
 ---
 
 {% assign palestras = site.data[site.ano].palestras %}
+{% assign palestras_definir = site.data[site.ano].palestrasdefinir %}
 {% assign coloquio = site.data[site.ano].coloquio %}
 {% assign coloquinho = site.data[site.ano].coloquinho %}
 {% assign estudantes = site.data[site.ano].estudantes %}
@@ -12,6 +13,8 @@ layout: default
 
 {% if palestras contains page.ind_palestra %}
   {% assign palestra = palestras[page.ind_palestra] %}
+{% elsif palestras_definir contains page.ind_palestra %}
+  {% assign palestra = palestras_definir[page.ind_palestra] %}
 {% elsif coloquio contains page.ind_palestra %}
   {% assign palestra = coloquio[page.ind_palestra] %}
 {% elsif coloquinho contains page.ind_palestra %}
@@ -65,10 +68,12 @@ layout: default
             </span>
           </div>
           <br>
+          {% unless pessoa.biografia == "" %}
           <div class="atividade-resumo">
             <h4>Minibiografia:</h4>
               {{ pessoa.biografia }}
           </div>
+          {% endunless %}
         </div>
 
       </div>

@@ -18,31 +18,31 @@
         "confirmou": true
     },
     "plenaria_seg_17h30": {
-        "titulo": "Em breve",
-        "resumo": "Em breve",
-        "id_responsavel": "vazio",
+        "titulo": "Aproximando funções: retas, parábolas e a ideia de derivada",
+        "resumo": "Podemos tentar aproximar uma função qualquer (definida em um intervalo e com valores reais) por uma reta (um polinômio de grau 1), por uma parábola (um polinômio de grau 2) e assim por diante. Mas quando essa aproximação é realmente boa? Como decidir se, em pequenos intervalos de tempo, o preço da ação PETR4 da Petrobras em função do tempo pode ser bem aproximado por uma reta? Essas são algumas das questões que serão discutidas nesta palestra.",
+        "id_responsavel": "clodoaldo",
         "quando": "Segunda, às 17h30",
         "onde": "IME-USP",
         "dia": 1,
-        "confirmou": false
+        "confirmou": true
     },
     "plenaria_seg_19h00": {
-        "titulo": "Em breve",
-        "resumo": "Em breve",
-        "id_responsavel": "vazio",
+        "titulo": "Aplicações de Cadeias de Markov de Alcance Variável",
+        "resumo": "As Cadeias de Markov de Alcance Variável (VLMC) são extensões das cadeias de Markov tradicionais que ao invés de usar um passado de tamanho fixo, ajustam o comprimento do passado conforme sua \"importância\" para prever o próximo estado. Esse modelo economiza em termos do número de parâmetros a serem estimados, além de proporcionar nterpretabilidade para os passados relevantes. Algumas aplicações serão apresentadas.",
+        "id_responsavel": "claudia_peixoto",
         "quando": "Segunda, às 19h00",
         "onde": "IME-USP",
         "dia": 1,
-        "confirmou": false
+        "confirmou": true
     },
     "plenaria_seg_20h00": {
-        "titulo": "Em breve",
-        "resumo": "Em breve",
-        "id_responsavel": "vazio",
+        "titulo": "Reflexões sobre a Carreira em Matemática Aplicada",
+        "resumo": "O tema dessa conversa é o compartilhamento de alguns dados e reflexões sobre a carreira em matemática aplicada. Serão apresentados os dados, as iniciativas e uma visão pessoal sobre como trilhar essa carreira considerando as peculiaridades do ecossistema brasileiro.",
+        "id_responsavel": "luis_carlos",
         "quando": "Segunda, às 20h00",
         "onde": "IME-USP",
         "dia": 1,
-        "confirmou": false
+        "confirmou": true
     },
 
     "plenaria_ter_14h30": {
@@ -84,13 +84,13 @@
 
 
     "plenaria_qua_15h30": {
-        "titulo": "Em breve",
-        "resumo": "Em breve.",
-        "id_responsavel": "vazio",
+        "titulo": "Resolvendo EDO's no espaço das funções de quadrado integrável",
+        "resumo": "Nesta apresentação introduziremos uma noção de derivada fraca, devida a Sobolev, e mostraremos como ela leva a resultados de resolubilidade de EDO's com coeficientes constantes, em intervalos limitados da reta, no espaço das funções de quadrado integrável.",
+        "id_responsavel": "paulo_cordaro",
         "quando": "Quarta, às 15h30",
         "onde": "IME-USP",
         "dia": 3,
-        "confirmou": false
+        "confirmou": true
     },
     "plenaria_qua_19h00": {
         "titulo": "MATEMÁTICA INDUSTRIAL EM AÇÃO: otimização de carros híbridos",
@@ -113,27 +113,27 @@
 
 
     "plenaria_qui_15h30": {
-        "titulo": "Em breve",
-        "resumo": "Em breve",
-        "id_responsavel": "vazio",
+        "titulo": "Ondas viajantes na dinâmica dos fluidos em meios porosos",
+        "resumo": "Nesta palestra, introduziremos a noção de onda viajante e discutiremos seu papel na descrição de fenômenos de propagação em equações diferenciais parciais. Explicaremos também a conexão entre ondas viajantes e órbitas heteroclínicas em sistemas dinâmicos, uma perspectiva que permite interpretar tais soluções em termos geométricos e qualitativos. Em seguida, apresentaremos dois exemplos provenientes da dinâmica dos fluidos em meios porosos, ambos motivados por problemas de recuperação de petróleo: o modelo de deslocamento com polímeros e modelos de viscous/gravitational fingering. Nesses contextos, as ondas viajantes surgem naturalmente como perfis que descrevem a propagação de frentes e zonas de transição. A palestra terá caráter introdutório, com ênfase nas ideias matemáticas centrais e na interpretação física dos modelos.",
+        "id_responsavel": "yulia",
         "quando": "Quinta, às 15h30",
         "onde": "IME-USP",
         "dia": 4,
-        "confirmou": false
+        "confirmou": true
     },
     "plenaria_qui_19h00": {
-        "titulo": "Em breve",
-        "resumo": "Em breve",
-        "id_responsavel": "vazio",
+        "titulo": "Uma perspectiva sobre o mercado para os alunos do bacharelado em matemática aplicada e computacional.",
+        "resumo": "Nesta conversa, vamos compartilhar alguns dos principais pontos fortes e desafios enfrentados pelos formandos dos cursos de Matemática Aplicada. Serão apresentadas situações práticas que ajudam o aluno a conectar os problemas do dia a dia com as disciplinas do curso, evidenciando a multidisciplinaridade presente na formação em Matemática Aplicada. Com isso, buscamos destacar para os participantes a qualidade do conteúdo acadêmico oferecido e como os temas abordados ao longo do curso contribuem para a construção de uma base ampla e sólida para o desenvolvimento da carreira profissional.",
+        "id_responsavel": "marco_claudino",
         "quando": "Quinta, às 19h00",
         "onde": "IME-USP",
         "dia": 4,
-        "confirmou": false
+        "confirmou": true
     },
     "plenaria_qui_20h00": {
-        "titulo": "Aplicações de Cadeias de Markov de Alcance Variável",
-        "resumo": "As Cadeias de Markov de Alcance Variável (VLMC) são extensões das cadeias de Markov tradicionais que ao invés de usar um passado de tamanho fixo, ajustam o comprimento do passado conforme sua \"importância\" para prever o próximo estado. Esse modelo economiza em termos do número de parâmetros a serem estimados, além de proporcionar nterpretabilidade para os passados relevantes. Algumas aplicações serão apresentadas.",
-        "id_responsavel": "claudia_peixoto",
+        "titulo": "Modelagem matemática e o desenvolvimento de métodos numéricos",
+        "resumo": "Nesta apresentação apresentaremos alguns modelos matemáticos descritos por Equações Diferenciais Parciais e comentaremos brevemente sobre aspectos de possíveis aproximações de suas soluções, a partir do emprego do Método dos Elementos Finitos e do Métodos de Volumes Finitos. Como ilustração, serão apresentados resultados inerentes à simulação de escoamentos de fluidos em diferentes cenários, tais como em meios porosos, em uma câmara do coração e em canais naturais.",
+        "id_responsavel": "maicon",
         "quando": "Quinta, às 20h00",
         "onde": "IME-USP",
         "dia": 4,

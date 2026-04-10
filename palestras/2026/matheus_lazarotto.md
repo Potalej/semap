@@ -1,7 +1,0 @@
----
-ind_palestra: "coloquinho"
-titulo: "Island myriads in periodic potentials (Coloquinho)"
-resumo: "An aesthetically striking emergence of stability islands in phase-space was found for two periodic potentials with tiling symmetries, one square and the other hexagonal, as inspired by two-dimensional Hamiltonian models of optical lattices [1]. The structures found, here named island myriads, resemble web-tori with notable fractality and arise at the energy levels of unstable equilibrium points. The apparent paradox of stable structures appearing near unstable regions is only explainable by the tiling symmetries in the potential function.<br>In this talk, the numerical tools used to unravel the myriad structure will be described, as they were used to obtain generic solutions, measure chaotic regions, and find periodic orbits [2].<br><b>References</b><br>[1] M. Lazarotto, I. Caldas, and Y. Elskens, CNSNS, 112, 106525 (2022).<br>[2] M. Lazarotto, I. Caldas, and Y. Elskens, Chaos, 34, 033115 (2024)."
-id_responsavel: "matheus_lazarotto"
-layout: palestra
----

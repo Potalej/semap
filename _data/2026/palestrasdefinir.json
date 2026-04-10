@@ -6,37 +6,5 @@
         "quando": "",
         "onde": "",
         "confirmou": true
-    },
-    "plenaria_clodoaldo": {
-        "titulo": "Aproximando funções: retas, parábolas e a ideia de derivada",
-        "resumo": "Podemos tentar aproximar uma função qualquer (definida em um intervalo e com valores reais) por uma reta (um polinômio de grau 1), por uma parábola (um polinômio de grau 2) e assim por diante. Mas quando essa aproximação é realmente boa? Como decidir se, em pequenos intervalos de tempo, o preço da ação PETR4 da Petrobras em função do tempo pode ser bem aproximado por uma reta? Essas são algumas das questões que serão discutidas nesta palestra.",
-        "id_responsavel": "clodoaldo",
-        "quando": "",
-        "onde": "",
-        "confirmou": true
-    },
-    "plenaria_marco_claudino": {
-        "titulo": "Uma perspectiva sobre o mercado para os alunos do bacharelado em matemática aplicada e computacional.",
-        "resumo": "Nesta conversa, vamos compartilhar alguns dos principais pontos fortes e desafios enfrentados pelos formandos dos cursos de Matemática Aplicada. Serão apresentadas situações práticas que ajudam o aluno a conectar os problemas do dia a dia com as disciplinas do curso, evidenciando a multidisciplinaridade presente na formação em Matemática Aplicada. Com isso, buscamos destacar para os participantes a qualidade do conteúdo acadêmico oferecido e como os temas abordados ao longo do curso contribuem para a construção de uma base ampla e sólida para o desenvolvimento da carreira profissional.",
-        "id_responsavel": "marco_claudino",
-        "quando": "",
-        "onde": "",
-        "confirmou": true
-    },
-    "plenaria_yulia": {
-        "titulo": "Ondas viajantes na dinâmica dos fluidos em meios porosos",
-        "resumo": "Nesta palestra, introduziremos a noção de onda viajante e discutiremos seu papel na descrição de fenômenos de propagação em equações diferenciais parciais. Explicaremos também a conexão entre ondas viajantes e órbitas heteroclínicas em sistemas dinâmicos, uma perspectiva que permite interpretar tais soluções em termos geométricos e qualitativos. Em seguida, apresentaremos dois exemplos provenientes da dinâmica dos fluidos em meios porosos, ambos motivados por problemas de recuperação de petróleo: o modelo de deslocamento com polímeros e modelos de viscous/gravitational fingering. Nesses contextos, as ondas viajantes surgem naturalmente como perfis que descrevem a propagação de frentes e zonas de transição. A palestra terá caráter introdutório, com ênfase nas ideias matemáticas centrais e na interpretação física dos modelos.",
-        "id_responsavel": "yulia",
-        "quando": "",
-        "onde": "",
-        "confirmou": true
-    },
-    "plenaria_maicon": {
-        "titulo": "Modelagem matemática e o desenvolvimento de métodos numéricos",
-        "resumo": "Nesta apresentação apresentaremos alguns modelos matemáticos descritos por Equações Diferenciais Parciais e comentaremos brevemente sobre aspectos de possíveis aproximações de suas soluções, a partir do emprego do Método dos Elementos Finitos e do Métodos de Volumes Finitos. Como ilustração, serão apresentados resultados inerentes à simulação de escoamentos de fluidos em diferentes cenários, tais como em meios porosos, em uma câmara do coração e em canais naturais.",
-        "id_responsavel": "maicon",
-        "quando": "",
-        "onde": "",
-        "confirmou": true
     }
 }

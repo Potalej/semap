@@ -9,16 +9,16 @@ permalink: /sobre/
 <h3>Sumário</h3>
 
 <ul>
-    <li><a href="#logo">🌐 A logo: Fractais de Newton</a></li>
+    <li><a href="#logo"><i class="fa-solid fa-globe"></i> A logo: Fractais de Newton</a></li>
     <li><a href="#mascote">🦆 O mascote: Semapinho</a></li>
-    <li><a href="#comissao">😎 A Comissão Organizadora</a></li>
+    <li><a href="#comissao"><i class="fa-solid fa-user"></i> A Comissão Organizadora</a></li>
 </ul>
 
 <!--  -->
 <hr>
 <!--  -->
 
-<h2 id="logo">🌐 A logo: Fractais de Newton</h2>
+<h2 id="logo"><i class="fa-solid fa-globe"></i> A logo: Fractais de Newton</h2>
 
 <p>
 Existem diversos métodos numéricos para encontrar raízes de polinômios, e talvez o mais conhecido seja o Método de Newton. Dada uma função \(f\), o método é definido pela iteração:
@@ -113,7 +113,7 @@ Para mais detalhes, recomendamos o vídeo “Newton’s fractal (which Newton kn
 <hr>
 <!--  -->
 
-<h2 id="comissao">😎 A comissão organizadora</h2>
+<h2 id="comissao"><i class="fa-solid fa-user"></i> A comissão organizadora</h2>
 {% assign comite = site.data[site.ano].comite %}
 
 <h3>Comitê de organização geral</h3>

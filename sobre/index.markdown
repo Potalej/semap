@@ -6,7 +6,19 @@ permalink: /sobre/
 
 <section class="container inicio-informacoes">
 
-<h2>A logo: Fractais de Newton</h2>
+<h3>Sumário</h3>
+
+<ul>
+    <li><a href="#logo">🌐 A logo: Fractais de Newton</a></li>
+    <li><a href="#mascote">🦆 O mascote: Semapinho</a></li>
+    <li><a href="#comissao">😎 A Comissão Organizadora</a></li>
+</ul>
+
+<!--  -->
+<hr>
+<!--  -->
+
+<h2 id="logo">🌐 A logo: Fractais de Newton</h2>
 
 <p>
 Existem diversos métodos numéricos para encontrar raízes de polinômios, e talvez o mais conhecido seja o Método de Newton. Dada uma função \(f\), o método é definido pela iteração:
@@ -72,7 +84,7 @@ Para mais detalhes, recomendamos o vídeo “Newton’s fractal (which Newton kn
 <hr>
 <!--  -->
 
-<h2>O mascote: Semapinho</h2>
+<h2 id="mascote">🦆 O mascote: Semapinho</h2>
 
 <div class="row justify-content-center align-items-center">
     <div class="col col-12 col-lg-10">
@@ -96,5 +108,74 @@ Para mais detalhes, recomendamos o vídeo “Newton’s fractal (which Newton kn
         <img src="{{ site.url }}/img/semapinho/semapinho_pintado.png">
     </div>
 </div>
+
+<!--  -->
+<hr>
+<!--  -->
+
+<h2 id="comissao">😎 A comissão organizadora</h2>
+{% assign comite = site.data[site.ano].comite %}
+
+<h3>Comitê de organização geral</h3>
+
+<div class="row row-gap-3 comite-lista">
+    {% for pessoa in comite.geral %}
+    <div class="comite-li col col-12 col-lg-4">
+        <div class="comite-item">
+            <div class="comite-nome">
+                {{ pessoa.nome }}
+                {% if pessoa.lattes != "" %}
+                    <a href="{{ pessoa.lattes }}" target="_blank"><i class="ai ai-lattes"></i></a>
+                {% endif %}
+                {% if pessoa.linkedin != ""  %}
+                    <a href="{{ pessoa.linkedin }}" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                {% endif %}
+                {% if pessoa.github != ""  %}
+                    <a href="{{ pessoa.github }}" target="_blank"><i class="fa-brands fa-github"></i></a>
+                {% endif %}
+            </div>
+            <div class="comite-email">
+                {{ pessoa.email }}
+            </div>
+            <div class="comite-sobre">
+                {{ pessoa.sobre }}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<br>
+
+{% if comite.local %}
+<h3>Comitê de organização local</h3>
+
+<div class="row row-gap-3 comite-lista">
+    {% for pessoa in comite.local %}
+    <div class="comite-li col col-12 col-lg-4">
+        <div class="comite-item">
+            <div class="comite-nome">
+                {{ pessoa.nome }}
+                {% if pessoa.lattes != "" %}
+                    <a href="{{ pessoa.lattes }}" target="_blank"><i class="ai ai-lattes"></i></a>
+                {% endif %}
+                {% if pessoa.linkedin != ""  %}
+                    <a href="{{ pessoa.linkedin }}" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                {% endif %}
+                {% if pessoa.github != ""  %}
+                    <a href="{{ pessoa.github }}" target="_blank"><i class="fa-brands fa-github"></i></a>
+                {% endif %}
+            </div>
+            <div class="comite-email">
+                {{ pessoa.email }}
+            </div>
+            <div class="comite-sobre">
+                {{ pessoa.sobre }}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
 
 </section>

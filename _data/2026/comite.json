@@ -1,0 +1,76 @@
+{
+    "geral": [
+        {
+            "nome": "Rayssa Oliveira Santos",
+            "sobre": "Mestranda em Matemática Aplicada",
+            "email": "rayssa_oliveira@usp.br",
+            "lattes": "http://lattes.cnpq.br/9938075146745990",
+            "github": "",
+            "linkedin": ""
+        },
+        {
+            "nome": "João Guilherme Caldas Steinstraesser",
+            "sobre": "Docente no Departamento de Matemática Aplicada",
+            "email": "joao.steinstraesser@usp.br",
+            "lattes": "http://lattes.cnpq.br/0430796327756801",
+            "github": "",
+            "linkedin": ""
+        },
+        {
+            "nome": "Octavio Augusto Potalej",
+            "sobre": "Mestrando em Matemática Aplicada",
+            "email": "oapotalej@ime.usp.br",
+            "lattes": "http://lattes.cnpq.br/6560012636399433",
+            "github": "https://github.com/potalej",
+            "linkedin": ""
+        },
+        {
+            "nome": "Yuri Assis Pinto",
+            "sobre": "Mestrando em Matemática Aplicada",
+            "email": "yuriassis@usp.br",
+            "lattes": "http://lattes.cnpq.br/6201531065739653",
+            "github": "",
+            "linkedin": ""
+        },
+        {
+            "nome": "Samara Martins",
+            "sobre": "Mestranda em Ciência da Computação",
+            "email": "samart@ime.usp.br",
+            "lattes": "",
+            "github": "",
+            "linkedin": ""
+        },
+        {
+            "nome": "Raquel Magalhães de Almeida Cruz",
+            "sobre": "Doutoranda em Matemática",
+            "email": "raquelcruz@ime.usp.br",
+            "lattes": "http://lattes.cnpq.br/1636387954255127",
+            "github": "",
+            "linkedin": ""
+        },
+        {
+            "nome": "Eduardo Colli",
+            "sobre": "Docente no Departamento de Matemática Aplicada",
+            "email": "colli@ime.usp.br",
+            "lattes": "http://lattes.cnpq.br/0694302682822936",
+            "github": "",
+            "linkedin": ""
+        },
+        {
+            "nome": "Salvador Zanata",
+            "sobre": "Docente no Departamento de Matemática Aplicada",
+            "email": "sazanata@ime.usp.br",
+            "lattes": "http://lattes.cnpq.br/1597520020384471",
+            "github": "",
+            "linkedin": ""
+        },
+        {
+            "nome": "Dagoberto",
+            "sobre": "Líder supremo",
+            "email": "",
+            "lattes": "",
+            "github": "",
+            "linkedin": ""
+        }
+    ]
+}

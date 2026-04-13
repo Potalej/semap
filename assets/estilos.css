@@ -958,3 +958,25 @@ Cards para atividades
 .botao-formulario-inscricoes:hover {
     background-color: var(--azul-escuro) !important;
 }
+
+/************************************************
+> Pagina sobre
+************************************************/
+div.comite-lista {
+    margin: 0px 15px;
+}
+div.comite-li::before {
+  content: "🦆";
+  margin-right: 10px;
+}
+div.comite-li {
+    display: flex;
+    align-items: center;
+}
+.comite-sobre {
+    color: #777;
+    font-size: .9rem;
+}
+.comite-email {
+    font-family: monospace;
+}

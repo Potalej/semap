@@ -1,5 +1,5 @@
 ---
-ind_palestra: "plenaria_estudante_qui_15h00"
+ind_palestra: "plenaria_ter_20h00"
 titulo: "Em breve"
 resumo: "Em breve."
 id_responsavel: "vazio"

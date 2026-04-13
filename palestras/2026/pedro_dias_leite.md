@@ -1,0 +1,7 @@
+---
+ind_palestra: "plenaria_seg_15h00"
+titulo: "Matemática Aplicada na era da IA - O Caso da Meteorologia"
+resumo: "<p>Esta palestra discute o papel da Matemática Aplicada na interface entre ciência, sociedade e setores produtivos, entendendo “indústria” em sentido amplo — como qualquer atividade econômica ou social que utilize modelos matemáticos para resolver problemas complexos. A Meteorologia constitui um exemplo paradigmático, combinando forte base teórica, elevada empregabilidade e impacto direto sobre a sociedade.</p><p>Com base em uma trajetória que vai da formação em Matemática Aplicada ao desenvolvimento de ferramentas operacionais de previsão do tempo e do clima, serão abordados temas como modelagem de sistemas dinâmicos, previsibilidade e incerteza, métodos numéricos e sua adaptação às arquiteturas computacionais, incluindo desafios de escalabilidade em processamento paralelo.</p><p>Por fim, discute-se o papel emergente da inteligência artificial baseada em princípios físicos (physics-based AI), na qual o conhecimento teórico orienta a escolha de variáveis, a interpretação dos resultados e o desenvolvimento de aplicações voltadas a setores como energia, agronegócio e meio ambiente.</p>"
+id_responsavel: "pedro_dias_leite"
+layout: palestra
+---

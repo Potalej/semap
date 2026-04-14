@@ -876,6 +876,17 @@ Cards para atividades
 .inicio-apoio .parceria img {
     max-height: 50px;
 }
+
+.inicio-encomendas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly !important;
+    width: 100%;
+}
+.inicio-encomendas img {
+    border-radius: 10px;
+}
 /************************************************
 < Fim de Pagina: INICIO
 ************************************************/

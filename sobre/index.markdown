@@ -127,6 +127,9 @@ Para mais detalhes, recomendamos o vídeo “Newton’s fractal (which Newton kn
                 {% if pessoa.lattes != "" %}
                     <a href="{{ pessoa.lattes }}" target="_blank"><i class="ai ai-lattes"></i></a>
                 {% endif %}
+                {% if pessoa.site != "" %}
+                    <a href="{{ pessoa.site }}" target="_blank"><i class="fa-solid fa-globe"></i></a>
+                {% endif %}
                 {% if pessoa.linkedin != ""  %}
                     <a href="{{ pessoa.linkedin }}" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                 {% endif %}

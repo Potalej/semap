@@ -81,5 +81,124 @@
             "linkedin": "",
             "site": ""
         }
+    ],
+    "local": [
+        {
+            "nome": "Nayda Rebeca Huisa Qquellhua",
+            "sobre": "Mestranda em Matemática Aplicada",
+            "email": "nayda.huisa@usp.br",
+            "lattes": "https://lattes.cnpq.br/1934446403435318",
+            "github": "",
+            "linkedin": "",
+            "site": ""
+        },
+        {
+            "nome": "Julia Teixeira de Araujo Silva",
+            "sobre": "Bacharelanda em Matemática Aplicada e Computacional",
+            "email": "araujo.julia@usp.br",
+            "lattes": "",
+            "github": "",
+            "linkedin": "",
+            "site": ""
+        },
+        {
+            "nome": "Peter Hanemann Kim",
+            "sobre": "Bacharelando em Matemática Aplicada e Computacional",
+            "email": "",
+            "lattes": "",
+            "github": "",
+            "linkedin": "",
+            "site": ""
+        },
+        {
+            "nome": "Kawan Santana",
+            "sobre": "Bacharelando em Matemática Aplicada e Computacional",
+            "email": "kawan.santana@usp.br",
+            "lattes": "http://lattes.cnpq.br/5342350155961120",
+            "github": "",
+            "linkedin": "",
+            "site": ""
+        },
+        {
+            "nome": "Lucas Bezerra",
+            "sobre": "Doutorando em Matemática Aplicada",
+            "email": "bezerralucas@ime.usp.br",
+            "lattes": "",
+            "github": "",
+            "linkedin": "",
+            "site": ""
+        },
+        {
+            "nome": "João Gabriel Germano",
+            "sobre": "Bacharelando em Matemática Aplicada",
+            "email": "jg2718@usp.br",
+            "lattes": "",
+            "github": "",
+            "linkedin": "",
+            "site": ""
+        },
+        {
+            "nome": "Matheus Alves",
+            "sobre": "Bacharelando em Matemática Aplicada",
+            "email": "matheusalves123@usp.br",
+            "lattes": "",
+            "github": "",
+            "linkedin": "",
+            "site": ""
+        },
+        {
+            "nome": "Ana Carolina Campos Feitoza",
+            "sobre": "Bacharelanda em Estatística",
+            "email": "ana_feitoza@usp.br",
+            "lattes": "http://lattes.cnpq.br/0334410324150772",
+            "github": "",
+            "linkedin": "",
+            "site": ""
+        },
+        {
+            "nome": "Lara Jaklic",
+            "sobre": "Bacharelanda em Matemática Aplicada",
+            "email": "lara.jaklic@usp.br",
+            "lattes": "",
+            "github": "",
+            "linkedin": "",
+            "site": ""
+        },
+        {
+            "nome": "Christian Ferian",
+            "sobre": "Bacharelando em Matemática Aplicada",
+            "email": "ferianchristian@gmail.com",
+            "lattes": "",
+            "github": "",
+            "linkedin": "",
+            "site": ""
+        },
+        {
+            "nome": "Julyana Lima Santos",
+            "sobre": "Bacharelanda em Matemática Aplicada",
+            "email": "Julyana_8@usp.br",
+            "lattes": "",
+            "github": "",
+            "linkedin": "",
+            "site": ""
+        },
+        {
+            "nome": "Rodrigo Catto Menin",
+            "sobre": "Bacharelando em Matemática Aplicada",
+            "email": "menin.rodrigo@usp.br",
+            "lattes": "",
+            "github": "",
+            "linkedin": "",
+            "site": ""
+        },
+        {
+            "nome": "Isabella Fernandes Leitão de Oliveira",
+            "sobre": "Bacharelanda em Estatística",
+            "email": "isabella.leitao@usp.br",
+            "lattes": "",
+            "github": "",
+            "linkedin": "",
+            "site": ""
+        }
     ]
 }

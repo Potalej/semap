@@ -939,6 +939,27 @@ Cards para atividades
     width: 100%;
 }
 
+
+.posteres .card {
+    background-color: unset;
+}
+.posteres .accordion-item div {
+    padding: 10px;
+}
+.poster-titulo {
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+}
+.poster-autoria {
+
+}
+sup {
+    font-size: 0.6rem !important;
+}
+.posteres {
+    row-gap: 30px !important;
+}
+
 /************************************************
 < Fim de Pagina: POSTERES
 ************************************************/

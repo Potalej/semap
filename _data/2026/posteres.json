@@ -1,0 +1,138 @@
+[
+  {
+    "autoria": "Adhara Batista Guimarães Carvalho",
+    "coautoria": [["Breno Raphaldini", 2]],
+    "afiliacoes": ["IF-USP", "IME-USP"],
+    "titulo": "Métodos Hamiltonianos Para Fluidos e Simulações que preservam essa estrutura",
+    "resumo": "A extensão da formulação Hamiltoniana para dimensão infinita permite um ponto de vista geométrico para as teorias de fluidos.  Elas trazem grupos de simetrias diferentes para cada teoria de fluidos, que são correlacionados a quantidades conservadas pelo teorema de Noether, além de outros métodos poderosos e úteis. Usando essas propriedades, V. Zeitlin, 2004 trouxe uma aproximação auto-consistente e de finitos modos para simular hidrodinâmica de forma a conservar a estrutura Hamiltoniana. Esse trabalho busca estudar os fundamentos dessa teoria e testar essa aproximação para equações conhecidas.",
+    "referencias": []
+  },
+  {
+    "autoria": "Ana Carla Quallio Rosa",
+    "coautoria": [["Fernando Cézar Gonçalves Manso", 2], ["Wellington José Corrêa", 2]],
+    "afiliacoes": ["IME-USP", "UTFPR"],
+    "titulo": "Análise Assintótica de Abordagens Propostas para a Resolução de Sistemas de Congruências Lineares",
+    "resumo": "Este trabalho propõe uma análise assintótica das implementações desenvolvidas para o Algoritmo Estendido de Euclides e o Teorema Chinês do Resto, com o objetivo de otimizar a resolução de sistemas de congruências lineares.",
+    "referencias": []
+  },
+  {
+    "autoria": "Anastácio Pascoal Epandi Canhanga",
+    "coautoria": [["João Guilherme Caldas Steinstraesser", 1]],
+    "afiliacoes": ["IME-USP"],
+    "titulo": "Estudo numérico do acoplamento entre as equações de Saint-Venant e Richards em 1D",
+    "resumo": "Este trabalho apresenta o estudo numérico do acoplamento entre o escoamento superficial descrito pelo sistema unidimensional de Saint-Venant e o fluxo de  água em solo não saturado governado pela equação de Richards na direção vertical. O modelo resultante constitui um sistema de equações diferenciais parciais de natureza mista hiperbólica–parabólica. O problema é resolvido numericamente por diferenças finitas com integração temporal explícita. Os resultados numéricos demonstram comportamento fisicamente consistente do sistema acoplado e a análise confirma a estabilidade do esquema numérico e a coerência da evolução da massa ao longo do tempo de simulação.",
+    "referencias": []
+  },
+  {
+    "autoria": "Elaine Tavares",
+    "coautoria": [["Marcone Correa Pereira", 1], ["Bianca Lorenzi", 1]],
+    "afiliacoes": ["IME-USP"],
+    "titulo": "Dinâmica Assintótica de Equações Parabólicas em Domínios Finos Degenerados",
+    "resumo": "Neste trabalho, estudamos equações diferenciais parciais em domínios finos degenerados, isto é, regiões cuja espessura tende a zero de forma não uniforme. Mostramos como o problema original pode ser aproximado por um modelo efetivamente unidimensional, preservando aspectos essenciais da dinâmica. Apresentamos resultados de convergência das soluções, incluindo estimativas de taxa, e discutimos o comportamento assintótico, com foco em equilíbrios e atratores.",
+    "referencias": []
+  },
+  {
+    "autoria": "Gabriel Tavares",
+    "coautoria": [],
+    "afiliacoes": ["IME-UFG"],
+    "titulo": "Método inexato do subgradiente generalizado de Clarke",
+    "resumo": "Como achar minimizadores de funções não-diferenciáveis (e nem convexas)? Ora, um dos meios viáveis para atingir esse objetivo é estender os conceitos de gradiente e de subgradiente num novo conjunto que, de algum modo, tem elementos descatáveis e ainda preserva propriedades do gradiente e do subgradiente. É precisamente isso que faz o subgradiente generalizado de Clarke. Tendo-o em mãos, ganhamos toda uma faixa de funções que, agora sim, podem ser apropriadas pela otimização de modo muito concreto. O pôster visa apresentar os fundamentos do otimização devida a Clarke - e dar ideia de uma implementação possivel em C.",
+    "referencias": []
+  },
+  {
+    "autoria": "Iara Castro",
+    "coautoria": [],
+    "afiliacoes": ["FGV EMAp"],
+    "titulo": "Acessibilidade ao Tratamento de Câncer no Brasil: uma Aplicação do Modelo 2SFCA",
+    "resumo": "Este trabalho investiga a acessibilidade ao tratamento de câncer no Brasil por meio da aplicação do modelo espacial de Área de Captura Flutuante de Dois Passos (2SFCA), utilizando dados do SIH-SUS, SIA-SUS e CNES. A proposta é calcular índices de acessibilidade ao tratamento oncológico com base na distância de viagem entre o local de residência dos pacientes e os estabelecimentos de saúde onde o atendimento é realizado, considerando simultaneamente a capacidade dos serviços e a distribuição populacional. O estudo também apresenta os resultados de um estudo de caso para ilustrar a aplicação do modelo e discutir seu potencial analítico pouco explorado no cenário brasileiro.",
+    "referencias": []
+  },
+  {
+    "autoria": "Iuri Gorenstein",
+    "coautoria": [["Ilana Wainer", 1]],
+    "afiliacoes": ["IO-USP"],
+    "titulo": "Emulador de Água-Rasa Informado em Física",
+    "resumo": "Modelos numéricos oceânicos enfrentam um dilema: simulações de baixa resolução não capturam a turbulência, enquanto as de alta resolução exigem passos de tempo menores, tornando-se lentas e custosas. Redes Neurais (RNs) podem desacoplar a resolução espacial da temporal, integrando com passos de tempo maiores e capturando comportamentos lineares e não lineares sem equações explícitas. Essa flexibilidade acelera as simulações e permite que RNs representem processos que modelos tradicionais podem simplificar em excesso em sua descrição de nível mais alto das equações físicas discretizadas. No entanto, isso levanta uma questão crítica: como podemos confiar em modelos não informados pela física para produzir simulações oceânicas estáveis e realistas? Este estudo tem como objetivo construir uma RN generalizável e informada na teoria de Koopman, que integra as equações de circulação barotrópica em cada pixel do domínio, conectando os métodos de modelagem numérica tradicional e RNs. Um novo conceito de Lie-AutoEncoders foi utilizado para gerar um operador linear no espaço latente da rede, capaz de evoluir a dinâmica das equações de água-rasa. A rede foi treinada num setup de variáveis com unidades controladas (gravidade igual a 1, domínio contínuo com topologia de Toros 2D e sem advecção). Após treino e validação, o teste da rede mostrou estabilidade numérica, capacidade de generalização em diferentes domínios e resultados comparáveis aos de algoritmos de água rasa tradicionais.",
+    "referencias": []
+  },
+  {
+    "autoria": "Juan Sebastián Castaño Franco",
+    "coautoria": [["Ernesto G. Birgin", 1], ["Antoine Laurain", 2]],
+    "afiliacoes": ["IME-USP", "University of Duisburg-Essen"],
+    "titulo": "Projeto Sob Medida de Tesselações Centroidais de Voronoi",
+    "resumo": "O diagrama de Voronoi tem sido objeto de estudo em muitos campos da ciência devido à variedade de aplicações que ele pode ter. Uma de interesse especial é a tesselação centroidal de Voronoi, por suas aplicações na geração de malhas, compressão de dados, quadratura ótima para o cálculo de integrais, entre outras. Neste trabalho, nosso objetivo é mostrar como construir tesselações de Voronoi centroidais usando a teoria desenvolvida por E. G. Birgin, A. Laurain e T. C. Menezes em seu artigo “Sensitivity analysis and tailored design of minimization diagrams”, utilizando algoritmos de otimização. Depois de definir as funções objetivo, calcular os gradientes e obter as tesselações centroidais de Voronoi, são apresentados vários experimentos numéricos para gerar esses diagramas com algumas propriedades específicas. O primeiro consiste em construir tesselações de Voronoi centroidais com células de igual volume; dois outros visam construir tesselações com células que satisfazem condições sobre o tamanho relativo de suas arestas ou de seus ângulos internos; e o último trata da construção de tesselações com células de tamanhos variados, governadas por uma determinada função. Os experimentos mostram que é possível construir tesselações de Voronoi centroidais personalizadas usando algoritmos de otimização bem estabelecidos e prontos para uso.",
+    "referencias": []
+  },
+  {
+    "autoria": "Luis Cesar de Azevedo",
+    "coautoria": [["Isabela Lopes de Azevedo",2], ["Ronaldo C. Prati", 1]],
+    "afiliacoes": ["CMCC-UFABC", "IME-USP"],
+    "titulo": "Uso de NLP e Ciência de Dados para análise Bibliométrica: Uma visão matemática das técnicas",
+    "resumo": "Este trabalho aborda o uso de técnicas de NLP e Ciência de Dados aplicadas à análise bibliométrica sob uma perspectiva matemática. São discutidos os processos de extração estatística de dados de bases científicas, bem como as transformações formais utilizadas na limpeza e normalização dos dados. Será abordada a representação vetorial de textos por meio de embeddings, em que documentos são projetados em espaços de alta dimensão e comparados via similaridade de cosseno para viabilizar o agrupamento e a identificação de tendências. Também são apresentados os fundamentos probabilísticos do reconhecimento de entidades nomeadas (NER) e dos modelos de linguagem (LLMs). Na prática, essa abordagem permite analisar redes de coautoria, acompanhar a evolução de palavras-chave e classificar domínios científicos, convertendo dados não estruturados em métricas quantitativas para a avaliação da pesquisa.",
+    "referencias": []
+  },
+  {
+    "autoria": "Luiz Joaquim Nunes",
+    "coautoria": [],
+    "afiliacoes": ["IP-USP"],
+    "titulo": "Modelagem de decisões humanas a partir da psicologia: contribuições para a avaliação e interpretação de inteligências artificiais",
+    "resumo": "O trabalho discute os desafios da falta de interpretabilidade em sistemas de inteligência artificial, destacando que algoritmos nem sempre reproduzem fielmente decisões humanas e podem até amplificar vieses indesejáveis. Propõe-se que as psicologias cognitiva, experimental e social ofereçam subsídios para desvelar melhor a complexidade das decisões humanas e algorítmicas, permitindo a modelagem da chamada interpretação generalizada de respostas, um algoritmo de IA voltado a gerar interpretabilidade para outros algoritmos, promovendo uma abordagem interdisciplinar entre psicologia e matemática para uma análise mais crítica do impacto dessas tecnologias.",
+    "referencias": []
+  },
+  {
+    "autoria": "Mario Francisco Hernández Hernández",
+    "coautoria": [],
+    "afiliacoes": ["Consórcio Doutoral em Matemática, Valparaíso, Chile"],
+    "titulo": "Número de rotação e dinâmica de contrações \\(\\lambda\\)-afins por partes de 3 intervalos",
+    "resumo": "Estudamos uma família paramétrica de contrações por partes com uma ou duas descontinuidades no intervalo que admitem um número de rotação. Determinamos explicitamente o número de rotação e a dinâmica assintótica desses mapas em função das descontinuidades. Isso nos dá um controle muito preciso sobre a dinâmica: podemos construir contrações por partes com um número concreto de órbitas periódicas, do período que desejarmos, ou ainda atratores do tipo Cantor com dinâmica simbólica de qualquer complexidade. Tal resultado é obtido a partir da construção de uma função que relaciona as rotações rígidas com nossos mapas por meio de uma equação de conjugação, permitindo mostrar que a dinâmica simbólica de nossos mapas é tão rica quanto a das rotações rígidas com respeito a uma partição do espaço de fase em dois ou três intervalos.",
+    "referencias": []
+  },
+  {
+    "autoria": "Nycholas Guedes Rufini",
+    "coautoria": [["Arthur A. Ramos", 1], ["Eugenio Megías", 2], ["Airton Deppman", 1]],
+    "afiliacoes": ["IF-USP", "FAMN-UGR"],
+    "titulo": "Entropia de Tsallis e dinâmica fractal aplicada ao mercado financeiro",
+    "resumo": "Neste trabalho consideramos uma nova abordagem para tratar do mercado de ações e opções utilizando o cálculo fractal para uma generalização não-linear da Equação de Black-Scholes, utilizada para precificar o valor de opções considerando um movimento browniano geométrico. Seguindo a literatura, o modelo de Black-Scholes não captura fielmente diversos comportamentos do mercado financeiro; em particular , o modelo tem por solução uma distribuição gaussiana para o retorno das ações, enquanto o modelo proposto tem uma solução q-gaussiana. As q-gaussianas são distribuições de cauda pesada (fat-tailed), que são esperadas de acordo com a literatura para uma melhor descrição do mercado de ações, onde o coeficiente q está intimamente relacionado com a Entropia de Tsallis, uma generalização da Entropia de Shannon que tem sido estudada no contexto de difusões anômalas (não brownianas). No trabalho foi desenvolvida a generalização fractal da Black-Scholes e utilizado de dados empíricos para validar o novo modelo.",
+    "referencias": []
+  },
+  {
+    "autoria": "Octavio Augusto Potalej",
+    "coautoria": [["Eduardo Colli", 1]],
+    "afiliacoes": ["IME-USP"],
+    "titulo": "Estudo numérico da dinâmica de sistemas gravitacionais colisionais com potencial suavizado",
+    "resumo": "Sistemas gravitacionais de N-corpos apresentam comportamento estatístico semelhante quando compartilham propriedades globais. Neste trabalho, investigamos numericamente sistemas com centenas de corpos de mesma massa e raio finito, permitindo colisões elásticas, sob condições iniciais com energia total $E=-1/4$, outras integrais primeiras nulas e equilíbrio virial, utilizando um potencial gravitacional suavizado por um parâmetro $\\varepsilon$. Por meio do simulador gravidade-fortran, analisamos o efeito da variação de $\\varepsilon$ e do raio $r$ na dinâmica global dos sistemas.",
+    "referencias": []
+  },
+  {
+    "autoria": "Pedro Araújo Elias Dib",
+    "coautoria": [],
+    "afiliacoes": ["IME-USP"],
+    "titulo": "Estimação de parâmetros do modelo de Heston aplicado ao mercado de opções brasileiro",
+    "resumo": "O problema é formulado como uma tarefa de otimização não linear e não convexa, na qual se busca ajustar o modelo de Heston às volatilidades implícitas observadas no mercado de opções. Para isso, utiliza-se um método numérico baseado em diferenças finitas combinado com um algoritmo de gradiente projetado com adaptação automática de passo. A aplicação a dados reais mostra que o modelo é capaz de reproduzir de forma satisfatória superfícies de volatilidade implícita em condições favoráveis.",
+    "referencias": []
+  },
+  {
+    "autoria": "Sonia Isabel Renteria Alva",
+    "coautoria": [["Pedro Iván Suárez Navarro", 1]],
+    "afiliacoes": ["IMPA"],
+    "titulo": "Ciclos limite de cruzamento em sistemas diferenciais planares descontínuos por partes",
+    "resumo": "Neste trabalho, estudamos o número máximo de ciclos limite de cruzamento em certas classes de sistemas diferenciais planares descontínuos por partes, separados por uma linha não regular. Esses sistemas são formados pela combinação de um centro linear com uma das seis selas nilpotentes hamiltonianas. Demonstramos que existem sistemas que admitem quatro ciclos limite de cruzamento. Este é um trabalho em colaboração com Pedro Suárez  (Pós-doc, IMPA).",
+    "referencias": []
+  },
+  {
+    "autoria": "Thales B. S. F. Rodrigues",
+    "coautoria": [["Lucas L. Brugger", 2], ["Vinicius G Valle", 2], ["Bruno F. Rizzuti", 2], ["Cristhiano Duarte", [2,3,4]]],
+    "afiliacoes": ["IME-USP", "UFJF", "Chapman University", "UFBA"],
+    "titulo": "Aprimorando soluções para o problema de coarse-graining quântico via programação semidefinida",
+    "resumo": "Descrições coarse-grained  de sistemas quânticos podem ser utilizadas para tratar processos onde informação sobre o sistema é perdida ou quando não é possível acessar com exatidão seus graus de liberdade. Existem esforços na literatura de abordar esse tipo de descrição através do formalismo de estados condicionais para teoria quântica, abordando as condições necessárias e suficientes para a existência de uma dinâmica emergente sob uma perspectiva bayesiana, como a dinâmica emergente proposta por Brugger et al. No entanto, essa dinâmica mostrou-se analiticamente limitada: é proporcional ao mapa de recuperação de Petz, depende de um estado inicial e resolve o problema apenas estado por estado. Tendo em vista essa limitação analítica, neste trabalho propomos um benchmark numérico dessa solução em diferentes cenários de coarse-graining. Além disso, por meio de técnicas de programação semidefinida, investigamos a existência de uma dinâmica efetiva para o problema de coarse-graining dentro do formalismo de estados condicionais que contorne a limitação de dependência do estado da abordagem anterior. Nossos resultados indicam que, no geral, a solução proposta por Brugger et al. obtém melhores resultados quando gerada a partir do estado de máxima mistura e que, pela análise via programação semidefinida, foi possível identificar cenários em que é possível se obter uma dinâmica efetiva geral que não depende de estados iniciais.",
+    "referencias": []
+  },
+  {
+    "autoria": "Yuri Assis Pinto",
+    "coautoria": [["Pedro da Silva Peixoto",1], ["João Guilherme Caldas Steinstraesser",1]],
+    "afiliacoes": ["IME-USP"],
+    "titulo": "Integradores Semi-Lagrangeanos Exponenciais: uma perspectiva",
+    "resumo": "As equações governantes que modelizam a circulação atmosférica são dominadas por processos não lineares e ondas lineares stiff, sendo que ambos processos impõe restrições de estabilidade. Com essas condições, métodos numéricos específicos são requeridos; neste trabalho, exploraremos o método semi-lagrangeano exponencial proposto por Peixoto,2019. Para a construção dessa classe de métodos precisamos investigar integradores exponenciais, o método semi-lagrangeano e sua junção. Aqui, exploraremos brevemente as fundações teóricas dos primeiros métodos, discutindo principalmente as propriedades dos integradores exponenciais, particularmente como lidam com problemas stiff linear, além disso, investigaremos o aumento da estabilidade dos métodos semi-lagrangeanos se comparados com os métodos de diferenças finitas para problemas advectivos. Por fim, apresentaremos a ideia da construção dos métodos semi-lagrangeanos exponenciais e algumas aplicações para problemas de equações diferenciais parciais hiperbólicas modelo, para discutir posteriormente a implementação de métodos de mais alta ordem, estendendo o que foi feito no trabalho Steinstraesser, 2025.",
+    "referencias": []
+  }
+]

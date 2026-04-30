@@ -1,63 +1,61 @@
 {
     "plenaria_estudante_qua_14h00": {
-        "titulo": "Em breve",
-        "responsavel": "A definir",
-        "responsavel_info": "-",
-        "resumo": "Em breve.",
-        "id_responsavel": "vazio",
+        "titulo": "Buscando tamanhos de passo por coordenada ótimos com Backtracking multidimensional",
+        "resumo": "Enquanto a busca linear clássica é amplamente utilizada na prática para encontrar tamanhos de passo no gradiente descendente com garantias de otimalidade, muitos métodos de primeira ordem chamados 'adaptativos' tentam ajustar diferentes tamanhos de passo por coordenada (precondicionadores diagonais) com garantias teóricas fracas ou inexistentes. Nesta palestra, apresentarei o Backtracking Multidimensional, um método que propomos que utiliza técnicas de planos de corte para encontrar precondicionadores de forma eficiente e comprovadamente competitivos com o precondicionador ótimo para problemas suaves e fortemente convexos.",
+        "id_responsavel": "victor_sanches_portella",
         "quando": "Quarta, às 14h30",
         "onde": "IME-USP",
-        "confirmou": false
+        "dia": 3,
+        "confirmou": true
     },
     "plenaria_estudante_qua_14h30": {
-        "titulo": "Em breve",
-        "responsavel": "A definir",
-        "responsavel_info": "-",
-        "resumo": "Em breve.",
-        "id_responsavel": "vazio",
+        "titulo": "Modelagem Intra-Hospedeira da Malária",
+        "responsavel": "António Camunga Tchikoko",
+        "resumo": "Este trabalho aborda a modelagem matemática da malária a partir de uma perspectiva multiescala, integrando a dinâmica intra-hospedeiro, a resposta imune e o potencial de transmissão. O foco está na compreensão dos mecanismos que regulam a interação entre o parasita e o sistema imune, a produção de gametócitos e a heterogeneidade entre indivíduos, bem como na forma como esses processos influenciam a propagação da doença em nível populacional.",
+        "id_responsavel": "antonio_camunga",
         "quando": "Quarta, às 14h30",
         "onde": "IME-USP",
-        "confirmou": false
+        "dia": 3,
+        "confirmou": true
     },
     "plenaria_estudante_qua_15h00": {
-        "titulo": "Em breve",
-        "responsavel": "A definir",
-        "responsavel_info": "-",
-        "resumo": "Em breve.",
-        "id_responsavel": "vazio",
+        "titulo": "Análise Cientométrica Assistida por Text-Mining da Produção em Ciência Política sobre a América Latina",
+        "responsavel": "Thales David Domingues Aparecido",
+        "resumo": "O trabalho realiza uma análise cientométrica da produção em ciência política sobre a América Latina, combinando análise de redes e técnicas de text-mining em um corpus de 5.409 artigos (1980–2025) extraídos de bases como Scopus e OpenAlex. A partir de uma rede de citações com milhares de vértices, identifica-se crescimento expressivo da produção, forte concentração geográfica em periódicos dos EUA e Reino Unido, e propriedades típicas de sistemas complexos, como distribuição de grau em lei de potência e grande componente conexa. Os resultados mostram ainda vieses linguísticos nas citações e assimetrias no intercâmbio científico entre países, com destaque para a centralidade Brasil–EUA. Por meio de modelagem de tópicos (BERTopic), são identificados 18 temas centrais, e, com Textual Forma Mentis Networks, revelam-se diferenças na organização conceitual entre produções da região e externas, evidenciando desigualdades estruturais na circulação do conhecimento e sugerindo caminhos para análises futuras.",
+        "id_responsavel": "thales_david_domingues",
         "quando": "Quarta, às 15h00",
         "onde": "IME-USP",
-        "confirmou": false
+        "dia": 3,
+        "confirmou": true
     },
     
     "plenaria_estudante_qui_14h00": {
-        "titulo": "Em breve",
-        "responsavel": "A definir",
-        "responsavel_info": "-",
-        "resumo": "Em breve.",
-        "id_responsavel": "vazio",
+        "titulo": "Onde vive o caos? Domando a dinâmica de superfícies",
+        "responsavel": "Alejo García-Sassi",
+        "resumo": "A ideia desta palestra é introduzir o conceito de dinâmica caótica, e discutir como certas dinâmicas de superfícies podem ser modeladas de forma a permitir controlar onde o caos ocorre. Em particular, apresentarei uma classe de modelos, desenvolvidos em conjunto com Fábio Tal, nos quais o comportamento caótico é organizado por meio de estruturas rotacionais, fornecendo um enquadramento natural para localizar e descrever o caos na dinâmica de superfícies.",
+        "id_responsavel": "alejo_garcia",
         "quando": "Quinta, às 14h30",
         "onde": "IME-USP",
-        "confirmou": false
+        "dia": 4,
+        "confirmou": true
     },
     "plenaria_estudante_qui_14h30": {
-        "titulo": "Em breve",
-        "responsavel": "A definir",
-        "responsavel_info": "-",
-        "resumo": "Em breve.",
-        "id_responsavel": "vazio",
+        "titulo": "Modelos de Campos Quânticos no espaço-tempo de de Sitter construídos através da Teoria Modular de Tomita-Takesaki",
+        "resumo": "Nosso trabalho consiste da construção de campos quânticos sobre o espaço-tempo de de Sitter, $d S$, uma solução das equações de Einstein descrevendo um universo com curvatura constante (em expansão), onde um observador inercial possui um horizonte de eventos. A curvatura induz uma temperatura (aparente) sobre o estado de vácuo - caracterizado aqui pela condição KMS, que está fortemente ligada à Teoria Modular de Tomita-Takesaki. Buscamos uma condição sobre os vetores do espaço de Fock que seja capaz de reconstruir teorias interagentes a partir do campo livre já construído sobre $d S$. Buscamos aumentar a coleção de modelos concretos sobre $d S$, dentre os quais estão os modelos Høegh-Krohn, com interações exponenciais, e os modelos trigonométricos, dentre os quais está o modelo sine-Gordon.",
+        "id_responsavel": "heitor",
         "quando": "Quinta, às 14h30",
         "onde": "IME-USP",
-        "confirmou": false
+        "dia": 4,
+        "confirmou": true
     },
     "plenaria_estudante_qui_15h00": {
-        "titulo": "Em breve",
-        "responsavel": "A definir",
-        "responsavel_info": "-",
-        "resumo": "Em breve.",
-        "id_responsavel": "vazio",
+        "titulo": "Exemplos de Algoritmos de Planejamento de Movimento para (Múltiplos) Robôs usando Complexidade Topológica",
+        "responsavel": "Cesar Augusto Ipanaque Zapata",
+        "resumo": "Nesta apresentação, construímos algoritmos explícitos e ótimos de planejamento de movimento para sistemas de robôs que se movem em espaços euclidianos sem colisões. Nossa abordagem baseia-se na topologia dos espaços de configuração de partículas ordenadas, a qual determina o número mínimo de regras locais de controle necessárias para qualquer planejador de movimento livre de colisões. Esses resultados fornecem esquemas eficazes para coordenação sem colisões em sistemas multi-robôs e navegação autônoma, ilustrando como invariantes topológicos podem ser traduzidos no desenho de algoritmos.",
+        "id_responsavel": "cesar_zapata",
         "quando": "Quinta, às 15h00",
         "onde": "IME-USP",
-        "confirmou": false
+        "dia": 4,
+        "confirmou": true
     }
 }

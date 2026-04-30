@@ -1,13 +1,13 @@
 {
   "coloquinho": {
-    "titulo": "Em breve",
-    "responsavel": "Em breve",
+    "titulo": "Miríade de ilhas em potenciais periódicos",
+    "responsavel": "Matheus Lazarotto",
     "responsavel_info": "",
-    "resumo": "",
-    "id_responsavel": "vazio",
+    "resumo": "Será apresentado um fenômeno esteticamente incomum em sistemas dinâmicos: o surgimento de infinitos movimentos periódicos estáveis (ilhas) organizados de maneira fractal. Dinamicamente, o aparecimento dessas órbitas  é, à primeira vista, paradoxal, pois ocorrem ao redor de regiões onde a dinâmica é instável. Ao longo da apresentação, será descrita uma modelagem hamiltoniana simples, e serão introduzidos métodos numéricos para o cálculo de áreas caóticas, busca de órbitas periódicas e visualização de trajetórias [1].<br><b>Referência:</b> [1] M. J. Lazarotto, I. L. Caldas and Y. Elskens; Island myriads in periodic potentials, Chaos, 34 (2024).",
+    "id_responsavel": "matheus_lazarotto",
     "quando": "Terça, às 14h00",
     "onde": "Auditório Jacy Monteiro",
     "dia": 2,
-    "confirmou": false
+    "confirmou": true
   }
 }

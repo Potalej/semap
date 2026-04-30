@@ -141,6 +141,17 @@
     "lattes": "http://lattes.cnpq.br/1307618187534439",
     "confirmou": false
   },
+  "bissacot": {
+    "nome": "Rodrigo Bissacot",
+    "filiacao": "IME-USP",
+    "biografia": "Professor Associado do Departamento de Matemática Aplicada do IME-USP, possui Graduação (2003) e Mestrado (2005) em Matemática Pura pela UFRGS e Doutorado em Matemática (2009) pela UFMG. Realizou estágio de doutoramento sanduíche na Université de Rouen, na França, sob a supervisão de Roberto Fernández. Livre-Docente pela USP em (2015). É representante da Categoria dos(as) Professores(as) Associados(as) no Conselho Universitário da USP, bem como Vice-Presidente da Câmara de Atividades Docentes (CAD). É Físico-Matemático; possui um grupo de pesquisa interdisciplinar que atua nas interfaces entre áreas como Mecânica Estatística Rigorosa (Clássica e Quântica), Teoria Ergódica, Sistemas Dinâmicos, Álgebra de Operadores, entre outras: <a href=\"https://sites.google.com/site/matbissacot/\" target=\"_blank\">https://sites.google.com/site/matbissacot/</a>. Sua trajetória até se tornar um cientista atuando na USP é contada nesta entrevista para o Projeto +1café (<a href=\"https://www.youtube.com/live/EOQ_zOLW79I?si=db6qDl3kVMs_APmw\" target=\"_blank\">https://www.youtube.com/live/EOQ_zOLW79I</a>).",
+    "semapinho": "",
+    "imagem_grande": "bissacot_semap",
+    "email": "bissacot@ime.usp.br",
+    "lattes": "http://lattes.cnpq.br/4110545446460055",
+    "site": "https://sites.google.com/site/matbissacot/",
+    "youtube": "https://www.youtube.com/live/EOQ_zOLW79I?si=db6qDl3kVMs_APmw"
+  },
 
   "marco_claudino": {
     "nome": "Marco Claudino",
@@ -181,11 +192,66 @@
 
   "matheus_lazarotto": {
     "nome": "Matheus Jean Lazarotto",
-    "filiacao": "Pós-Doc no MAP-IME-USP",
-    "biografia": "Em breve",
+    "filiacao": "Pós-Doc no IME-USP",
+    "biografia": "Bacharelado em física pelo IFUSP (Instituto de Física da Universidade de São Paulo) (2016). Mestrado pelo IFUSP (2019), com ênfase em dinâmica molecular. Doutorado pelo IFUSP (2023), com ênfase em sistemas dinâmicos e caos. Realizou um pós-doutorado no laboratório PIIM (Physique des Interactions Ioniques et Moléculaires) na Aix-Marseille Université (2024), trabalhando com modelos de interação onda-partícula. Atualmente é pós-doutorando no IME-USP (Instituto de Matemática e Estatística da Universidade de São Paulo) trabalhando com modelos dissipativos no problema de N corpos.Possui ampla experiência em sistemas dinâmicos e caóticos, em particular sistemas Hamiltonianos, métodos numéricos e programação e mais brevemente em simulações para sistemas biológicos e dinâmica molecular.",
     "semapinho": "",
     "confirmou": true,
     "email": "matheus_jean_l@hotmail.com",
     "lattes": "http://lattes.cnpq.br/3045254163588644"
+  },
+
+  "victor_sanches_portella": {
+    "nome": "Victor Sanches Portella",
+    "filiacao": "Pós-Doc no IME-USP",
+    "biografia": "Victor é um pós-doutorando no Instituto de Matemática e Estatística da Universidade de São Paulo (IME-USP). Ele completou o doutorado na Universidade de British Columbia, no Canada, em agosto de 2024 orientado pelo Dr. Nick Harvey. Possui graduação em Ciência da Computação pela Universidade de São Paulo (2016) e mestrado em Ciência da Computação pelo Instituto de Matemática e Estatística - Universidade de São Paulo (2019) orientado pelo Dr. Marcel Kenji de Carli Silva. Sua pesquisa é nas áreas de ciência da computação teórica e teoria de aprendizado de máquina, focando recentemente em otimização convexa e online, algoritmos aleatorizados e privacidade diferencial.",
+    "semapinho": "",
+    "confirmou": true,
+    "email": "visportella@gmail.com",
+    "lattes": "http://lattes.cnpq.br/0142379691843933"
+  },
+  "antonio_camunga": {
+    "nome": "António Camunga Tchikoko",
+    "filiacao": "Doutorando no IME-USP",
+    "biografia": "Possui mestrado pela Faculdade de Matemática Física e Computação da Universidade Central Marta Abreu (2017). Atualmente é docente do Instituto de Tecnologia de Informação e Comunicação da Universidade de Luanda-Angola. Tem experiência na área de Ensino da Matemática, com ênfase na didática de equações diferenciais Ordinárias.",
+    "semapinho": "",
+    "confirmou": true,
+    "email": "camunga@usp.br",
+    "lattes": "http://lattes.cnpq.br/1377546899415892"
+  },
+  "thales_david_domingues": {
+    "nome": "Thales David Domingues Aparecido",
+    "filiacao": "MAP-IME-USP",
+    "biografia": "",
+    "semapinho": "",
+    "confirmou": true,
+    "email": "thalesdaviddom@usp.br",
+    "lattes": "http://lattes.cnpq.br/1808431340118079"
+  },
+  "alejo_garcia": {
+    "nome": "Alejo García-Sassi",
+    "filiacao": "Pós-Doc no IME-USP",
+    "biografia": "Possui doutorado em Doutorado em Matemática Aplicada pela Universidade de São Paulo (2024). Atualmente é assistente de professor, nível 2. - Facultad de Ingeniería - Universidad de la República (Uruguay). Tem experiência na área de Matemática, com ênfase em Sistemas Dinâmicos, topologia e teoria ergódica.Desde 01/10/25, pós-doutorando pela FAPESP, no IME-USP. Até 30/09/25, pós-doutorando pelo PEDECIBA (Programa de Desarrollo de las Ciencias Básicas), em Uruguai.",
+    "semapinho": "",
+    "confirmou": true,
+    "email": "alejogarciasassi@gmail.com",
+    "lattes": "http://lattes.cnpq.br/3353835274658530"
+  },
+  "heitor": {
+    "nome": "Heitor Ribeiro de Assis",
+    "filiacao": "Doutorando no IME-USP",
+    "biografia": "Possui graduação em Ciências Exatas pela Universidade Federal de Juiz de Fora (2020) e em Física Bacharelado (2022) pela mesma universidade. Possui também mestrado em Matemática pela Universidade Federal de Juiz de Fora (2023). Atualmente é doutorando no Programa de Pós-Graduação em Matemática Aplicada pelo Instituto de Matemática e Estatística da Universidade de São Paulo (IME-USP). Já participou de Iniciações Científicas, tanto na área da física quanto na matemática, tendo experiência nas áreas de Física, Matemática e Física-Matemática, com ênfase em Teoria Quântica de Campos Construtiva, Teoria de Distribuições e Problemas Elípticos (EDP).",
+    "semapinho": "",
+    "confirmou": true,
+    "email": "heitor2727@outlook.com",
+    "lattes": "http://lattes.cnpq.br/0792095475846950"
+  },
+  "cesar_zapata": {
+    "nome": "Cesar Augusto Ipanaque Zapata",
+    "filiacao": "IME-USP",
+    "biografia": "Possui graduação em Matemática - Universidad Nacional Mayor de San Marcos (2013), mestrado em Matemática pela Universidade de São Paulo-São carlos (2017), estágio de pesquisa no CINVESTAV-IPN, México (2019-2020) e Doutorado em Matemática pela Universidade de São Paulo-São carlos (2022). Tem experiência na área de Matemática, e atuando principalmente nos seguintes temas: Topologia Algébrica: Complexidade Topológica, Categoria de Lusternik-Schnirelmann, Categoria Seccional, Espaços de Configurações, Teoria de Borsuk-Ulam, Teoria de Ponto Fixo, Teoria G-equivariante e Aplicações G-equivariantes, Teoria de Coincidências, Anel de Cohomology e Teoria de Categorias. Topologia Algébrica Aplicada: Problema de Planejamento de Robôs, Teoria da Escolha Social, Análise de Dados Topológicos (TDA) e Tópicos de Pesquisa Médica. Teoria de Singularidades: Fibração de Milnor. Teoria de Grupos: Configurações de um grupo, número de cobertura de um grupo e Número seccional de um homomorfismo de grupos. Teoria de Grafos: Número Cromático, Complexidade de Grafos e Número seccional de um homomorfismo de grafos.",
+    "semapinho": "",
+    "confirmou": true,
+    "email": "cesarzapata@usp.br",
+    "lattes": "http://lattes.cnpq.br/6797652934957366"
   }
 }

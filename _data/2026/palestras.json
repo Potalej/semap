@@ -73,13 +73,13 @@
         "confirmou": true
     },
     "plenaria_ter_20h00": {
-        "titulo": "Em breve",
-        "resumo": "Em breve.",
-        "id_responsavel": "vazio",
+        "titulo": "Como Faço a Minha Pesquisa. Fazendo Pesquisa Interdisciplinar em Matemática Aplicada",
+        "resumo": "Vou discutir alguns dados sobre a mudança de comportamento dos pesquisadores em Matemática que ocorreu nos últimos anos e citar alguns episódios da minha trajetória e de como trabalhamos em nosso grupo de pesquisa no IME. Se o tempo permitir, discutirei alguns exemplos de problemas que abordamos ao longo dos anos.",
+        "id_responsavel": "bissacot",
         "quando": "Terça, às 20h00",
         "onde": "IME-USP",
         "dia": 2,
-        "confirmou": false
+        "confirmou": true
     },
 
 

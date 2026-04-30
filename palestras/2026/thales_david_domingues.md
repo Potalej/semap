@@ -1,0 +1,7 @@
+---
+ind_palestra: "plenaria_estudante_qua_15h00"
+titulo: "Análise Cientométrica Assistida por Text-Mining da Produção em Ciência Política sobre a América Latina"
+resumo: "O trabalho realiza uma análise cientométrica da produção em ciência política sobre a América Latina, combinando análise de redes e técnicas de text-mining em um corpus de 5.409 artigos (1980–2025) extraídos de bases como Scopus e OpenAlex. A partir de uma rede de citações com milhares de vértices, identifica-se crescimento expressivo da produção, forte concentração geográfica em periódicos dos EUA e Reino Unido, e propriedades típicas de sistemas complexos, como distribuição de grau em lei de potência e grande componente conexa. Os resultados mostram ainda vieses linguísticos nas citações e assimetrias no intercâmbio científico entre países, com destaque para a centralidade Brasil–EUA. Por meio de modelagem de tópicos (BERTopic), são identificados 18 temas centrais, e, com Textual Forma Mentis Networks, revelam-se diferenças na organização conceitual entre produções da região e externas, evidenciando desigualdades estruturais na circulação do conhecimento e sugerindo caminhos para análises futuras."
+id_responsavel: "thales_david_domingues"
+layout: palestra
+---

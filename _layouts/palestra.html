@@ -36,18 +36,32 @@ layout: default
       <button class="btn btn-sm btn-outline-primary" onclick="voltar()">Voltar</button>
       <div class="row" id="{{ palestra[0] }}">
         <div class="atividade-foto col-sm-4 col-12">
-          <div class="card border-0">
-            <img src="{{ site.baseurl }}/img/{{ site.ano }}/pessoas/{{ palestra.id_responsavel }}.jpg" 
-              class="card-img-top" 
-              alt="Fotografia da pessoa apresentadora da palestra." 
-              onerror="this.src='{{ site.baseurl }}/img/{{ site.ano }}/pessoas/vazio.jpg'"
-              >
+          <div class="card border-0 align-center">
+            {% if pessoa.imagem_grande %}
+              <img src="{{ site.baseurl }}/img/{{ site.ano }}/pessoas/{{ pessoa.imagem_grande }}.jpg" 
+                class="card-img-top mx-auto d-block"
+                alt="Fotografia da pessoa apresentadora da palestra." 
+                onerror="this.src='{{ site.baseurl }}/img/{{ site.ano }}/pessoas/vazio.jpg'"
+                >
+            {% else %}
+              <img src="{{ site.baseurl }}/img/{{ site.ano }}/pessoas/{{ palestra.id_responsavel }}.jpg" 
+                class="card-img-top mx-auto d-block"
+                alt="Fotografia da pessoa apresentadora da palestra." 
+                onerror="this.src='{{ site.baseurl }}/img/{{ site.ano }}/pessoas/vazio.jpg'"
+                >
+            {% endif %}
             <div class="card-body">
               <h5 class="card-title">
                 {{ pessoa.nome }}
                 <a href="{{ pessoa.lattes }}" target="_blank"><i class="ai ai-lattes"></i></a>
                 {% if pessoa.linkedin %}
                   <a href="{{ pessoa.linkedin }}" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                {% endif %}
+                {% if pessoa.site %}
+                  <a href="{{ pessoa.site }}" target="_blank"><i class="fa-solid fa-globe"></i></a>
+                {% endif %}
+                {% if pessoa.youtube %}
+                  <a href="{{ pessoa.youtube }}" target="_blank"><i class="fa-brands fa-youtube"></i></a>
                 {% endif %}
               </h5>
               <h6 class="card-subtitle mb-2 text-body-secondary">{{ pessoa.filiacao }}</h6>

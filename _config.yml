@@ -24,6 +24,7 @@ ano: "2026"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 instagram: "semap.ime"
+youtube: "semap.imeusp"
 lang: "pt-br"
 
 # Build settings

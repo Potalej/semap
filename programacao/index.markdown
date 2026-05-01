@@ -245,6 +245,24 @@ tem_resumo: true
               </span>
             </div>
             <!-- Fim de Sessao de Posteres -->
+          {% elsif evento.tipo == "bingo" %}
+            <!-- Inicio de Semabingo -->
+            <div class="col-1 card-atividade-lateral card-atividade-lateral-lanchinho">
+              <div>Semabingo!</div>
+            </div>
+            <div class="card card-atividade col-11 col-lg-9 card-atividade-{{ classe }}">
+              <img src="{{ site.baseurl }}/img/semapinho/semapinho.png" alt="Semapinho pôsteres" />
+              <span>
+              {% if inicio == inicio_round %}
+                {{ inicio }}:00
+              {% else %}
+                {{ inicio_round }}:30
+              {% endif %}
+              <br>
+              Semabingo
+              </span>
+            </div>
+            <!-- Fim de Semabingo -->
           {% endif %}
         </div>
       {% endfor %}

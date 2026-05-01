@@ -6,7 +6,8 @@
         "quando": "Quarta, às 14h30",
         "onde": "IME-USP",
         "dia": 3,
-        "confirmou": true
+        "confirmou": true,
+        "link_transmissao": "https://www.youtube.com/embed/MZ_MuWm3Xko?si=-RttugX5nqei7YuJ"
     },
     "plenaria_estudante_qua_14h30": {
         "titulo": "Modelagem Intra-Hospedeira da Malária",
@@ -16,7 +17,8 @@
         "quando": "Quarta, às 14h30",
         "onde": "IME-USP",
         "dia": 3,
-        "confirmou": true
+        "confirmou": true,
+        "link_transmissao": "https://www.youtube.com/embed/MZ_MuWm3Xko?si=-RttugX5nqei7YuJ"
     },
     "plenaria_estudante_qua_15h00": {
         "titulo": "Análise Cientométrica Assistida por Text-Mining da Produção em Ciência Política sobre a América Latina",
@@ -26,7 +28,8 @@
         "quando": "Quarta, às 15h00",
         "onde": "IME-USP",
         "dia": 3,
-        "confirmou": true
+        "confirmou": true,
+        "link_transmissao": "https://www.youtube.com/embed/MZ_MuWm3Xko?si=-RttugX5nqei7YuJ"
     },
     
     "plenaria_estudante_qui_14h00": {
@@ -37,7 +40,8 @@
         "quando": "Quinta, às 14h30",
         "onde": "IME-USP",
         "dia": 4,
-        "confirmou": true
+        "confirmou": true,
+        "link_transmissao": "https://www.youtube.com/embed/i8AMhcq_T08?si=BubU9HdffB3Zh6Mi"
     },
     "plenaria_estudante_qui_14h30": {
         "titulo": "Modelos de Campos Quânticos no espaço-tempo de de Sitter construídos através da Teoria Modular de Tomita-Takesaki",
@@ -46,7 +50,8 @@
         "quando": "Quinta, às 14h30",
         "onde": "IME-USP",
         "dia": 4,
-        "confirmou": true
+        "confirmou": true,
+        "link_transmissao": "https://www.youtube.com/embed/i8AMhcq_T08?si=BubU9HdffB3Zh6Mi"
     },
     "plenaria_estudante_qui_15h00": {
         "titulo": "Exemplos de Algoritmos de Planejamento de Movimento para (Múltiplos) Robôs usando Complexidade Topológica",
@@ -56,6 +61,7 @@
         "quando": "Quinta, às 15h00",
         "onde": "IME-USP",
         "dia": 4,
-        "confirmou": true
+        "confirmou": true,
+        "link_transmissao": "https://www.youtube.com/embed/i8AMhcq_T08?si=BubU9HdffB3Zh6Mi"
     }
 }

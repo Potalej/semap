@@ -88,6 +88,23 @@ layout: default
               {{ pessoa.biografia }}
           </div>
           {% endunless %}
+          {% if palestra.link_transmissao %}
+          <br>
+          <div class="atividade-resumo">
+            <h4>Transmissão da palestra:</h4>
+            <!-- <iframe width="560" height="315" src="{{ palestra.link_transmissao }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+          </div>
+          {% endif %}
+          {% if palestra.links_transmissoes %}
+          <br>
+          <div class="atividade-resumo">
+            <h4>Transmissões do minicurso:</h4>
+            {% for link in palestra.links_transmissoes %}
+              <h5>Aula {{ forloop.index }}</h5>
+              <iframe width="560" height="315" src="{{ link }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            {% endfor %}
+          </div>
+          {% endif %}
         </div>
 
       </div>

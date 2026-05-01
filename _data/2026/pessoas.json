@@ -40,7 +40,7 @@
     "semapinho": "secarro",
     "email": "sagastiz@unicamp.br",
     "lattes": "http://lattes.cnpq.br/3422781154556948",
-    "confirmou": false
+    "confirmou": true
   },
   "clodoaldo": {
     "nome": "Clodoaldo Grotta Ragazzo",
@@ -49,7 +49,7 @@
     "semapinho": "semapinho_petrobras",
     "email": "ragazzo@ime.usp.br",
     "lattes": "http://lattes.cnpq.br/4804300167674691",
-    "confirmou": false
+    "confirmou": true
   },
   "colli": {
     "nome": "Eduardo Colli",
@@ -67,7 +67,7 @@
     "semapinho": "semapinho_medico",
     "email": "earantes@posgrad.lncc.br",
     "lattes": "http://lattes.cnpq.br/7127543079591956",
-    "confirmou": false
+    "confirmou": true
   },
   "lucas_franceschini": {
     "nome": "Lucas Franceschini",
@@ -94,7 +94,7 @@
     "semapinho": "semapinho_programador",
     "email": "maicon@ime.usp.br",
     "lattes": "http://lattes.cnpq.br/6685666727183074",
-    "confirmou": false
+    "confirmou": true
   },
   "marilaine": {
     "nome": "Marilaine Colnago",
@@ -130,7 +130,7 @@
     "semapinho": "semapinho_guarda_chuva",
     "email": "pedro.dias@iag.usp.br",
     "lattes": "http://lattes.cnpq.br/9273702863744424",
-    "confirmou": false
+    "confirmou": true
   },
   "yulia": {
     "nome": "Yulia Petrova",
@@ -139,13 +139,13 @@
     "semapinho": "semapinho_esponja",
     "email": "yulia.petrova@ime.usp.br",
     "lattes": "http://lattes.cnpq.br/1307618187534439",
-    "confirmou": false
+    "confirmou": true
   },
   "bissacot": {
     "nome": "Rodrigo Bissacot",
     "filiacao": "IME-USP",
     "biografia": "Professor Associado do Departamento de Matemática Aplicada do IME-USP, possui Graduação (2003) e Mestrado (2005) em Matemática Pura pela UFRGS e Doutorado em Matemática (2009) pela UFMG. Realizou estágio de doutoramento sanduíche na Université de Rouen, na França, sob a supervisão de Roberto Fernández. Livre-Docente pela USP em (2015). É representante da Categoria dos(as) Professores(as) Associados(as) no Conselho Universitário da USP, bem como Vice-Presidente da Câmara de Atividades Docentes (CAD). É Físico-Matemático; possui um grupo de pesquisa interdisciplinar que atua nas interfaces entre áreas como Mecânica Estatística Rigorosa (Clássica e Quântica), Teoria Ergódica, Sistemas Dinâmicos, Álgebra de Operadores, entre outras: <a href=\"https://sites.google.com/site/matbissacot/\" target=\"_blank\">https://sites.google.com/site/matbissacot/</a>. Sua trajetória até se tornar um cientista atuando na USP é contada nesta entrevista para o Projeto +1café (<a href=\"https://www.youtube.com/live/EOQ_zOLW79I?si=db6qDl3kVMs_APmw\" target=\"_blank\">https://www.youtube.com/live/EOQ_zOLW79I</a>).",
-    "semapinho": "",
+    "semapinho": "semacurso",
     "imagem_grande": "bissacot_semap",
     "email": "bissacot@ime.usp.br",
     "lattes": "http://lattes.cnpq.br/4110545446460055",
@@ -161,7 +161,7 @@
     "email": "marco.claudino09bmac@gmail.com",
     "lattes": "http://lattes.cnpq.br/8233201249144957",
     "linkedin": "https://br.linkedin.com/in/mclaudino",
-    "confirmou": false
+    "confirmou": true
   },
   
   "ulisses_lakatos": {
@@ -171,7 +171,7 @@
     "semapinho": "semapinho_dinamico",
     "email": "u.lakatos@ufabc.edu.br",
     "lattes": "http://lattes.cnpq.br/3983863662003124",
-    "confirmou": false
+    "confirmou": true
   },
   "nina_hirata": {
     "nome": "Nina Hirata",

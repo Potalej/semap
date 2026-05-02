@@ -508,6 +508,12 @@ Cards para atividades
 .atividade-resumo {
     font-size: small;
 }
+.atividade-resumo iframe {
+    /* height: 100%; */
+    max-width: 600px;
+    width: 100%;
+    aspect-ratio: 16 / 9; 
+}
 
 .palestra-coloquio {
     background-color: var(--azul-ime) !important;

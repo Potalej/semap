@@ -4,50 +4,50 @@
         "resumo": "<p>Esta palestra discute o papel da Matemática Aplicada na interface entre ciência, sociedade e setores produtivos, entendendo “indústria” em sentido amplo — como qualquer atividade econômica ou social que utilize modelos matemáticos para resolver problemas complexos. A Meteorologia constitui um exemplo paradigmático, combinando forte base teórica, elevada empregabilidade e impacto direto sobre a sociedade.</p><p>Com base em uma trajetória que vai da formação em Matemática Aplicada ao desenvolvimento de ferramentas operacionais de previsão do tempo e do clima, serão abordados temas como modelagem de sistemas dinâmicos, previsibilidade e incerteza, métodos numéricos e sua adaptação às arquiteturas computacionais, incluindo desafios de escalabilidade em processamento paralelo.</p><p>Por fim, discute-se o papel emergente da inteligência artificial baseada em princípios físicos (physics-based AI), na qual o conhecimento teórico orienta a escolha de variáveis, a interpretação dos resultados e o desenvolvimento de aplicações voltadas a setores como energia, agronegócio e meio ambiente.</p>",
         "id_responsavel": "pedro_dias_leite",
         "quando": "Segunda, às 15h00",
-        "onde": "IME-USP",
+        "onde": "Auditório Jacy Monteiro",
         "dia": 1,
         "confirmou": true,
-        "link_transmissao": "https://www.youtube.com/embed/83kYG5h_ygM?si=d-iSHCpjuMtQ1_ug"
+        "link_transmissao": "https://www.youtube.com/embed/83kYG5h_ygM"
     },
     "plenaria_seg_16h30": {
         "titulo": "Inversão geoacústica baseada em transformada de deformação (warping) e teoria da dispersão para um mar raso com fundo de duas camadas de sedimentos",
         "resumo": "<p>Discutem-se técnicas de inversão geoacústica baseadas em warping (transformada de deformação), fundamentadas na análise de dispersão tempo-frequência. Investiga-se a dispersão de ondas acústicas em ambientes de águas rasas com fundo de duas camadas (uma camada de gradiente sobre um embasamento uniforme). Este modelo permite uma solução analítica para as autofunções, e sua versatilidade permite a consideração de diversos perfis verticais de velocidade do som.</p><p>Derivam-se equações diferenciais ordinárias que descrevem a dependência dos números de onda horizontais dos modos normais em relação aos parâmetros geoacústicos das camadas do fundo do mar. Demonstra-se que a integração dessas equações permite a modelagem de curvas de dispersão para cada ponto de um espaço de parâmetros multidimensional em grade, aplicado a um modelo de guia de onda de águas rasas, com custo computacional extremamente reduzido.</p><p>Este avanço pode ter diversas aplicações potenciais, incluindo novos métodos para realizar a inversão geoacústica Bayesiana com hidrofone único, por meio da maximização altamente eficiente da densidade de probabilidade a posteriori sobre o correspondente espaço de parâmetros geoacústicos. A abordagem é demonstrada por meio da inversão geoacústica usando os dados de medida na área de New England Mud Patch.</p>",
         "id_responsavel": "pavel_petrov",
         "quando": "Segunda, às 16h30",
-        "onde": "IME-USP",
+        "onde": "Auditório Jacy Monteiro",
         "dia": 1,
         "confirmou": true,
-        "link_transmissao": "https://www.youtube.com/embed/WaAWTmAaR1E?si=zRjMLAEqv38UVjXW"
+        "link_transmissao": "https://www.youtube.com/embed/WaAWTmAaR1E"
     },
     "plenaria_seg_17h30": {
         "titulo": "Aproximando funções: retas, parábolas e a ideia de derivada",
         "resumo": "Podemos tentar aproximar uma função qualquer (definida em um intervalo e com valores reais) por uma reta (um polinômio de grau 1), por uma parábola (um polinômio de grau 2) e assim por diante. Mas quando essa aproximação é realmente boa? Como decidir se, em pequenos intervalos de tempo, o preço da ação PETR4 da Petrobras em função do tempo pode ser bem aproximado por uma reta? Essas são algumas das questões que serão discutidas nesta palestra.",
         "id_responsavel": "clodoaldo",
         "quando": "Segunda, às 17h30",
-        "onde": "IME-USP",
+        "onde": "Auditório Jacy Monteiro",
         "dia": 1,
         "confirmou": true,
-        "link_transmissao": "https://www.youtube.com/embed/WaAWTmAaR1E?si=zRjMLAEqv38UVjXW"
+        "link_transmissao": "https://www.youtube.com/embed/WaAWTmAaR1E"
     },
     "plenaria_seg_19h00": {
         "titulo": "Aplicações de Cadeias de Markov de Alcance Variável",
         "resumo": "As Cadeias de Markov de Alcance Variável (VLMC) são extensões das cadeias de Markov tradicionais que ao invés de usar um passado de tamanho fixo, ajustam o comprimento do passado conforme sua \"importância\" para prever o próximo estado. Esse modelo economiza em termos do número de parâmetros a serem estimados, além de proporcionar nterpretabilidade para os passados relevantes. Algumas aplicações serão apresentadas.",
         "id_responsavel": "claudia_peixoto",
         "quando": "Segunda, às 19h00",
-        "onde": "IME-USP",
+        "onde": "Auditório Jacy Monteiro",
         "dia": 1,
         "confirmou": true,
-        "link_transmissao": "https://www.youtube.com/embed/2j3cAcUkf7c?si=2gTWgaqSoX7JeKgj"
+        "link_transmissao": "https://www.youtube.com/embed/wTzN8dPzJS4"
     },
     "plenaria_seg_20h00": {
         "titulo": "Reflexões sobre a Carreira em Matemática Aplicada",
         "resumo": "O tema dessa conversa é o compartilhamento de alguns dados e reflexões sobre a carreira em matemática aplicada. Serão apresentados os dados, as iniciativas e uma visão pessoal sobre como trilhar essa carreira considerando as peculiaridades do ecossistema brasileiro.",
         "id_responsavel": "luis_carlos",
         "quando": "Segunda, às 20h00",
-        "onde": "IME-USP",
+        "onde": "Auditório Jacy Monteiro",
         "dia": 1,
         "confirmou": true,
-        "link_transmissao": "https://www.youtube.com/embed/2j3cAcUkf7c?si=2gTWgaqSoX7JeKgj"
+        "link_transmissao": "https://www.youtube.com/embed/wTzN8dPzJS4"
     },
 
     "plenaria_ter_14h30": {
@@ -55,40 +55,40 @@
         "resumo": "Teias de aranha fazem parte do aparelho cognitivo de uma aranha. Através delas, uma aranha consegue rapidamente ir em direção à presa que é capturada. Uma dúvida natural é saber se as vibrações que uma aranha sente por meio de suas oito patas contém informação suficiente para apontar a localização da presa e seu tamanho. Nesta apresentação veremos que a resposta é afirmativa e a análise é puramente matemática.",
         "id_responsavel": "alexandre_kawano",
         "quando": "Terça, às 14h30",
-        "onde": "IME-USP",
+        "onde": "Auditório Jacy Monteiro",
         "dia": 2,
         "confirmou": true,
-        "link_transmissao": "https://www.youtube.com/embed/iCnbUWYPUZw?si=OmokcxN1KG6C9CAN"
+        "link_transmissao": "https://www.youtube.com/embed/iCnbUWYPUZw"
     },
     "plenaria_ter_15h30": {
         "titulo": "A Matemateca do IMEUSP e suas oportunidades acadêmicas",
         "resumo": "A Matemateca do IMEUSP tem um acervo de objetos interativos sobre matemática para exposições ao público geral, que também tem servido ao propósito educativo, quando recebe visitas escolares agendadas por contatos espontâneos. No entanto, além de receber essas visitas, a Matemateca é um projeto vivo: novas peças/atrações são pensadas todo o tempo; objetos existentes ou planejados geram trabalhos de formatura, de iniciação científica ou mesmo de mestrado; problemas abertos são cultivados; e investigações sobre como o público interage com o material estão sendo concebidas.",
         "id_responsavel": "colli",
         "quando": "Terça, às 15h30",
-        "onde": "IME-USP",
+        "onde": "Auditório Jacy Monteiro",
         "dia": 2,
         "confirmou": true,
-        "link_transmissao": "https://www.youtube.com/embed/iCnbUWYPUZw?si=OmokcxN1KG6C9CAN"
+        "link_transmissao": "https://www.youtube.com/embed/iCnbUWYPUZw"
     },
     "plenaria_ter_19h00": {
         "titulo": "Imunoterapia com células CAR-T: Integrando Matemática, Computação e Biologia",
         "resumo": "A modelagem matemática e computacional pode promover avanços significativos na luta contra o câncer. Entre suas diversas aplicações, destacam-se estudos voltados à compreensão do desenvolvimento de resistência a terapias e à manutenção de respostas terapêuticas a longo prazo. Nesta palestra, exploraremos como a modelagem pode auxiliar no estudo da imunoterapia com células CAR-T. Esse tratamento busca potencializar a capacidade do sistema imunológico de reconhecer e eliminar células tumorais que expressam antígenos alvo específicos. Seus resultados têm se mostrado promissores contra diversos tipos de câncer, especialmente cânceres do sistema sanguíneo. A perspectiva interdisciplinar adotada — integrando Matemática, Computação e Biologia — pode favorecer uma compreensão mais aprofundada da dinâmica da terapia, contribuindo para o desenvolvimento e o aprimoramento de estratégias terapêuticas mais eficazes.",
         "id_responsavel": "emanuelle_arantes",
         "quando": "Terça, às 19h00",
-        "onde": "IME-USP",
+        "onde": "Auditório Jacy Monteiro",
         "dia": 2,
         "confirmou": true,
-        "link_transmissao": "https://www.youtube.com/embed/FLSKmLjXMK4?si=g0yG5h9XK9ZovsG9"
+        "link_transmissao": "https://www.youtube.com/embed/FLSKmLjXMK4"
     },
     "plenaria_ter_20h00": {
         "titulo": "Como Faço a Minha Pesquisa. Fazendo Pesquisa Interdisciplinar em Matemática Aplicada",
         "resumo": "Vou discutir alguns dados sobre a mudança de comportamento dos pesquisadores em Matemática que ocorreu nos últimos anos e citar alguns episódios da minha trajetória e de como trabalhamos em nosso grupo de pesquisa no IME. Se o tempo permitir, discutirei alguns exemplos de problemas que abordamos ao longo dos anos.",
         "id_responsavel": "bissacot",
         "quando": "Terça, às 20h00",
-        "onde": "IME-USP",
+        "onde": "Auditório Jacy Monteiro",
         "dia": 2,
         "confirmou": true,
-        "link_transmissao": "https://www.youtube.com/embed/FLSKmLjXMK4?si=g0yG5h9XK9ZovsG9"
+        "link_transmissao": "https://www.youtube.com/embed/FLSKmLjXMK4"
     },
 
 
@@ -97,30 +97,30 @@
         "resumo": "Nesta apresentação introduziremos uma noção de derivada fraca, devida a Sobolev, e mostraremos como ela leva a resultados de resolubilidade de EDO's com coeficientes constantes, em intervalos limitados da reta, no espaço das funções de quadrado integrável.",
         "id_responsavel": "paulo_cordaro",
         "quando": "Quarta, às 15h30",
-        "onde": "IME-USP",
+        "onde": "Auditório Jacy Monteiro",
         "dia": 3,
         "confirmou": true,
-        "link_transmissao": "https://www.youtube.com/embed/MZ_MuWm3Xko?si=-RttugX5nqei7YuJ"
+        "link_transmissao": "https://www.youtube.com/embed/MZ_MuWm3Xko"
     },
     "plenaria_qua_19h00": {
         "titulo": "MATEMÁTICA INDUSTRIAL EM AÇÃO: otimização de carros híbridos",
         "resumo": "Apresentamos um exemplo da indústria automotiva que ilustra o círculo virtuoso da matemática aplicada. Graças a uma combinação inteligente de: <ul><li>modelagem</li><li>teoria</li><li>métodos</li><li>implementação,</li> A otimização matemática responde ao desafio de gerenciar diferentes fontes de energia de carros híbridos, tanto na fase de concepção do projeto quanto na operação do veículo em tempo real.",
         "id_responsavel": "claudia_sagastizabal",
         "quando": "Quarta, às 19h00",
-        "onde": "IME-USP",
+        "onde": "Auditório Jacy Monteiro",
         "dia": 3,
         "confirmou": true,
-        "link_transmissao": "https://www.youtube.com/embed/lWr2uPJSFRY?si=T6lBSqZmr1HCyQPq"
+        "link_transmissao": "https://www.youtube.com/embed/lWr2uPJSFRY"
     },
     "plenaria_qua_20h": {
         "titulo": "Estruturas coerentes em mecânica dos fluidos",
         "resumo": "<p>Escoamentos fluidos turbulentos são caracterizados por possuírem uma alta complexidade, apresentando estruturas de vários tamanhos, cada uma delas possuindo um nível de energia. Uma das primeiras observações deste fenômeno foi feita por Leonardo da Vinci em seus desenhos. Neles, estão representados o escoamento das águas de um riacho, obstruído, ou não, por um objeto que ele mesmo introduziu, perturbando-o. De maneira bastante artística e precisa, ele reproduziu os vórtices de maior tamanho, causados pela obstrução, bem como vórtices menores, que surgem em decorrência dos maiores, e assim por diante. O que ele observou, na realidade, foi a cascata de turbulência teorizada posteriormente por Andrei Kolmogorov, em 1941, em que vórtices maiores dão origem a menores, e assim sucessivamente até que a energia do sistema seja dissipada na forma de calor. Apesar desta complexidade, escoamento turbulentos frequentemente apresentam escalas de movimento predominantes, chamadas de “estruturas coerentes”, que desempenham um papel importante, dado que elas carregam a maior parte da energia destes escoamentos. Um exemplo destas estruturas é a emissão periódica de vórtices pelo escoamento em torno de obstruções, que podem ser observados em esteiras de automóveis, embarcações ou até mesmo pelo escoamento atmosférico ao redor de ilhas.</p><p>Do ponto de vista de aplicações, por exemplo na engenharia, ter uma modelagem matemática destas estruturas se faz necessária para, por exemplo, (a) aprimorar o entendimento físico destas estruturas, (b) prever quando/como eles vão acontecer e (c) agir sobre o sistema de forma a controlar estes fenômenos. Nesta apresentação, vamos apresentar um panorama de como a modelagem matemática e numérica pode nos fornecer ferramentas para responder a estas questões, abordando tanto uma modelagem baseada nas equações fundamentais da mecânica dos fluidos (Navier-Stokes), como abordagens baseadas em dados.</p>",
         "id_responsavel": "lucas_franceschini",
         "quando": "Quarta, às 20h00",
-        "onde": "IME-USP",
+        "onde": "Auditório Jacy Monteiro",
         "dia": 3,
         "confirmou": true,
-        "link_transmissao": "https://www.youtube.com/embed/lWr2uPJSFRY?si=T6lBSqZmr1HCyQPq"
+        "link_transmissao": "https://www.youtube.com/embed/lWr2uPJSFRY"
     },
 
 
@@ -129,39 +129,39 @@
         "resumo": "Nesta palestra, introduziremos a noção de onda viajante e discutiremos seu papel na descrição de fenômenos de propagação em equações diferenciais parciais. Explicaremos também a conexão entre ondas viajantes e órbitas heteroclínicas em sistemas dinâmicos, uma perspectiva que permite interpretar tais soluções em termos geométricos e qualitativos. Em seguida, apresentaremos dois exemplos provenientes da dinâmica dos fluidos em meios porosos, ambos motivados por problemas de recuperação de petróleo: o modelo de deslocamento com polímeros e modelos de viscous/gravitational fingering. Nesses contextos, as ondas viajantes surgem naturalmente como perfis que descrevem a propagação de frentes e zonas de transição. A palestra terá caráter introdutório, com ênfase nas ideias matemáticas centrais e na interpretação física dos modelos.",
         "id_responsavel": "yulia",
         "quando": "Quinta, às 15h30",
-        "onde": "IME-USP",
+        "onde": "Auditório Jacy Monteiro",
         "dia": 4,
         "confirmou": true,
-        "link_transmissao": "https://www.youtube.com/embed/i8AMhcq_T08?si=BubU9HdffB3Zh6Mi"
+        "link_transmissao": "https://www.youtube.com/embed/i8AMhcq_T08"
     },
     "plenaria_qui_19h00": {
         "titulo": "Uma perspectiva sobre o mercado para os alunos do bacharelado em matemática aplicada e computacional.",
         "resumo": "Nesta conversa, vamos compartilhar alguns dos principais pontos fortes e desafios enfrentados pelos formandos dos cursos de Matemática Aplicada. Serão apresentadas situações práticas que ajudam o aluno a conectar os problemas do dia a dia com as disciplinas do curso, evidenciando a multidisciplinaridade presente na formação em Matemática Aplicada. Com isso, buscamos destacar para os participantes a qualidade do conteúdo acadêmico oferecido e como os temas abordados ao longo do curso contribuem para a construção de uma base ampla e sólida para o desenvolvimento da carreira profissional.",
         "id_responsavel": "marco_claudino",
         "quando": "Quinta, às 19h00",
-        "onde": "IME-USP",
+        "onde": "Auditório Jacy Monteiro",
         "dia": 4,
         "confirmou": true,
-        "link_transmissao": "https://www.youtube.com/embed/hWOXGrDLdSY?si=6iBAv-INUKxoOzg4"
+        "link_transmissao": "https://www.youtube.com/embed/hWOXGrDLdSY"
     },
     "plenaria_qui_20h00": {
         "titulo": "Modelagem matemática e o desenvolvimento de métodos numéricos",
         "resumo": "Nesta apresentação apresentaremos alguns modelos matemáticos descritos por Equações Diferenciais Parciais e comentaremos brevemente sobre aspectos de possíveis aproximações de suas soluções, a partir do emprego do Método dos Elementos Finitos e do Métodos de Volumes Finitos. Como ilustração, serão apresentados resultados inerentes à simulação de escoamentos de fluidos em diferentes cenários, tais como em meios porosos, em uma câmara do coração e em canais naturais.",
         "id_responsavel": "maicon",
         "quando": "Quinta, às 20h00",
-        "onde": "IME-USP",
+        "onde": "Auditório Jacy Monteiro",
         "dia": 4,
         "confirmou": true,
-        "link_transmissao": "https://www.youtube.com/embed/hWOXGrDLdSY?si=6iBAv-INUKxoOzg4"
+        "link_transmissao": "https://www.youtube.com/embed/hWOXGrDLdSY"
     },
     "plenaria_sex_16h00": {
         "titulo": "Sistemas dinâmicos: de onde vêm e para onde vão",
         "resumo": "Vamos dar um rápido panorama da trajetória do estudo do que hoje se chama de sistemas dinâmicos, de Newton a Poincaré. Em seguida, discutiremos aspectos mais recentes da teoria, passando pela ferradura de Smale e a família de Hénon. Por fim, discutiremos técnicas topológicas e geométricas modernas usadas para estudar dinâmica em dimensões baixas.",
         "id_responsavel": "andre_salles",
         "quando": "Sexta, às 16h00",
-        "onde": "IME-USP",
+        "onde": "Auditório Jacy Monteiro",
         "dia": 5,
         "confirmou": true,
-        "link_transmissao": "https://www.youtube.com/embed/Yduut1q0qso?si=Fl1HSDVf1aq1Uaw_"
+        "link_transmissao": "https://www.youtube.com/embed/Yduut1q0qso"
     }
 }

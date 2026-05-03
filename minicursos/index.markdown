@@ -8,6 +8,13 @@ tem_resumo: true
 <div class="post-resumo">
   <div class="container">
     Confira os minicursos que serão oferecidos entre os dias 6 e 8 de maio na SeMAP!
+    <br><br>
+    <span style="font-size:0.9rem">
+        Os minicursos ocorrerão no mesmo horário. Por isso, só é possível se inscrever em um.
+        <br>
+        O certificado de cada minicurso só será emitido para participação presencial.<br>
+        Porém, os minicursos serão transmitidos e ficaram disponíveis no <a href="https://youtube.com/@{{ site.youtube }}" target="_blank">YouTube da SeMAP</a>.
+    </span>
   </div>
 </div>
 

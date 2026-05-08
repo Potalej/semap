@@ -200,5 +200,52 @@
             "linkedin": "",
             "site": ""
         }
+    ],
+    "cientifico": [
+        {
+            "nome": "João Steinstraesser",
+            "sobre": "MAP-IME-USP",
+            "email": "joao.steinstraesser@usp.br",
+            "lattes": "http://lattes.cnpq.br/0430796327756801",
+            "github": "",
+            "linkedin": "",
+            "site": "https://www.ime.usp.br/~joao.steinstraesser/"
+        },
+        {
+            "nome": "Cláudia Peixoto",
+            "sobre": "MAP-IME-USP",
+            "email": "claudiap@ime.usp.br",
+            "lattes": "http://lattes.cnpq.br/0647513129067496",
+            "github": "",
+            "linkedin": "",
+            "site": ""
+        },
+        {
+            "nome": "Ernesto Birgin",
+            "sobre": "MAC-IME-USP",
+            "email": "egbirgin@ime.usp.br",
+            "lattes": "http://lattes.cnpq.br/7750373154186324",
+            "github": "",
+            "linkedin": "",
+            "site": "https://www.ime.usp.br/~egbirgin/"
+        },
+        {
+            "nome": "Cláudia Pio Ferreira",
+            "sobre": "Unesp",
+            "email": "claudia.pio@unesp.br",
+            "lattes": "http://lattes.cnpq.br/2052749698204617",
+            "github": "",
+            "linkedin": "",
+            "site": "https://www.ime.usp.br/~joao.steinstraesser/"
+        },
+        {
+            "nome": "André Salles de Carvalho",
+            "sobre": "MAP-IME-USP",
+            "email": "andre@ime.usp.br",
+            "lattes": "http://lattes.cnpq.br/8644214878865621",
+            "github": "",
+            "linkedin": "",
+            "site": "https://www.ime.usp.br/~andre/"
+        }
     ]
 }

@@ -181,4 +181,37 @@ Para mais detalhes, recomendamos o vídeo “Newton’s fractal (which Newton kn
 </div>
 {% endif %}
 
+<br>
+
+{% if comite.cientifico %}
+<h3>Comitê científico</h3>
+
+<div class="row row-gap-3 comite-lista">
+    {% for pessoa in comite.cientifico %}
+    <div class="comite-li col col-12 col-lg-4">
+        <div class="comite-item">
+            <div class="comite-nome">
+                {{ pessoa.nome }}
+                {% if pessoa.lattes != "" %}
+                    <a href="{{ pessoa.lattes }}" target="_blank"><i class="ai ai-lattes"></i></a>
+                {% endif %}
+                {% if pessoa.linkedin != ""  %}
+                    <a href="{{ pessoa.linkedin }}" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                {% endif %}
+                {% if pessoa.github != ""  %}
+                    <a href="{{ pessoa.github }}" target="_blank"><i class="fa-brands fa-github"></i></a>
+                {% endif %}
+            </div>
+            <div class="comite-email">
+                {{ pessoa.email }}
+            </div>
+            <div class="comite-sobre">
+                {{ pessoa.sobre }}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
 </section>

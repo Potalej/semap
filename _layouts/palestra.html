@@ -105,6 +105,30 @@ layout: default
             {% endfor %}
           </div>
           {% endif %}
+          {% if pessoa.material %}
+          <br>
+          <div class="atividade-material">
+            <h4>Materiais:</h4>
+            <a href="{{ site.baseurl }}/materiais/{{ site.ano }}/{{ pessoa.material }}">
+              <div class="atividade-material-imagem">
+                {% if pessoa.material contains ".pdf" %}
+                  <img src="{{ site.baseurl }}/materiais/{{ site.ano }}/{{ pessoa.material }}.jpg">
+                {% else %}
+                  <br><br>
+                {% endif %}
+              </div>
+              <div class="atividade-material-texto">
+                {% if pessoa.material contains ".pdf" %}
+                  <i class="fa-solid fa-file-pdf"></i>
+                {% endif %}
+                {% if pessoa.material contains ".zip" %}
+                  <i class="fa-solid fa-file-zipper"></i>
+                {% endif %}
+                {{ pessoa.material }}
+              </div>
+            </a>
+          </div>
+          {% endif %}
         </div>
 
       </div>

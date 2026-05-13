@@ -514,6 +514,26 @@ Cards para atividades
     width: 100%;
     aspect-ratio: 16 / 9; 
 }
+.atividade-material a {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 350px;
+    width: 100%;
+    color: var(--cor-links) !important;
+}
+.atividade-material img {
+    border: 1px solid black;
+}
+.atividade-material a div.atividade-material-texto {
+    position: absolute;
+    bottom: 0;
+    background-color: var(--cor-fundo-geral) !important;
+    width: 100%;
+    border: 1px solid #414141;
+    padding: 3px;
+}
 
 .palestra-coloquio {
     background-color: var(--azul-ime) !important;

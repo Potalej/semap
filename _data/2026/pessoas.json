@@ -121,7 +121,8 @@
     "semapinho": "semapinho_scuba_recortado",
     "email": "pavel.petrov@impa.br",
     "lattes": "http://lattes.cnpq.br/6014354525193736",
-    "confirmou": true
+    "confirmou": true,
+    "material": "pavel_petrov_semap.pdf"
   },
   "pedro_dias_leite": {
     "nome": "Pedro Leite Dias",
@@ -179,7 +180,8 @@
     "biografia": " Nina S. T. Hirata é formada no curso de Bacharelado em Ciência da Computação no IME/USP, onde também realizou o seu doutorado. Atualmente é professora do Departamento de Ciência da Computação, atuando em ensino, pesquisa e extensão. Sua pesquisas estão na intersecção entre as áreas de aprendizado de máquina e visão computacional, abordando fundamentos e aplicações diversas, com as aplicações mais recentes envolvendo imagens astronômicas, imagens de retina, imagens citológicas de lâmina inteira, imagens de obras do patrimônio cultural e vídeos de comportamento animal. Atualmente coordena um projeto temático FAPESP e também coordena o grupo de extensão LEARN.",
     "semapinho": "semabo",
     "email": "nina@ime.usp.br",
-    "lattes": "http://lattes.cnpq.br/0644408634493034"
+    "lattes": "http://lattes.cnpq.br/0644408634493034",
+    "material": "nina_hirata_semap.pdf"
   },
   "joao": {
     "nome": "João Guilherme Caldas Steinstraesser",
@@ -187,7 +189,8 @@
     "biografia": "Professor Doutor do Departamento de Matemática Aplicada do Instituto de Matemática e Estatística da Universidade de São Paulo desde 2024. Realizou Pós-Doutorado em Matemática Aplicada na mesma instituição (2021-2024). Possui Doutorado em Matemática Aplicada pela Université de Montpellier - INRIA (2021), mestrado (master M2) em Matemática Aplicada pela École des Ponts Paristech (2017) e dupla graduação em Engenharia Matemática e Informática pela École des Ponts Paristech (2017) e Engenharia Civil pela Escola Politécnica da Universidade de São Paulo (2018). Tem interesse em análise numérica, métodos paralelos no tempo, métodos de decomposição de domínio e modelos de ordem reduzida, com aplicação principalmente em problemas de dinâmica dos fluidos.",
     "semapinho": "semapinhos_finitos",
     "email": "joao.steinstraesser@ime.usp.br",
-    "lattes": "http://lattes.cnpq.br/0430796327756801"
+    "lattes": "http://lattes.cnpq.br/0430796327756801",
+    "material": "joao_semap.zip"
   },
 
   "matheus_lazarotto": {
